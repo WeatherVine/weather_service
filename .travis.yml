@@ -11,11 +11,9 @@ before_install:
 before_script:
 - yarn
 script:
-- bundle exec rails db:{create,migrate} RAILS_ENV=test
-- bundle exec rspec
 env:
   global:
-    secure: 
+    secure:
 deploy:
   provider: heroku
   api_key:
@@ -25,4 +23,3 @@ deploy:
     repo: WeatherVine/weather_service
     branch: main
   skip_cleanup: "‘true’"
-  run: rails db:migrate
