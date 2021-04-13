@@ -15,14 +15,14 @@ script:
 - bundle exec rspec
 env:
   global:
-    secure:
+    secure: 
 deploy:
   provider: heroku
   api_key:
-    secure:
+    secure: g+yaqL3qQFHiymLoyOTdt3ECIfBWLi8jSSG2ZX0DNb/t5YJ1s7zB5IiahqWG0W+e7Ft+6CD584yZflS+vfS35XxPJJmEPv0TNH8d/09bK46U9s9w+rbkViCHBmDSwRwmVdNRFkon2HtOuil2aUHDW+/D+/Lnhq+MR8xCX8EEfvZ54YUI1waIw04rAbCYwdLoFashDIYXAMGDkCSVulhhlXFwQqszub+dM90pE8J14y/kM/Qq5In1EllOfuqYO7xNht8pyJ/UgRELy8Db2pINZ9jX29w/b+D0DWqWGTFpIKx64vKTTFR8Jqh9c6wmhonkM3XrO9vfTcHRD+mLb9l8xabJ7JkJRUhGRTLaKSlL1ZGfa4/FfpAUdOAHmmLXzxiajgfzvLtG2IrzRIdivVMMsJ+bDjGcRVUebSjlbtgmSrxhaczhN5//TphLrO3VKZgSC9mquqfKmyDN93Pn3YLX7OE00IzDqZ1xJLa+TuqzpSB3LjhTQ7qH0Jsngqh2Qm6QYwpdN2iZ+eGaxvQeLdBG+7g8CDUUPOCkptLlA77vGO90BRMv3S+zwX8huTpJJfvxHGB+H7wU3dAI86QvzKl6Ft5/LDLSzfBa3+2AFngT22ziR4OsRI9oF4UhouFM3NmdhSRzsKriZItNGxKzSPtVKZhrMyynWHD62z4FGuh03Ak=
   app: weather-service-sinatra
   on:
     repo: WeatherVine/weather_service
     branch: main
-  skip_cleanup: ‘true’
+  skip_cleanup: "‘true’"
   run: rails db:migrate
