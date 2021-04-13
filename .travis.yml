@@ -1,0 +1,28 @@
+language: ruby
+rbenv:
+- 2.5.3
+cache:
+- bundler
+- yarn
+addons:
+  postgresql: 9.6
+before_install:
+- nvm install --lts
+before_script:
+- yarn
+script:
+- bundle exec rails db:{create,migrate} RAILS_ENV=test
+- bundle exec rspec
+env:
+  global:
+    secure:
+deploy:
+  provider: heroku
+  api_key:
+    secure:
+  app: weather-service-sinatra
+  on:
+    repo: WeatherVine/weather_service
+    branch: main
+  skip_cleanup: ‘true’
+  run: rails db:migrate
