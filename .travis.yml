@@ -1,0 +1,27 @@
+language: ruby
+rbenv:
+- 2.5.3
+cache:
+- bundler
+- yarn
+addons:
+  postgresql: 9.6
+before_install:
+- gem install bundler
+- nvm install --lts
+before_script:
+- yarn
+script:
+- bundle exec rake
+env:
+  global:
+    secure:
+deploy:
+  provider: heroku
+  api_key:
+    secure: qPe+K2bSDr6By4aIaOUBnN2nvd0GpKFJnqg9BA5ttjWN2yM+pWJ2SkA07Op4qioxZrsq5I8L4kT2xxePW5K4OsWYKO/0dfvsMmijytGjuApEhRkiqj0zD8uPtsyuEFzad7+LGEdM1Bny7L40IRJjr3KEhCUH0lbTDjqlOLL/2C9It6DaTr3w8tNFEkDzCYvRBh/p9csBsmuUBApFBNgNmPfuBf7EooarhMlc3sjoZYlbrj2e9ukZEzJy/S9is49vlGLw4Ash1kJetG+XS+n8urMC4dDsRy5Tv7MYEJdLDBd5t3wImZJSid1yRuTnxd/kxb960dIuNCHHg1IIouDztjpWYMU4qg0vQnITThqrWKIRJt5PeItEG39q/XDOcRgortUgPDj3et6BFxO9o1LgguGDwLgSeJDm0fipcvnh8EKw548XjKTroHIKZOswLa9ySrd7nQtYHRJXFfKMDGiTTJp61Nn2ahikaAzn0mvAXDcjfT9DPSYhDcqty/ii4ZObbP4e01lZfMMeGpDi/Is6KwQuMXRRzx214l+KtI7aaG/RzdPyiazqf0sXkVxlXyGH2inur/oM8wsGBLwLGDokzeck7IE3TueTnhtGpQSeafKHDHzCDIQsaqYjGyoGdHh636gMcrrhe7czcNgJ4rbIrHLUpSglIkw/AZLQ2KmZWZo=
+  app: weather-service-sinatra
+  on:
+    repo: WeatherVine/weather_service
+    branch: main
+  skip_cleanup: "‘true’"

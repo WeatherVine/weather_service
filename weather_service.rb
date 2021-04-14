@@ -1,4 +1,4 @@
-require 'sinatra/base'
+require 'sinatra'
 
 class WeatherService < Sinatra::Base
 
@@ -6,4 +6,4 @@ class WeatherService < Sinatra::Base
     'Hello World!'
   end
 
-end 
+end
