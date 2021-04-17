@@ -21,3 +21,8 @@ group :development, :test do
   gem 'rack-test'
   gem 'rake'
 end
+
+group :test do
+  gem 'webmock'
+  gem 'vcr'
+end
