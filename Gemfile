@@ -8,8 +8,9 @@ gem 'json'
 gem 'shotgun'
 gem 'sqlite3'
 gem 'pry'
-require 'faraday'
-require 'pry'
+gem 'faraday'
+gem 'fast_jsonapi'
+gem 'sinatra-contrib'
 
 group :development, :test do
   gem 'rspec'
