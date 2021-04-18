@@ -12,19 +12,15 @@ class WeatherServiceApp < Sinatra::Base
   set :root, File.expand_path("..", __dir__)
 
   get '/climate_data' do
-    binding.pry
     climate = Climate.new(temp, precip, vintage, location)
 
-    content_type :json
-    climate.to_json
-    # json ({
-    #       data: [{
-    #         type: "climate",
-    #         id: 1,
-    #         attributes: climate
-    #       }]
-    #     })
-    # json :foo => 'bar'
+    json ({
+          data: {
+            type: "climate",
+            id: 1,
+            attributes: climate
+          }
+        })
   end
 
 end
