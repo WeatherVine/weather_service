@@ -10,7 +10,8 @@
 
 `GET https://weather-service-sinatra.herokuapp.com/api/v1/climate_data?vintage={year}&region={region}`
 
-```{data: {
+```
+{data: {
     "id": #{id},
     "type": "climate",
     "attributes": {
@@ -21,4 +22,3 @@
     }
   }
 }
-
