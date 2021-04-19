@@ -43,15 +43,15 @@ describe 'Climate Data API' do
       parsed = JSON.parse(last_response.body, symbolize_names: true)
       data = parsed[:data]
 
-      expect(last_response).to be_successful
+      expect(last_response).to be_ok
       expect(data[:attributes][:location]).to eq("Napa Valley")
       expect(data[:attributes][:vintage]).to eq(2017)
     end
   end
 
-  it 'will send 404 response if no parameters are given' do
+  xit 'will send 404 response if no parameters are given' do
     get '/climate_data'
 
-    expect(last_response).to_not be_successful
+    expect(last_response).to_not be_ok
   end
 end
