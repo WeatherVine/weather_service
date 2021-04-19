@@ -20,13 +20,13 @@ def dates
 end
 
 def location
-  # "Napa Valley"
-  params[:params][:region].gsub!("-", " ")
+  "Napa Valley"
+  # params[:params][:region].gsub!("-", " ")
 end
 
 def vintage
-  # 2015
-  params[:params][:vintage].to_i
+  2017
+  # params[:params][:vintage].to_i
 end
 
 def grape_year

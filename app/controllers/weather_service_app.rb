@@ -11,7 +11,7 @@ require 'sinatra/json'
 class WeatherServiceApp < Sinatra::Base
   set :root, File.expand_path("..", __dir__)
 
-  get '/climate_data' do
+  get '/api/v1/climate_data' do
     climate = Climate.new(temp, precip, vintage, location)
 
     json ({
