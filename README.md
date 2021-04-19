@@ -5,10 +5,10 @@
 ### Climate Data
 **Required** query params:
 
-- `vintage` 
-- `region`
+- ```vintage
+- ```region
 
-**GET https://weather-service-sinatra.herokuapp.com/api/v1/climate_data?vintage={year}&region={region}**
+`GET https://weather-service-sinatra.herokuapp.com/api/v1/climate_data?vintage={year}&region={region}`
 
 ```{data: {
     "id": #{id},
