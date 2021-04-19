@@ -15,11 +15,11 @@ class WeatherServiceApp < Sinatra::Base
     climate = Climate.new(temp, precip, vintage, location)
 
     json ({
-          data: [{
+          data: {
             type: "climate",
             id: 1,
             attributes: climate
-          }]
+          }
         })
   end
 

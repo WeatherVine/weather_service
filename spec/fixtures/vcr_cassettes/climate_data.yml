@@ -1,0 +1,216 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-01-01&enddate=2016-02-04&format=json&key=900f2167e4ae442797e144340211404&q=napa%20valley&tp=24%0A%20%20%20%20
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 19 Apr 2021 17:41:43 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-718
+      Cdn-Pullzone:
+      - '61832'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Cdn-Edgestorageid:
+      - '617'
+      Cache-Control:
+      - public, max-age=180
+      Request-Context:
+      - appId=cid-v1:89996683-9a04-40b3-8e46-77754119dcf5
+      X-Wwo-Qpd-Left:
+      - '474'
+      Cdn-Cachedat:
+      - '2021-04-19 12:41:18'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Requestid:
+      - 8afd45cdd0676bd36c41789ef04a1711
+      Cdn-Cache:
+      - HIT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data":{"request":[{"type":"City","query":"Napa Napa, Papua New Guinea"}],"weather":[{"date":"2016-01-01","astronomy":[{"sunrise":"05:55
+        AM","sunset":"06:35 PM","moonrise":"11:43 PM","moonset":"11:20 AM","moon_phase":"Last
+        Quarter","moon_illumination":"50"}],"maxtempC":"31","maxtempF":"87","mintempC":"25","mintempF":"78","avgtempC":"29","avgtempF":"83","totalSnow_cm":"0.0","sunHour":"12.8","uvIndex":"6","hourly":[{"time":"24","tempC":"31","tempF":"87","windspeedMiles":"9","windspeedKmph":"14","winddirDegree":"279","winddir16Point":"W","weatherCode":"356","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png"}],"weatherDesc":[{"value":"Moderate
+        or heavy rain shower"}],"precipMM":"10.2","precipInches":"0.4","humidity":"70","visibility":"9","visibilityMiles":"5","pressure":"1011","pressureInches":"30","cloudcover":"35","HeatIndexC":"30","HeatIndexF":"87","DewPointC":"21","DewPointF":"70","WindChillC":"27","WindChillF":"81","WindGustMiles":"13","WindGustKmph":"20","FeelsLikeC":"30","FeelsLikeF":"87","uvIndex":"6"}]},{"date":"2016-01-02","astronomy":[{"sunrise":"05:55
+        AM","sunset":"06:35 PM","moonrise":"No moonrise","moonset":"12:05 PM","moon_phase":"Last
+        Quarter","moon_illumination":"43"}],"maxtempC":"31","maxtempF":"88","mintempC":"25","mintempF":"78","avgtempC":"29","avgtempF":"84","totalSnow_cm":"0.0","sunHour":"12.8","uvIndex":"6","hourly":[{"time":"24","tempC":"31","tempF":"88","windspeedMiles":"9","windspeedKmph":"15","winddirDegree":"319","winddir16Point":"NW","weatherCode":"356","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png"}],"weatherDesc":[{"value":"Moderate
+        or heavy rain shower"}],"precipMM":"5.8","precipInches":"0.2","humidity":"66","visibility":"9","visibilityMiles":"5","pressure":"1010","pressureInches":"30","cloudcover":"24","HeatIndexC":"30","HeatIndexF":"87","DewPointC":"21","DewPointF":"69","WindChillC":"28","WindChillF":"82","WindGustMiles":"14","WindGustKmph":"22","FeelsLikeC":"30","FeelsLikeF":"87","uvIndex":"6"}]},{"date":"2016-01-03","astronomy":[{"sunrise":"05:56
+        AM","sunset":"06:35 PM","moonrise":"12:22 AM","moonset":"12:50 PM","moon_phase":"Last
+        Quarter","moon_illumination":"36"}],"maxtempC":"32","maxtempF":"89","mintempC":"26","mintempF":"78","avgtempC":"30","avgtempF":"85","totalSnow_cm":"0.0","sunHour":"12.8","uvIndex":"6","hourly":[{"time":"24","tempC":"32","tempF":"89","windspeedMiles":"9","windspeedKmph":"14","winddirDegree":"277","winddir16Point":"W","weatherCode":"176","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"}],"weatherDesc":[{"value":"Patchy
+        rain possible"}],"precipMM":"2.1","precipInches":"0.1","humidity":"63","visibility":"10","visibilityMiles":"5","pressure":"1010","pressureInches":"30","cloudcover":"14","HeatIndexC":"31","HeatIndexF":"88","DewPointC":"20","DewPointF":"69","WindChillC":"28","WindChillF":"83","WindGustMiles":"13","WindGustKmph":"20","FeelsLikeC":"31","FeelsLikeF":"88","uvIndex":"6"}]},{"date":"2016-01-04","astronomy":[{"sunrise":"05:56
+        AM","sunset":"06:36 PM","moonrise":"01:03 AM","moonset":"01:36 PM","moon_phase":"Last
+        Quarter","moon_illumination":"28"}],"maxtempC":"31","maxtempF":"87","mintempC":"26","mintempF":"78","avgtempC":"29","avgtempF":"84","totalSnow_cm":"0.0","sunHour":"12.8","uvIndex":"6","hourly":[{"time":"24","tempC":"31","tempF":"87","windspeedMiles":"8","windspeedKmph":"13","winddirDegree":"284","winddir16Point":"WNW","weatherCode":"176","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"}],"weatherDesc":[{"value":"Patchy
+        rain possible"}],"precipMM":"4.0","precipInches":"0.2","humidity":"65","visibility":"9","visibilityMiles":"5","pressure":"1011","pressureInches":"30","cloudcover":"33","HeatIndexC":"30","HeatIndexF":"86","DewPointC":"20","DewPointF":"69","WindChillC":"28","WindChillF":"82","WindGustMiles":"11","WindGustKmph":"18","FeelsLikeC":"30","FeelsLikeF":"86","uvIndex":"6"}]},{"date":"2016-01-05","astronomy":[{"sunrise":"05:57
+        AM","sunset":"06:36 PM","moonrise":"01:45 AM","moonset":"02:23 PM","moon_phase":"Waning
+        Crescent","moon_illumination":"21"}],"maxtempC":"29","maxtempF":"85","mintempC":"24","mintempF":"75","avgtempC":"28","avgtempF":"82","totalSnow_cm":"0.0","sunHour":"11.9","uvIndex":"6","hourly":[{"time":"24","tempC":"29","tempF":"85","windspeedMiles":"7","windspeedKmph":"11","winddirDegree":"219","winddir16Point":"SW","weatherCode":"299","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png"}],"weatherDesc":[{"value":"Moderate
+        rain at times"}],"precipMM":"1.6","precipInches":"0.1","humidity":"75","visibility":"10","visibilityMiles":"6","pressure":"1008","pressureInches":"30","cloudcover":"45","HeatIndexC":"29","HeatIndexF":"85","DewPointC":"22","DewPointF":"71","WindChillC":"27","WindChillF":"80","WindGustMiles":"10","WindGustKmph":"16","FeelsLikeC":"29","FeelsLikeF":"85","uvIndex":"6"}]},{"date":"2016-01-06","astronomy":[{"sunrise":"05:57
+        AM","sunset":"06:36 PM","moonrise":"02:28 AM","moonset":"03:12 PM","moon_phase":"Waning
+        Crescent","moon_illumination":"14"}],"maxtempC":"31","maxtempF":"88","mintempC":"25","mintempF":"77","avgtempC":"29","avgtempF":"84","totalSnow_cm":"0.0","sunHour":"12.8","uvIndex":"6","hourly":[{"time":"24","tempC":"31","tempF":"88","windspeedMiles":"7","windspeedKmph":"11","winddirDegree":"184","winddir16Point":"S","weatherCode":"176","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"}],"weatherDesc":[{"value":"Patchy
+        rain possible"}],"precipMM":"1.5","precipInches":"0.1","humidity":"68","visibility":"9","visibilityMiles":"5","pressure":"1012","pressureInches":"30","cloudcover":"23","HeatIndexC":"30","HeatIndexF":"87","DewPointC":"21","DewPointF":"70","WindChillC":"28","WindChillF":"82","WindGustMiles":"10","WindGustKmph":"15","FeelsLikeC":"30","FeelsLikeF":"87","uvIndex":"6"}]},{"date":"2016-01-07","astronomy":[{"sunrise":"05:58
+        AM","sunset":"06:37 PM","moonrise":"03:15 AM","moonset":"04:03 PM","moon_phase":"Waning
+        Crescent","moon_illumination":"7"}],"maxtempC":"32","maxtempF":"89","mintempC":"25","mintempF":"77","avgtempC":"30","avgtempF":"85","totalSnow_cm":"0.0","sunHour":"12.8","uvIndex":"6","hourly":[{"time":"24","tempC":"32","tempF":"89","windspeedMiles":"6","windspeedKmph":"9","winddirDegree":"134","winddir16Point":"SE","weatherCode":"356","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png"}],"weatherDesc":[{"value":"Moderate
+        or heavy rain shower"}],"precipMM":"7.9","precipInches":"0.3","humidity":"72","visibility":"9","visibilityMiles":"5","pressure":"1012","pressureInches":"30","cloudcover":"26","HeatIndexC":"31","HeatIndexF":"88","DewPointC":"22","DewPointF":"72","WindChillC":"28","WindChillF":"83","WindGustMiles":"8","WindGustKmph":"13","FeelsLikeC":"31","FeelsLikeF":"88","uvIndex":"6"}]},{"date":"2016-01-08","astronomy":[{"sunrise":"05:58
+        AM","sunset":"06:37 PM","moonrise":"04:05 AM","moonset":"04:56 PM","moon_phase":"New
+        Moon","moon_illumination":"0"}],"maxtempC":"32","maxtempF":"90","mintempC":"25","mintempF":"78","avgtempC":"30","avgtempF":"86","totalSnow_cm":"0.0","sunHour":"12.8","uvIndex":"6","hourly":[{"time":"24","tempC":"32","tempF":"90","windspeedMiles":"6","windspeedKmph":"9","winddirDegree":"145","winddir16Point":"SE","weatherCode":"176","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"}],"weatherDesc":[{"value":"Patchy
+        rain possible"}],"precipMM":"4.6","precipInches":"0.2","humidity":"72","visibility":"9","visibilityMiles":"5","pressure":"1013","pressureInches":"30","cloudcover":"19","HeatIndexC":"31","HeatIndexF":"89","DewPointC":"22","DewPointF":"72","WindChillC":"28","WindChillF":"83","WindGustMiles":"8","WindGustKmph":"13","FeelsLikeC":"31","FeelsLikeF":"89","uvIndex":"6"}]},{"date":"2016-01-09","astronomy":[{"sunrise":"05:59
+        AM","sunset":"06:37 PM","moonrise":"04:57 AM","moonset":"05:49 PM","moon_phase":"New
+        Moon","moon_illumination":"0"}],"maxtempC":"31","maxtempF":"88","mintempC":"25","mintempF":"78","avgtempC":"29","avgtempF":"85","totalSnow_cm":"0.0","sunHour":"12.8","uvIndex":"6","hourly":[{"time":"24","tempC":"31","tempF":"88","windspeedMiles":"9","windspeedKmph":"15","winddirDegree":"152","winddir16Point":"SSE","weatherCode":"356","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png"}],"weatherDesc":[{"value":"Moderate
+        or heavy rain shower"}],"precipMM":"11.0","precipInches":"0.4","humidity":"77","visibility":"9","visibilityMiles":"5","pressure":"1013","pressureInches":"30","cloudcover":"19","HeatIndexC":"32","HeatIndexF":"90","DewPointC":"24","DewPointF":"74","WindChillC":"28","WindChillF":"83","WindGustMiles":"14","WindGustKmph":"22","FeelsLikeC":"32","FeelsLikeF":"90","uvIndex":"6"}]},{"date":"2016-01-10","astronomy":[{"sunrise":"05:59
+        AM","sunset":"06:38 PM","moonrise":"05:52 AM","moonset":"06:43 PM","moon_phase":"Waxing
+        Crescent","moon_illumination":"0"}],"maxtempC":"33","maxtempF":"91","mintempC":"25","mintempF":"78","avgtempC":"30","avgtempF":"87","totalSnow_cm":"0.0","sunHour":"12.8","uvIndex":"8","hourly":[{"time":"24","tempC":"33","tempF":"91","windspeedMiles":"11","windspeedKmph":"18","winddirDegree":"145","winddir16Point":"SE","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.3","precipInches":"0.0","humidity":"70","visibility":"10","visibilityMiles":"6","pressure":"1012","pressureInches":"30","cloudcover":"9","HeatIndexC":"32","HeatIndexF":"90","DewPointC":"22","DewPointF":"72","WindChillC":"29","WindChillF":"84","WindGustMiles":"17","WindGustKmph":"27","FeelsLikeC":"32","FeelsLikeF":"90","uvIndex":"8"}]},{"date":"2016-01-11","astronomy":[{"sunrise":"06:00
+        AM","sunset":"06:38 PM","moonrise":"06:48 AM","moonset":"07:36 PM","moon_phase":"Waxing
+        Crescent","moon_illumination":"8"}],"maxtempC":"32","maxtempF":"90","mintempC":"25","mintempF":"76","avgtempC":"30","avgtempF":"85","totalSnow_cm":"0.0","sunHour":"12.4","uvIndex":"7","hourly":[{"time":"24","tempC":"32","tempF":"90","windspeedMiles":"11","windspeedKmph":"17","winddirDegree":"142","winddir16Point":"SE","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.1","precipInches":"0.0","humidity":"68","visibility":"10","visibilityMiles":"6","pressure":"1011","pressureInches":"30","cloudcover":"7","HeatIndexC":"30","HeatIndexF":"87","DewPointC":"21","DewPointF":"70","WindChillC":"28","WindChillF":"82","WindGustMiles":"16","WindGustKmph":"26","FeelsLikeC":"30","FeelsLikeF":"87","uvIndex":"7"}]},{"date":"2016-01-12","astronomy":[{"sunrise":"06:00
+        AM","sunset":"06:38 PM","moonrise":"07:45 AM","moonset":"08:28 PM","moon_phase":"Waxing
+        Crescent","moon_illumination":"15"}],"maxtempC":"31","maxtempF":"89","mintempC":"23","mintempF":"74","avgtempC":"29","avgtempF":"84","totalSnow_cm":"0.0","sunHour":"12.4","uvIndex":"7","hourly":[{"time":"24","tempC":"31","tempF":"89","windspeedMiles":"8","windspeedKmph":"13","winddirDegree":"156","winddir16Point":"SSE","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.0","precipInches":"0.0","humidity":"69","visibility":"10","visibilityMiles":"6","pressure":"1011","pressureInches":"30","cloudcover":"10","HeatIndexC":"30","HeatIndexF":"85","DewPointC":"21","DewPointF":"69","WindChillC":"27","WindChillF":"81","WindGustMiles":"12","WindGustKmph":"19","FeelsLikeC":"30","FeelsLikeF":"85","uvIndex":"7"}]},{"date":"2016-01-13","astronomy":[{"sunrise":"06:01
+        AM","sunset":"06:39 PM","moonrise":"08:41 AM","moonset":"09:18 PM","moon_phase":"Waxing
+        Crescent","moon_illumination":"22"}],"maxtempC":"32","maxtempF":"89","mintempC":"24","mintempF":"76","avgtempC":"29","avgtempF":"84","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"6","hourly":[{"time":"24","tempC":"32","tempF":"89","windspeedMiles":"6","windspeedKmph":"10","winddirDegree":"148","winddir16Point":"SSE","weatherCode":"176","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"}],"weatherDesc":[{"value":"Patchy
+        rain possible"}],"precipMM":"1.0","precipInches":"0.0","humidity":"73","visibility":"10","visibilityMiles":"6","pressure":"1012","pressureInches":"30","cloudcover":"13","HeatIndexC":"30","HeatIndexF":"86","DewPointC":"22","DewPointF":"71","WindChillC":"27","WindChillF":"81","WindGustMiles":"9","WindGustKmph":"14","FeelsLikeC":"30","FeelsLikeF":"86","uvIndex":"6"}]},{"date":"2016-01-14","astronomy":[{"sunrise":"06:01
+        AM","sunset":"06:39 PM","moonrise":"09:37 AM","moonset":"10:07 PM","moon_phase":"Waxing
+        Crescent","moon_illumination":"29"}],"maxtempC":"32","maxtempF":"90","mintempC":"24","mintempF":"76","avgtempC":"29","avgtempF":"85","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"6","hourly":[{"time":"24","tempC":"32","tempF":"90","windspeedMiles":"6","windspeedKmph":"10","winddirDegree":"151","winddir16Point":"SSE","weatherCode":"176","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"}],"weatherDesc":[{"value":"Patchy
+        rain possible"}],"precipMM":"2.5","precipInches":"0.1","humidity":"72","visibility":"10","visibilityMiles":"5","pressure":"1011","pressureInches":"30","cloudcover":"17","HeatIndexC":"31","HeatIndexF":"87","DewPointC":"22","DewPointF":"72","WindChillC":"28","WindChillF":"82","WindGustMiles":"9","WindGustKmph":"15","FeelsLikeC":"31","FeelsLikeF":"87","uvIndex":"6"}]},{"date":"2016-01-15","astronomy":[{"sunrise":"06:02
+        AM","sunset":"06:39 PM","moonrise":"10:31 AM","moonset":"10:56 PM","moon_phase":"Waxing
+        Crescent","moon_illumination":"37"}],"maxtempC":"33","maxtempF":"91","mintempC":"25","mintempF":"77","avgtempC":"30","avgtempF":"86","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"8","hourly":[{"time":"24","tempC":"33","tempF":"91","windspeedMiles":"9","windspeedKmph":"15","winddirDegree":"145","winddir16Point":"SE","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.0","precipInches":"0.0","humidity":"71","visibility":"10","visibilityMiles":"6","pressure":"1010","pressureInches":"30","cloudcover":"11","HeatIndexC":"32","HeatIndexF":"89","DewPointC":"22","DewPointF":"72","WindChillC":"29","WindChillF":"83","WindGustMiles":"13","WindGustKmph":"22","FeelsLikeC":"32","FeelsLikeF":"89","uvIndex":"8"}]},{"date":"2016-01-16","astronomy":[{"sunrise":"06:02
+        AM","sunset":"06:39 PM","moonrise":"11:27 AM","moonset":"11:45 PM","moon_phase":"First
+        Quarter","moon_illumination":"44"}],"maxtempC":"32","maxtempF":"90","mintempC":"25","mintempF":"78","avgtempC":"30","avgtempF":"86","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"7","hourly":[{"time":"24","tempC":"32","tempF":"90","windspeedMiles":"11","windspeedKmph":"18","winddirDegree":"145","winddir16Point":"SE","weatherCode":"356","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png"}],"weatherDesc":[{"value":"Moderate
+        or heavy rain shower"}],"precipMM":"10.5","precipInches":"0.4","humidity":"74","visibility":"9","visibilityMiles":"5","pressure":"1009","pressureInches":"30","cloudcover":"11","HeatIndexC":"32","HeatIndexF":"90","DewPointC":"23","DewPointF":"74","WindChillC":"29","WindChillF":"83","WindGustMiles":"17","WindGustKmph":"28","FeelsLikeC":"32","FeelsLikeF":"90","uvIndex":"7"}]},{"date":"2016-01-17","astronomy":[{"sunrise":"06:03
+        AM","sunset":"06:39 PM","moonrise":"12:22 PM","moonset":"No moonset","moon_phase":"First
+        Quarter","moon_illumination":"51"}],"maxtempC":"33","maxtempF":"91","mintempC":"26","mintempF":"78","avgtempC":"30","avgtempF":"86","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"7","hourly":[{"time":"24","tempC":"33","tempF":"91","windspeedMiles":"10","windspeedKmph":"16","winddirDegree":"147","winddir16Point":"SSE","weatherCode":"356","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png"}],"weatherDesc":[{"value":"Moderate
+        or heavy rain shower"}],"precipMM":"11.7","precipInches":"0.5","humidity":"73","visibility":"9","visibilityMiles":"5","pressure":"1009","pressureInches":"30","cloudcover":"13","HeatIndexC":"32","HeatIndexF":"90","DewPointC":"23","DewPointF":"73","WindChillC":"28","WindChillF":"83","WindGustMiles":"15","WindGustKmph":"24","FeelsLikeC":"32","FeelsLikeF":"90","uvIndex":"7"}]},{"date":"2016-01-18","astronomy":[{"sunrise":"06:03
+        AM","sunset":"06:40 PM","moonrise":"01:18 PM","moonset":"12:34 AM","moon_phase":"First
+        Quarter","moon_illumination":"59"}],"maxtempC":"31","maxtempF":"88","mintempC":"24","mintempF":"75","avgtempC":"29","avgtempF":"84","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"6","hourly":[{"time":"24","tempC":"31","tempF":"88","windspeedMiles":"8","windspeedKmph":"12","winddirDegree":"145","winddir16Point":"SE","weatherCode":"356","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png"}],"weatherDesc":[{"value":"Moderate
+        or heavy rain shower"}],"precipMM":"32.5","precipInches":"1.3","humidity":"78","visibility":"7","visibilityMiles":"4","pressure":"1009","pressureInches":"30","cloudcover":"23","HeatIndexC":"31","HeatIndexF":"88","DewPointC":"23","DewPointF":"73","WindChillC":"27","WindChillF":"81","WindGustMiles":"12","WindGustKmph":"19","FeelsLikeC":"31","FeelsLikeF":"88","uvIndex":"6"}]},{"date":"2016-01-19","astronomy":[{"sunrise":"06:04
+        AM","sunset":"06:40 PM","moonrise":"02:14 PM","moonset":"01:26 AM","moon_phase":"First
+        Quarter","moon_illumination":"66"}],"maxtempC":"32","maxtempF":"90","mintempC":"25","mintempF":"77","avgtempC":"30","avgtempF":"85","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"6","hourly":[{"time":"24","tempC":"32","tempF":"90","windspeedMiles":"9","windspeedKmph":"15","winddirDegree":"147","winddir16Point":"SSE","weatherCode":"356","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png"}],"weatherDesc":[{"value":"Moderate
+        or heavy rain shower"}],"precipMM":"21.0","precipInches":"0.8","humidity":"76","visibility":"8","visibilityMiles":"4","pressure":"1010","pressureInches":"30","cloudcover":"18","HeatIndexC":"32","HeatIndexF":"89","DewPointC":"23","DewPointF":"74","WindChillC":"28","WindChillF":"82","WindGustMiles":"14","WindGustKmph":"23","FeelsLikeC":"32","FeelsLikeF":"89","uvIndex":"6"}]},{"date":"2016-01-20","astronomy":[{"sunrise":"06:04
+        AM","sunset":"06:40 PM","moonrise":"03:11 PM","moonset":"02:18 AM","moon_phase":"Waxing
+        Gibbous","moon_illumination":"73"}],"maxtempC":"32","maxtempF":"90","mintempC":"25","mintempF":"78","avgtempC":"30","avgtempF":"85","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"6","hourly":[{"time":"24","tempC":"32","tempF":"90","windspeedMiles":"10","windspeedKmph":"16","winddirDegree":"142","winddir16Point":"SE","weatherCode":"356","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png"}],"weatherDesc":[{"value":"Moderate
+        or heavy rain shower"}],"precipMM":"16.0","precipInches":"0.6","humidity":"75","visibility":"8","visibilityMiles":"5","pressure":"1011","pressureInches":"30","cloudcover":"20","HeatIndexC":"32","HeatIndexF":"89","DewPointC":"23","DewPointF":"74","WindChillC":"28","WindChillF":"83","WindGustMiles":"14","WindGustKmph":"23","FeelsLikeC":"32","FeelsLikeF":"89","uvIndex":"6"}]},{"date":"2016-01-21","astronomy":[{"sunrise":"06:05
+        AM","sunset":"06:40 PM","moonrise":"04:07 PM","moonset":"03:12 AM","moon_phase":"Waxing
+        Gibbous","moon_illumination":"80"}],"maxtempC":"32","maxtempF":"89","mintempC":"24","mintempF":"75","avgtempC":"30","avgtempF":"85","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"6","hourly":[{"time":"24","tempC":"32","tempF":"89","windspeedMiles":"7","windspeedKmph":"12","winddirDegree":"152","winddir16Point":"SSE","weatherCode":"176","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"}],"weatherDesc":[{"value":"Patchy
+        rain possible"}],"precipMM":"0.6","precipInches":"0.0","humidity":"72","visibility":"10","visibilityMiles":"6","pressure":"1010","pressureInches":"30","cloudcover":"17","HeatIndexC":"31","HeatIndexF":"88","DewPointC":"22","DewPointF":"72","WindChillC":"28","WindChillF":"82","WindGustMiles":"11","WindGustKmph":"18","FeelsLikeC":"31","FeelsLikeF":"88","uvIndex":"6"}]},{"date":"2016-01-22","astronomy":[{"sunrise":"06:05
+        AM","sunset":"06:40 PM","moonrise":"05:02 PM","moonset":"04:07 AM","moon_phase":"Waxing
+        Gibbous","moon_illumination":"88"}],"maxtempC":"33","maxtempF":"91","mintempC":"24","mintempF":"76","avgtempC":"30","avgtempF":"86","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"7","hourly":[{"time":"24","tempC":"33","tempF":"91","windspeedMiles":"9","windspeedKmph":"15","winddirDegree":"148","winddir16Point":"SSE","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.4","precipInches":"0.0","humidity":"71","visibility":"10","visibilityMiles":"6","pressure":"1009","pressureInches":"30","cloudcover":"14","HeatIndexC":"31","HeatIndexF":"88","DewPointC":"22","DewPointF":"72","WindChillC":"28","WindChillF":"83","WindGustMiles":"14","WindGustKmph":"22","FeelsLikeC":"31","FeelsLikeF":"88","uvIndex":"7"}]},{"date":"2016-01-23","astronomy":[{"sunrise":"06:06
+        AM","sunset":"06:40 PM","moonrise":"05:55 PM","moonset":"05:02 AM","moon_phase":"Waxing
+        Gibbous","moon_illumination":"95"}],"maxtempC":"32","maxtempF":"89","mintempC":"24","mintempF":"76","avgtempC":"29","avgtempF":"85","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"6","hourly":[{"time":"24","tempC":"32","tempF":"89","windspeedMiles":"6","windspeedKmph":"9","winddirDegree":"155","winddir16Point":"SSE","weatherCode":"176","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"}],"weatherDesc":[{"value":"Patchy
+        rain possible"}],"precipMM":"1.7","precipInches":"0.1","humidity":"75","visibility":"10","visibilityMiles":"6","pressure":"1009","pressureInches":"30","cloudcover":"13","HeatIndexC":"31","HeatIndexF":"87","DewPointC":"22","DewPointF":"72","WindChillC":"28","WindChillF":"82","WindGustMiles":"8","WindGustKmph":"13","FeelsLikeC":"31","FeelsLikeF":"87","uvIndex":"6"}]},{"date":"2016-01-24","astronomy":[{"sunrise":"06:06
+        AM","sunset":"06:40 PM","moonrise":"06:44 PM","moonset":"05:56 AM","moon_phase":"Full
+        Moon","moon_illumination":"100"}],"maxtempC":"31","maxtempF":"88","mintempC":"25","mintempF":"77","avgtempC":"29","avgtempF":"83","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"7","hourly":[{"time":"24","tempC":"31","tempF":"88","windspeedMiles":"6","windspeedKmph":"10","winddirDegree":"155","winddir16Point":"SSE","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.2","precipInches":"0.0","humidity":"76","visibility":"10","visibilityMiles":"6","pressure":"1010","pressureInches":"30","cloudcover":"17","HeatIndexC":"31","HeatIndexF":"87","DewPointC":"23","DewPointF":"73","WindChillC":"27","WindChillF":"81","WindGustMiles":"8","WindGustKmph":"13","FeelsLikeC":"31","FeelsLikeF":"87","uvIndex":"7"}]},{"date":"2016-01-25","astronomy":[{"sunrise":"06:07
+        AM","sunset":"06:40 PM","moonrise":"07:32 PM","moonset":"06:48 AM","moon_phase":"Full
+        Moon","moon_illumination":"100"}],"maxtempC":"32","maxtempF":"90","mintempC":"25","mintempF":"76","avgtempC":"29","avgtempF":"84","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"7","hourly":[{"time":"24","tempC":"32","tempF":"90","windspeedMiles":"8","windspeedKmph":"12","winddirDegree":"253","winddir16Point":"WSW","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.3","precipInches":"0.0","humidity":"73","visibility":"10","visibilityMiles":"6","pressure":"1011","pressureInches":"30","cloudcover":"14","HeatIndexC":"30","HeatIndexF":"87","DewPointC":"22","DewPointF":"72","WindChillC":"28","WindChillF":"82","WindGustMiles":"10","WindGustKmph":"16","FeelsLikeC":"30","FeelsLikeF":"87","uvIndex":"7"}]},{"date":"2016-01-26","astronomy":[{"sunrise":"06:07
+        AM","sunset":"06:40 PM","moonrise":"08:16 PM","moonset":"07:39 AM","moon_phase":"Waxing
+        Gibbous","moon_illumination":"83"}],"maxtempC":"33","maxtempF":"91","mintempC":"26","mintempF":"78","avgtempC":"30","avgtempF":"85","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"6","hourly":[{"time":"24","tempC":"33","tempF":"91","windspeedMiles":"8","windspeedKmph":"12","winddirDegree":"226","winddir16Point":"SW","weatherCode":"176","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"}],"weatherDesc":[{"value":"Patchy
+        rain possible"}],"precipMM":"1.3","precipInches":"0.1","humidity":"64","visibility":"10","visibilityMiles":"6","pressure":"1011","pressureInches":"30","cloudcover":"20","HeatIndexC":"31","HeatIndexF":"88","DewPointC":"21","DewPointF":"69","WindChillC":"28","WindChillF":"83","WindGustMiles":"11","WindGustKmph":"18","FeelsLikeC":"31","FeelsLikeF":"88","uvIndex":"6"}]},{"date":"2016-01-27","astronomy":[{"sunrise":"06:07
+        AM","sunset":"06:40 PM","moonrise":"08:58 PM","moonset":"08:26 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":"76"}],"maxtempC":"31","maxtempF":"88","mintempC":"26","mintempF":"78","avgtempC":"29","avgtempF":"84","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"6","hourly":[{"time":"24","tempC":"31","tempF":"88","windspeedMiles":"9","windspeedKmph":"14","winddirDegree":"313","winddir16Point":"NW","weatherCode":"356","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png"}],"weatherDesc":[{"value":"Moderate
+        or heavy rain shower"}],"precipMM":"9.6","precipInches":"0.4","humidity":"70","visibility":"9","visibilityMiles":"5","pressure":"1010","pressureInches":"30","cloudcover":"30","HeatIndexC":"31","HeatIndexF":"87","DewPointC":"22","DewPointF":"71","WindChillC":"28","WindChillF":"82","WindGustMiles":"13","WindGustKmph":"21","FeelsLikeC":"31","FeelsLikeF":"87","uvIndex":"6"}]},{"date":"2016-01-28","astronomy":[{"sunrise":"06:08
+        AM","sunset":"06:40 PM","moonrise":"09:39 PM","moonset":"09:13 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":"69"}],"maxtempC":"30","maxtempF":"87","mintempC":"26","mintempF":"78","avgtempC":"28","avgtempF":"83","totalSnow_cm":"0.0","sunHour":"10.2","uvIndex":"6","hourly":[{"time":"24","tempC":"30","tempF":"87","windspeedMiles":"9","windspeedKmph":"15","winddirDegree":"320","winddir16Point":"NW","weatherCode":"359","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0018_cloudy_with_heavy_rain.png"}],"weatherDesc":[{"value":"Torrential
+        rain shower"}],"precipMM":"28.3","precipInches":"1.1","humidity":"75","visibility":"8","visibilityMiles":"4","pressure":"1010","pressureInches":"30","cloudcover":"50","HeatIndexC":"31","HeatIndexF":"87","DewPointC":"22","DewPointF":"72","WindChillC":"27","WindChillF":"81","WindGustMiles":"14","WindGustKmph":"23","FeelsLikeC":"31","FeelsLikeF":"87","uvIndex":"6"}]},{"date":"2016-01-29","astronomy":[{"sunrise":"06:08
+        AM","sunset":"06:40 PM","moonrise":"10:19 PM","moonset":"09:59 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":"61"}],"maxtempC":"32","maxtempF":"90","mintempC":"26","mintempF":"79","avgtempC":"29","avgtempF":"85","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"6","hourly":[{"time":"24","tempC":"32","tempF":"90","windspeedMiles":"7","windspeedKmph":"12","winddirDegree":"278","winddir16Point":"W","weatherCode":"356","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png"}],"weatherDesc":[{"value":"Moderate
+        or heavy rain shower"}],"precipMM":"12.7","precipInches":"0.5","humidity":"69","visibility":"9","visibilityMiles":"5","pressure":"1009","pressureInches":"30","cloudcover":"32","HeatIndexC":"32","HeatIndexF":"89","DewPointC":"22","DewPointF":"72","WindChillC":"28","WindChillF":"83","WindGustMiles":"10","WindGustKmph":"17","FeelsLikeC":"32","FeelsLikeF":"89","uvIndex":"6"}]},{"date":"2016-01-30","astronomy":[{"sunrise":"06:09
+        AM","sunset":"06:40 PM","moonrise":"10:59 PM","moonset":"10:44 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":"54"}],"maxtempC":"31","maxtempF":"88","mintempC":"26","mintempF":"78","avgtempC":"29","avgtempF":"84","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"6","hourly":[{"time":"24","tempC":"31","tempF":"88","windspeedMiles":"4","windspeedKmph":"7","winddirDegree":"122","winddir16Point":"ESE","weatherCode":"299","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png"}],"weatherDesc":[{"value":"Moderate
+        rain at times"}],"precipMM":"6.9","precipInches":"0.3","humidity":"72","visibility":"7","visibilityMiles":"4","pressure":"1009","pressureInches":"30","cloudcover":"43","HeatIndexC":"31","HeatIndexF":"88","DewPointC":"22","DewPointF":"72","WindChillC":"28","WindChillF":"82","WindGustMiles":"7","WindGustKmph":"11","FeelsLikeC":"31","FeelsLikeF":"88","uvIndex":"6"}]},{"date":"2016-01-31","astronomy":[{"sunrise":"06:09
+        AM","sunset":"06:40 PM","moonrise":"11:40 PM","moonset":"11:29 AM","moon_phase":"Last
+        Quarter","moon_illumination":"50"}],"maxtempC":"32","maxtempF":"90","mintempC":"26","mintempF":"79","avgtempC":"29","avgtempF":"84","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"6","hourly":[{"time":"24","tempC":"32","tempF":"90","windspeedMiles":"4","windspeedKmph":"7","winddirDegree":"136","winddir16Point":"SE","weatherCode":"353","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"}],"weatherDesc":[{"value":"Light
+        rain shower"}],"precipMM":"9.6","precipInches":"0.4","humidity":"76","visibility":"9","visibilityMiles":"5","pressure":"1010","pressureInches":"30","cloudcover":"35","HeatIndexC":"32","HeatIndexF":"89","DewPointC":"23","DewPointF":"74","WindChillC":"28","WindChillF":"82","WindGustMiles":"6","WindGustKmph":"10","FeelsLikeC":"32","FeelsLikeF":"89","uvIndex":"6"}]},{"date":"2016-02-01","astronomy":[{"sunrise":"06:09
+        AM","sunset":"06:40 PM","moonrise":"No moonrise","moonset":"12:15 PM","moon_phase":"Last
+        Quarter","moon_illumination":"34"}],"maxtempC":"32","maxtempF":"89","mintempC":"26","mintempF":"79","avgtempC":"29","avgtempF":"85","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"6","hourly":[{"time":"24","tempC":"32","tempF":"89","windspeedMiles":"5","windspeedKmph":"8","winddirDegree":"123","winddir16Point":"ESE","weatherCode":"356","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png"}],"weatherDesc":[{"value":"Moderate
+        or heavy rain shower"}],"precipMM":"19.8","precipInches":"0.8","humidity":"75","visibility":"9","visibilityMiles":"5","pressure":"1010","pressureInches":"30","cloudcover":"46","HeatIndexC":"32","HeatIndexF":"90","DewPointC":"23","DewPointF":"74","WindChillC":"28","WindChillF":"83","WindGustMiles":"7","WindGustKmph":"11","FeelsLikeC":"32","FeelsLikeF":"90","uvIndex":"6"}]},{"date":"2016-02-02","astronomy":[{"sunrise":"06:10
+        AM","sunset":"06:40 PM","moonrise":"12:22 AM","moonset":"01:03 PM","moon_phase":"Last
+        Quarter","moon_illumination":"26"}],"maxtempC":"33","maxtempF":"91","mintempC":"26","mintempF":"78","avgtempC":"30","avgtempF":"86","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"7","hourly":[{"time":"24","tempC":"33","tempF":"91","windspeedMiles":"6","windspeedKmph":"9","winddirDegree":"129","winddir16Point":"SE","weatherCode":"176","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"}],"weatherDesc":[{"value":"Patchy
+        rain possible"}],"precipMM":"5.0","precipInches":"0.2","humidity":"70","visibility":"9","visibilityMiles":"5","pressure":"1009","pressureInches":"30","cloudcover":"35","HeatIndexC":"32","HeatIndexF":"90","DewPointC":"22","DewPointF":"72","WindChillC":"29","WindChillF":"84","WindGustMiles":"8","WindGustKmph":"13","FeelsLikeC":"32","FeelsLikeF":"90","uvIndex":"7"}]},{"date":"2016-02-03","astronomy":[{"sunrise":"06:10
+        AM","sunset":"06:40 PM","moonrise":"01:07 AM","moonset":"01:52 PM","moon_phase":"Waning
+        Crescent","moon_illumination":"18"}],"maxtempC":"33","maxtempF":"91","mintempC":"26","mintempF":"79","avgtempC":"30","avgtempF":"86","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"6","hourly":[{"time":"24","tempC":"33","tempF":"91","windspeedMiles":"5","windspeedKmph":"8","winddirDegree":"170","winddir16Point":"S","weatherCode":"356","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png"}],"weatherDesc":[{"value":"Moderate
+        or heavy rain shower"}],"precipMM":"3.7","precipInches":"0.1","humidity":"75","visibility":"9","visibilityMiles":"5","pressure":"1008","pressureInches":"30","cloudcover":"29","HeatIndexC":"33","HeatIndexF":"91","DewPointC":"24","DewPointF":"74","WindChillC":"29","WindChillF":"84","WindGustMiles":"7","WindGustKmph":"12","FeelsLikeC":"33","FeelsLikeF":"91","uvIndex":"6"}]},{"date":"2016-02-04","astronomy":[{"sunrise":"06:10
+        AM","sunset":"06:40 PM","moonrise":"01:54 AM","moonset":"02:43 PM","moon_phase":"Waning
+        Crescent","moon_illumination":"11"}],"maxtempC":"33","maxtempF":"91","mintempC":"26","mintempF":"80","avgtempC":"30","avgtempF":"87","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"7","hourly":[{"time":"24","tempC":"33","tempF":"91","windspeedMiles":"6","windspeedKmph":"9","winddirDegree":"218","winddir16Point":"SW","weatherCode":"176","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"}],"weatherDesc":[{"value":"Patchy
+        rain possible"}],"precipMM":"1.3","precipInches":"0.1","humidity":"70","visibility":"10","visibilityMiles":"6","pressure":"1008","pressureInches":"30","cloudcover":"22","HeatIndexC":"33","HeatIndexF":"91","DewPointC":"23","DewPointF":"73","WindChillC":"29","WindChillF":"84","WindGustMiles":"8","WindGustKmph":"13","FeelsLikeC":"33","FeelsLikeF":"91","uvIndex":"7"}]}]}}'
+  recorded_at: Mon, 19 Apr 2021 17:41:42 GMT
+- request:
+    method: get
+    uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-02-05&enddate=2016-03-11&format=json&key=900f2167e4ae442797e144340211404&q=&tp=24%0A%20%20%20%20
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 19 Apr 2021 17:41:43 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-718
+      Cdn-Pullzone:
+      - '61832'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Cdn-Edgestorageid:
+      - '718'
+      Cache-Control:
+      - public, max-age=180
+      X-Wwo-Qpd-Left:
+      - '474'
+      Cdn-Cachedat:
+      - '2021-04-19 12:41:43'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Requestid:
+      - 84fa1f8e2722c7f09e3eef5f404c20e6
+      Cdn-Cache:
+      - MISS
+    body:
+      encoding: ASCII-8BIT
+      string: '{ "data": { "error": [ {"msg": "Unable to find any matching weather
+        location to the query submitted!" } ] }}'
+  recorded_at: Mon, 19 Apr 2021 17:41:43 GMT
+recorded_with: VCR 6.0.0
