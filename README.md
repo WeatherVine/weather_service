@@ -20,5 +20,5 @@
       "region": #{region(string)}
     }
   }
-}```
+}
 
