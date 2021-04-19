@@ -16,7 +16,7 @@ describe 'Climate Data API' do
 
   it 'has a successful response' do
     VCR.use_cassette('climate_data') do
-      get '/climate_data'
+      get '/climate_data', params: { vintage: 2017, region: 'napa-valley' }
 
       expect(last_response).to be_ok
     end
@@ -24,7 +24,7 @@ describe 'Climate Data API' do
 
   it 'outputs the right data' do
     VCR.use_cassette('climate_data') do
-      get '/climate_data'
+      get '/climate_data', params: { vintage: 2017, region: 'napa-valley' }
       parsed = JSON.parse(last_response.body, symbolize_names: true)
       data = parsed[:data]
       
@@ -35,5 +35,23 @@ describe 'Climate Data API' do
       expect(data[:attributes]).to have_key(:vintage)
       expect(data[:attributes]).to have_key(:location)
     end
+  end
+
+  it 'can pass the correct parameters' do
+    VCR.use_cassette('climate_data_with_parameters') do
+      get '/climate_data', params: { vintage: 2017, region: 'napa-valley' }
+      parsed = JSON.parse(last_response.body, symbolize_names: true)
+      data = parsed[:data]
+
+      expect(last_response).to be_successful
+      expect(data[:attributes][:location]).to eq("Napa Valley")
+      expect(data[:attributes][:vintage]).to eq(2017)
+    end
+  end
+
+  it 'will send 404 response if no parameters are given' do
+    get '/climate_data'
+
+    expect(last_response).to_not be_successful
   end
 end

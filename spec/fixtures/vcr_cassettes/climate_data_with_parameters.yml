@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:01:57 GMT
+      - Mon, 19 Apr 2021 15:02:09 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -51,9 +51,9 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - fe751996b6858861639d14bd61764d0f
+      - d11688f1c557ecc1fb669b5ef249b04c
       Cdn-Cache:
-      - EXPIRED
+      - HIT
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa Napa, Papua New Guinea"}],"weather":[{"date":"2014-01-01","astronomy":[{"sunrise":"05:55
@@ -155,7 +155,7 @@ http_interactions:
         AM","sunset":"06:40 PM","moonrise":"09:58 AM","moonset":"10:12 PM","moon_phase":"Waxing
         Crescent","moon_illumination":"29"}],"maxtempC":"32","maxtempF":"90","mintempC":"26","mintempF":"79","avgtempC":"30","avgtempF":"86","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"7","hourly":[{"time":"24","tempC":"32","tempF":"90","windspeedMiles":"7","windspeedKmph":"12","winddirDegree":"192","winddir16Point":"SSW","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.0","precipInches":"0.0","humidity":"57","visibility":"10","visibilityMiles":"6","pressure":"1006","pressureInches":"30","cloudcover":"37","HeatIndexC":"30","HeatIndexF":"87","DewPointC":"19","DewPointF":"66","WindChillC":"29","WindChillF":"83","WindGustMiles":"11","WindGustKmph":"18","FeelsLikeC":"30","FeelsLikeF":"87","uvIndex":"7"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:01:57 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:09 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-02-05&enddate=2014-03-11&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -175,7 +175,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:01:58 GMT
+      - Mon, 19 Apr 2021 15:02:10 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -205,9 +205,9 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 1c7ea274c54b800a2e68adb9e109a71d
+      - 31f44d477646e534b2f0c2aa65278297
       Cdn-Cache:
-      - EXPIRED
+      - HIT
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa Napa, Papua New Guinea"}],"weather":[{"date":"2014-02-05","astronomy":[{"sunrise":"06:11
@@ -312,7 +312,7 @@ http_interactions:
         AM","sunset":"06:27 PM","moonrise":"02:29 PM","moonset":"01:40 AM","moon_phase":"Waxing
         Gibbous","moon_illumination":"67"}],"maxtempC":"31","maxtempF":"87","mintempC":"25","mintempF":"76","avgtempC":"29","avgtempF":"83","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"7","hourly":[{"time":"24","tempC":"31","tempF":"87","windspeedMiles":"6","windspeedKmph":"10","winddirDegree":"240","winddir16Point":"WSW","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.0","precipInches":"0.0","humidity":"69","visibility":"10","visibilityMiles":"6","pressure":"1010","pressureInches":"30","cloudcover":"18","HeatIndexC":"30","HeatIndexF":"86","DewPointC":"21","DewPointF":"70","WindChillC":"27","WindChillF":"81","WindGustMiles":"9","WindGustKmph":"15","FeelsLikeC":"30","FeelsLikeF":"86","uvIndex":"7"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:01:58 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:09 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-03-12&enddate=2014-04-15&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -332,7 +332,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:01:58 GMT
+      - Mon, 19 Apr 2021 15:02:10 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -364,9 +364,9 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 4e6f84f8027cba91b75c595c3b7a2a2d
+      - e14405ec5d742480de14520e6a3d2f23
       Cdn-Cache:
-      - EXPIRED
+      - HIT
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa Napa, Papua New Guinea"}],"weather":[{"date":"2014-03-12","astronomy":[{"sunrise":"06:16
@@ -464,7 +464,7 @@ http_interactions:
         AM","sunset":"06:08 PM","moonrise":"06:05 PM","moonset":"05:53 AM","moon_phase":"Waxing
         Gibbous","moon_illumination":"89"}],"maxtempC":"30","maxtempF":"85","mintempC":"25","mintempF":"77","avgtempC":"28","avgtempF":"82","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"6","hourly":[{"time":"24","tempC":"30","tempF":"85","windspeedMiles":"4","windspeedKmph":"6","winddirDegree":"191","winddir16Point":"S","weatherCode":"356","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png"}],"weatherDesc":[{"value":"Moderate
         or heavy rain shower"}],"precipMM":"13.4","precipInches":"0.5","humidity":"79","visibility":"9","visibilityMiles":"5","pressure":"1010","pressureInches":"30","cloudcover":"52","HeatIndexC":"30","HeatIndexF":"86","DewPointC":"23","DewPointF":"73","WindChillC":"27","WindChillF":"81","WindGustMiles":"6","WindGustKmph":"9","FeelsLikeC":"30","FeelsLikeF":"86","uvIndex":"6"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:01:58 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:10 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-04-16&enddate=2014-05-20&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -484,7 +484,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:01:59 GMT
+      - Mon, 19 Apr 2021 15:02:10 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -514,9 +514,9 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - d71684fc2eadc5712506ac657d86ac01
+      - b979e6f258d8eefef5a8073075f6d025
       Cdn-Cache:
-      - EXPIRED
+      - HIT
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa Napa, Papua New Guinea"}],"weather":[{"date":"2014-04-16","astronomy":[{"sunrise":"06:15
@@ -617,7 +617,7 @@ http_interactions:
         AM","sunset":"05:58 PM","moonrise":"11:21 PM","moonset":"11:10 AM","moon_phase":"Last
         Quarter","moon_illumination":"53"}],"maxtempC":"30","maxtempF":"86","mintempC":"25","mintempF":"77","avgtempC":"28","avgtempF":"83","totalSnow_cm":"0.0","sunHour":"8.7","uvIndex":"7","hourly":[{"time":"24","tempC":"30","tempF":"86","windspeedMiles":"9","windspeedKmph":"14","winddirDegree":"134","winddir16Point":"SE","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.1","precipInches":"0.0","humidity":"74","visibility":"10","visibilityMiles":"6","pressure":"1010","pressureInches":"30","cloudcover":"20","HeatIndexC":"30","HeatIndexF":"86","DewPointC":"22","DewPointF":"72","WindChillC":"27","WindChillF":"81","WindGustMiles":"14","WindGustKmph":"22","FeelsLikeC":"30","FeelsLikeF":"86","uvIndex":"7"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:01:59 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:10 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-05-21&enddate=2014-06-24&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -637,7 +637,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:02:00 GMT
+      - Mon, 19 Apr 2021 15:02:10 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -667,9 +667,9 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - da61497314ba53576419fca55c63a4c7
+      - 25940c27ecf8322f890f435166cd4dc1
       Cdn-Cache:
-      - MISS
+      - HIT
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa Napa, Papua New Guinea"}],"weather":[{"date":"2014-05-21","astronomy":[{"sunrise":"06:18
@@ -773,7 +773,7 @@ http_interactions:
         AM","sunset":"06:01 PM","moonrise":"03:31 AM","moonset":"03:32 PM","moon_phase":"Waning
         Crescent","moon_illumination":"6"}],"maxtempC":"28","maxtempF":"82","mintempC":"23","mintempF":"73","avgtempC":"26","avgtempF":"79","totalSnow_cm":"0.0","sunHour":"10.2","uvIndex":"6","hourly":[{"time":"24","tempC":"28","tempF":"82","windspeedMiles":"10","windspeedKmph":"16","winddirDegree":"145","winddir16Point":"SE","weatherCode":"353","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"}],"weatherDesc":[{"value":"Light
         rain shower"}],"precipMM":"5.6","precipInches":"0.2","humidity":"82","visibility":"9","visibilityMiles":"5","pressure":"1013","pressureInches":"30","cloudcover":"40","HeatIndexC":"28","HeatIndexF":"82","DewPointC":"22","DewPointF":"71","WindChillC":"25","WindChillF":"77","WindGustMiles":"14","WindGustKmph":"23","FeelsLikeC":"28","FeelsLikeF":"82","uvIndex":"6"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:02:00 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:10 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-06-25&enddate=2014-07-29&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -793,7 +793,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:02:02 GMT
+      - Mon, 19 Apr 2021 15:02:10 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -823,9 +823,9 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - b7e9c77c3d669cee4e03b9c931db1044
+      - 98cec3a38865b84ca3f2e99ec174992c
       Cdn-Cache:
-      - EXPIRED
+      - HIT
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa Napa, Papua New Guinea"}],"weather":[{"date":"2014-06-25","astronomy":[{"sunrise":"06:27
@@ -921,7 +921,7 @@ http_interactions:
         AM","sunset":"06:09 PM","moonrise":"07:44 AM","moonset":"07:53 PM","moon_phase":"Waxing
         Crescent","moon_illumination":"12"}],"maxtempC":"29","maxtempF":"84","mintempC":"23","mintempF":"73","avgtempC":"26","avgtempF":"79","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"7","hourly":[{"time":"24","tempC":"29","tempF":"84","windspeedMiles":"13","windspeedKmph":"21","winddirDegree":"137","winddir16Point":"SE","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.0","precipInches":"0.0","humidity":"73","visibility":"10","visibilityMiles":"6","pressure":"1013","pressureInches":"30","cloudcover":"18","HeatIndexC":"27","HeatIndexF":"81","DewPointC":"20","DewPointF":"68","WindChillC":"25","WindChillF":"77","WindGustMiles":"20","WindGustKmph":"32","FeelsLikeC":"27","FeelsLikeF":"81","uvIndex":"7"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:02:02 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:10 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-07-30&enddate=2014-09-02&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -941,7 +941,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:02:04 GMT
+      - Mon, 19 Apr 2021 15:02:10 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -971,9 +971,9 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - f73a6741845a018f6a57553168d7af0a
+      - 5e6bd647bed2b3387d3bfd8a0edf85b3
       Cdn-Cache:
-      - EXPIRED
+      - HIT
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa Napa, Papua New Guinea"}],"weather":[{"date":"2014-07-30","astronomy":[{"sunrise":"06:27
@@ -1074,7 +1074,7 @@ http_interactions:
         AM","sunset":"06:09 PM","moonrise":"11:29 AM","moonset":"No moonset","moon_phase":"First
         Quarter","moon_illumination":"53"}],"maxtempC":"29","maxtempF":"83","mintempC":"24","mintempF":"75","avgtempC":"26","avgtempF":"79","totalSnow_cm":"0.0","sunHour":"10.2","uvIndex":"6","hourly":[{"time":"24","tempC":"29","tempF":"83","windspeedMiles":"12","windspeedKmph":"19","winddirDegree":"145","winddir16Point":"SE","weatherCode":"356","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png"}],"weatherDesc":[{"value":"Moderate
         or heavy rain shower"}],"precipMM":"14.6","precipInches":"0.6","humidity":"82","visibility":"9","visibilityMiles":"5","pressure":"1012","pressureInches":"30","cloudcover":"44","HeatIndexC":"28","HeatIndexF":"82","DewPointC":"22","DewPointF":"72","WindChillC":"25","WindChillF":"78","WindGustMiles":"19","WindGustKmph":"30","FeelsLikeC":"28","FeelsLikeF":"82","uvIndex":"6"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:02:04 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:10 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-09-03&enddate=2014-10-07&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -1094,7 +1094,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:02:05 GMT
+      - Mon, 19 Apr 2021 15:02:10 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1124,9 +1124,9 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 345b201e14e5af4843df7a97e7bc2128
+      - f8b6520e69b208eef418468be43e2df8
       Cdn-Cache:
-      - EXPIRED
+      - HIT
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa Napa, Papua New Guinea"}],"weather":[{"date":"2014-09-03","astronomy":[{"sunrise":"06:13
@@ -1231,7 +1231,7 @@ http_interactions:
         AM","sunset":"06:06 PM","moonrise":"04:59 PM","moonset":"04:31 AM","moon_phase":"Waxing
         Gibbous","moon_illumination":"91"}],"maxtempC":"28","maxtempF":"82","mintempC":"22","mintempF":"72","avgtempC":"25","avgtempF":"78","totalSnow_cm":"0.0","sunHour":"12.5","uvIndex":"7","hourly":[{"time":"24","tempC":"28","tempF":"82","windspeedMiles":"8","windspeedKmph":"13","winddirDegree":"158","winddir16Point":"SSE","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.0","precipInches":"0.0","humidity":"78","visibility":"10","visibilityMiles":"6","pressure":"1011","pressureInches":"30","cloudcover":"22","HeatIndexC":"26","HeatIndexF":"79","DewPointC":"20","DewPointF":"68","WindChillC":"24","WindChillF":"76","WindGustMiles":"12","WindGustKmph":"19","FeelsLikeC":"26","FeelsLikeF":"79","uvIndex":"7"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:02:05 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:10 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-10-08&enddate=2014-11-11&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -1251,7 +1251,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:02:05 GMT
+      - Mon, 19 Apr 2021 15:02:10 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1281,9 +1281,9 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - b4767020807efdd64c9d3c90a52a39ca
+      - 06db5bba0d76bc519074bf8f1ccbc6d6
       Cdn-Cache:
-      - EXPIRED
+      - HIT
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa Napa, Papua New Guinea"}],"weather":[{"date":"2014-10-08","astronomy":[{"sunrise":"05:52
@@ -1378,7 +1378,7 @@ http_interactions:
         AM","sunset":"06:11 PM","moonrise":"10:02 PM","moonset":"09:11 AM","moon_phase":"Waning
         Gibbous","moon_illumination":"64"}],"maxtempC":"31","maxtempF":"88","mintempC":"25","mintempF":"77","avgtempC":"29","avgtempF":"84","totalSnow_cm":"0.0","sunHour":"12.7","uvIndex":"6","hourly":[{"time":"24","tempC":"31","tempF":"88","windspeedMiles":"11","windspeedKmph":"17","winddirDegree":"143","winddir16Point":"SE","weatherCode":"353","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"}],"weatherDesc":[{"value":"Light
         rain shower"}],"precipMM":"6.0","precipInches":"0.2","humidity":"76","visibility":"9","visibilityMiles":"5","pressure":"1009","pressureInches":"30","cloudcover":"31","HeatIndexC":"31","HeatIndexF":"87","DewPointC":"23","DewPointF":"73","WindChillC":"27","WindChillF":"81","WindGustMiles":"15","WindGustKmph":"25","FeelsLikeC":"31","FeelsLikeF":"87","uvIndex":"6"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:02:05 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:10 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-11-12&enddate=2014-12-16&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -1398,7 +1398,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:02:06 GMT
+      - Mon, 19 Apr 2021 15:02:10 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1428,9 +1428,9 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 90c9270ed8da16227a71a4dc97b38a41
+      - 5c1c1faf5a11a731b0e60eb6ff5a1458
       Cdn-Cache:
-      - EXPIRED
+      - HIT
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa Napa, Papua New Guinea"}],"weather":[{"date":"2014-11-12","astronomy":[{"sunrise":"05:40
@@ -1530,7 +1530,7 @@ http_interactions:
         or heavy rain shower"}],"precipMM":"4.5","precipInches":"0.2","humidity":"68","visibility":"10","visibilityMiles":"5","pressure":"1010","pressureInches":"30","cloudcover":"40","HeatIndexC":"29","HeatIndexF":"85","DewPointC":"21","DewPointF":"69","WindChillC":"27","WindChillF":"81","WindGustMiles":"10","WindGustKmph":"17","FeelsLikeC":"29","FeelsLikeF":"85","uvIndex":"6"}]},{"date":"2014-12-16","astronomy":[{"sunrise":"05:47
         AM","sunset":"06:27 PM","moonrise":"12:51 AM","moonset":"01:18 PM","moon_phase":"Last
         Quarter","moon_illumination":"29"}],"maxtempC":"31","maxtempF":"88","mintempC":"25","mintempF":"77","avgtempC":"29","avgtempF":"84","totalSnow_cm":"0.0","sunHour":"12.8","uvIndex":"7","hourly":[{"time":"24","tempC":"31","tempF":"88","windspeedMiles":"5","windspeedKmph":"8","winddirDegree":"133","winddir16Point":"SE","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.0","precipInches":"0.0","humidity":"63","visibility":"10","visibilityMiles":"6","pressure":"1009","pressureInches":"30","cloudcover":"15","HeatIndexC":"30","HeatIndexF":"86","DewPointC":"20","DewPointF":"68","WindChillC":"28","WindChillF":"82","WindGustMiles":"7","WindGustKmph":"12","FeelsLikeC":"30","FeelsLikeF":"86","uvIndex":"7"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:02:06 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:10 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-12-17&enddate=2014-12-31&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -1550,7 +1550,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:02:06 GMT
+      - Mon, 19 Apr 2021 15:02:10 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1580,9 +1580,9 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - b09b9446e8a47340e1889654e73577ce
+      - 535db9691a2e5d8a9941fce4f7b1acac
       Cdn-Cache:
-      - EXPIRED
+      - HIT
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa Napa, Papua New Guinea"}],"weather":[{"date":"2014-12-17","astronomy":[{"sunrise":"05:47
@@ -1627,7 +1627,7 @@ http_interactions:
         AM","sunset":"06:34 PM","moonrise":"02:14 PM","moonset":"01:31 AM","moon_phase":"First
         Quarter","moon_illumination":"62"}],"maxtempC":"31","maxtempF":"88","mintempC":"24","mintempF":"76","avgtempC":"29","avgtempF":"84","totalSnow_cm":"0.0","sunHour":"12.8","uvIndex":"7","hourly":[{"time":"24","tempC":"31","tempF":"88","windspeedMiles":"5","windspeedKmph":"7","winddirDegree":"170","winddir16Point":"S","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.1","precipInches":"0.0","humidity":"72","visibility":"10","visibilityMiles":"6","pressure":"1007","pressureInches":"30","cloudcover":"16","HeatIndexC":"31","HeatIndexF":"87","DewPointC":"22","DewPointF":"72","WindChillC":"28","WindChillF":"82","WindGustMiles":"7","WindGustKmph":"11","FeelsLikeC":"31","FeelsLikeF":"87","uvIndex":"7"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:02:06 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:10 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-01-01&enddate=2014-02-04&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -1647,7 +1647,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:02:07 GMT
+      - Mon, 19 Apr 2021 15:02:11 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1679,7 +1679,7 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 8dd0675af4590a433eb18dda37fa148d
+      - b19b2e595a91be01ef71b63ce590cee3
       Cdn-Cache:
       - HIT
     body:
@@ -1783,7 +1783,7 @@ http_interactions:
         AM","sunset":"06:40 PM","moonrise":"09:58 AM","moonset":"10:12 PM","moon_phase":"Waxing
         Crescent","moon_illumination":"29"}],"maxtempC":"32","maxtempF":"90","mintempC":"26","mintempF":"79","avgtempC":"30","avgtempF":"86","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"7","hourly":[{"time":"24","tempC":"32","tempF":"90","windspeedMiles":"7","windspeedKmph":"12","winddirDegree":"192","winddir16Point":"SSW","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.0","precipInches":"0.0","humidity":"57","visibility":"10","visibilityMiles":"6","pressure":"1006","pressureInches":"30","cloudcover":"37","HeatIndexC":"30","HeatIndexF":"87","DewPointC":"19","DewPointF":"66","WindChillC":"29","WindChillF":"83","WindGustMiles":"11","WindGustKmph":"18","FeelsLikeC":"30","FeelsLikeF":"87","uvIndex":"7"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:02:06 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:10 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-02-05&enddate=2014-03-11&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -1803,7 +1803,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:02:07 GMT
+      - Mon, 19 Apr 2021 15:02:11 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1833,7 +1833,7 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 2e68c179e8da9f38ca5dd99a6f669da7
+      - 772b20680ec82d65abad1fa97ad12704
       Cdn-Cache:
       - HIT
     body:
@@ -1940,7 +1940,7 @@ http_interactions:
         AM","sunset":"06:27 PM","moonrise":"02:29 PM","moonset":"01:40 AM","moon_phase":"Waxing
         Gibbous","moon_illumination":"67"}],"maxtempC":"31","maxtempF":"87","mintempC":"25","mintempF":"76","avgtempC":"29","avgtempF":"83","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"7","hourly":[{"time":"24","tempC":"31","tempF":"87","windspeedMiles":"6","windspeedKmph":"10","winddirDegree":"240","winddir16Point":"WSW","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.0","precipInches":"0.0","humidity":"69","visibility":"10","visibilityMiles":"6","pressure":"1010","pressureInches":"30","cloudcover":"18","HeatIndexC":"30","HeatIndexF":"86","DewPointC":"21","DewPointF":"70","WindChillC":"27","WindChillF":"81","WindGustMiles":"9","WindGustKmph":"15","FeelsLikeC":"30","FeelsLikeF":"86","uvIndex":"7"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:02:07 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:11 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-03-12&enddate=2014-04-15&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -1960,7 +1960,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:02:07 GMT
+      - Mon, 19 Apr 2021 15:02:11 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1992,7 +1992,7 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 8977c93be8a45e24f2346364dea04412
+      - e89e7e2ebeead2dd854b801ddde2306a
       Cdn-Cache:
       - HIT
     body:
@@ -2092,7 +2092,7 @@ http_interactions:
         AM","sunset":"06:08 PM","moonrise":"06:05 PM","moonset":"05:53 AM","moon_phase":"Waxing
         Gibbous","moon_illumination":"89"}],"maxtempC":"30","maxtempF":"85","mintempC":"25","mintempF":"77","avgtempC":"28","avgtempF":"82","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"6","hourly":[{"time":"24","tempC":"30","tempF":"85","windspeedMiles":"4","windspeedKmph":"6","winddirDegree":"191","winddir16Point":"S","weatherCode":"356","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png"}],"weatherDesc":[{"value":"Moderate
         or heavy rain shower"}],"precipMM":"13.4","precipInches":"0.5","humidity":"79","visibility":"9","visibilityMiles":"5","pressure":"1010","pressureInches":"30","cloudcover":"52","HeatIndexC":"30","HeatIndexF":"86","DewPointC":"23","DewPointF":"73","WindChillC":"27","WindChillF":"81","WindGustMiles":"6","WindGustKmph":"9","FeelsLikeC":"30","FeelsLikeF":"86","uvIndex":"6"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:02:07 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:11 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-04-16&enddate=2014-05-20&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -2112,7 +2112,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:02:07 GMT
+      - Mon, 19 Apr 2021 15:02:11 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -2142,7 +2142,7 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 8fb682607ea3f33efbb4cfd349704c71
+      - 68a7088284690522f3c1983a88c0e009
       Cdn-Cache:
       - HIT
     body:
@@ -2245,7 +2245,7 @@ http_interactions:
         AM","sunset":"05:58 PM","moonrise":"11:21 PM","moonset":"11:10 AM","moon_phase":"Last
         Quarter","moon_illumination":"53"}],"maxtempC":"30","maxtempF":"86","mintempC":"25","mintempF":"77","avgtempC":"28","avgtempF":"83","totalSnow_cm":"0.0","sunHour":"8.7","uvIndex":"7","hourly":[{"time":"24","tempC":"30","tempF":"86","windspeedMiles":"9","windspeedKmph":"14","winddirDegree":"134","winddir16Point":"SE","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.1","precipInches":"0.0","humidity":"74","visibility":"10","visibilityMiles":"6","pressure":"1010","pressureInches":"30","cloudcover":"20","HeatIndexC":"30","HeatIndexF":"86","DewPointC":"22","DewPointF":"72","WindChillC":"27","WindChillF":"81","WindGustMiles":"14","WindGustKmph":"22","FeelsLikeC":"30","FeelsLikeF":"86","uvIndex":"7"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:02:07 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:11 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-05-21&enddate=2014-06-24&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -2265,7 +2265,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:02:07 GMT
+      - Mon, 19 Apr 2021 15:02:11 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -2295,7 +2295,7 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 5f4d920d505181dc7f73e57840488d63
+      - e1279b0331608576f53478fde9470bb1
       Cdn-Cache:
       - HIT
     body:
@@ -2401,7 +2401,7 @@ http_interactions:
         AM","sunset":"06:01 PM","moonrise":"03:31 AM","moonset":"03:32 PM","moon_phase":"Waning
         Crescent","moon_illumination":"6"}],"maxtempC":"28","maxtempF":"82","mintempC":"23","mintempF":"73","avgtempC":"26","avgtempF":"79","totalSnow_cm":"0.0","sunHour":"10.2","uvIndex":"6","hourly":[{"time":"24","tempC":"28","tempF":"82","windspeedMiles":"10","windspeedKmph":"16","winddirDegree":"145","winddir16Point":"SE","weatherCode":"353","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"}],"weatherDesc":[{"value":"Light
         rain shower"}],"precipMM":"5.6","precipInches":"0.2","humidity":"82","visibility":"9","visibilityMiles":"5","pressure":"1013","pressureInches":"30","cloudcover":"40","HeatIndexC":"28","HeatIndexF":"82","DewPointC":"22","DewPointF":"71","WindChillC":"25","WindChillF":"77","WindGustMiles":"14","WindGustKmph":"23","FeelsLikeC":"28","FeelsLikeF":"82","uvIndex":"6"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:02:07 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:11 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-06-25&enddate=2014-07-29&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -2421,7 +2421,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:02:07 GMT
+      - Mon, 19 Apr 2021 15:02:11 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -2451,7 +2451,7 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 6e485bad421946c671ff691fa62b9dde
+      - d9aa5895a603f41c7209012965d27d13
       Cdn-Cache:
       - HIT
     body:
@@ -2549,7 +2549,7 @@ http_interactions:
         AM","sunset":"06:09 PM","moonrise":"07:44 AM","moonset":"07:53 PM","moon_phase":"Waxing
         Crescent","moon_illumination":"12"}],"maxtempC":"29","maxtempF":"84","mintempC":"23","mintempF":"73","avgtempC":"26","avgtempF":"79","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"7","hourly":[{"time":"24","tempC":"29","tempF":"84","windspeedMiles":"13","windspeedKmph":"21","winddirDegree":"137","winddir16Point":"SE","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.0","precipInches":"0.0","humidity":"73","visibility":"10","visibilityMiles":"6","pressure":"1013","pressureInches":"30","cloudcover":"18","HeatIndexC":"27","HeatIndexF":"81","DewPointC":"20","DewPointF":"68","WindChillC":"25","WindChillF":"77","WindGustMiles":"20","WindGustKmph":"32","FeelsLikeC":"27","FeelsLikeF":"81","uvIndex":"7"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:02:07 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:11 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-07-30&enddate=2014-09-02&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -2569,7 +2569,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:02:07 GMT
+      - Mon, 19 Apr 2021 15:02:11 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -2599,7 +2599,7 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - bf4a80400985c2a59d715c74a735e0b2
+      - fc305f128cdae1e4f4ad08cb76fa83b3
       Cdn-Cache:
       - HIT
     body:
@@ -2702,7 +2702,7 @@ http_interactions:
         AM","sunset":"06:09 PM","moonrise":"11:29 AM","moonset":"No moonset","moon_phase":"First
         Quarter","moon_illumination":"53"}],"maxtempC":"29","maxtempF":"83","mintempC":"24","mintempF":"75","avgtempC":"26","avgtempF":"79","totalSnow_cm":"0.0","sunHour":"10.2","uvIndex":"6","hourly":[{"time":"24","tempC":"29","tempF":"83","windspeedMiles":"12","windspeedKmph":"19","winddirDegree":"145","winddir16Point":"SE","weatherCode":"356","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png"}],"weatherDesc":[{"value":"Moderate
         or heavy rain shower"}],"precipMM":"14.6","precipInches":"0.6","humidity":"82","visibility":"9","visibilityMiles":"5","pressure":"1012","pressureInches":"30","cloudcover":"44","HeatIndexC":"28","HeatIndexF":"82","DewPointC":"22","DewPointF":"72","WindChillC":"25","WindChillF":"78","WindGustMiles":"19","WindGustKmph":"30","FeelsLikeC":"28","FeelsLikeF":"82","uvIndex":"6"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:02:07 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:11 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-09-03&enddate=2014-10-07&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -2722,7 +2722,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:02:07 GMT
+      - Mon, 19 Apr 2021 15:02:11 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -2752,7 +2752,7 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 1565281348fdbe95e4fc91b483e872f7
+      - 5ada18ee450fb94d03076d3c6538a160
       Cdn-Cache:
       - HIT
     body:
@@ -2859,7 +2859,7 @@ http_interactions:
         AM","sunset":"06:06 PM","moonrise":"04:59 PM","moonset":"04:31 AM","moon_phase":"Waxing
         Gibbous","moon_illumination":"91"}],"maxtempC":"28","maxtempF":"82","mintempC":"22","mintempF":"72","avgtempC":"25","avgtempF":"78","totalSnow_cm":"0.0","sunHour":"12.5","uvIndex":"7","hourly":[{"time":"24","tempC":"28","tempF":"82","windspeedMiles":"8","windspeedKmph":"13","winddirDegree":"158","winddir16Point":"SSE","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.0","precipInches":"0.0","humidity":"78","visibility":"10","visibilityMiles":"6","pressure":"1011","pressureInches":"30","cloudcover":"22","HeatIndexC":"26","HeatIndexF":"79","DewPointC":"20","DewPointF":"68","WindChillC":"24","WindChillF":"76","WindGustMiles":"12","WindGustKmph":"19","FeelsLikeC":"26","FeelsLikeF":"79","uvIndex":"7"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:02:07 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:11 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-10-08&enddate=2014-11-11&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -2879,7 +2879,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:02:07 GMT
+      - Mon, 19 Apr 2021 15:02:12 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -2909,7 +2909,7 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 3d59b16248137939534a1c5b8a37037b
+      - 77fecafa1e7228fff94a38a54a4420a7
       Cdn-Cache:
       - HIT
     body:
@@ -3006,7 +3006,7 @@ http_interactions:
         AM","sunset":"06:11 PM","moonrise":"10:02 PM","moonset":"09:11 AM","moon_phase":"Waning
         Gibbous","moon_illumination":"64"}],"maxtempC":"31","maxtempF":"88","mintempC":"25","mintempF":"77","avgtempC":"29","avgtempF":"84","totalSnow_cm":"0.0","sunHour":"12.7","uvIndex":"6","hourly":[{"time":"24","tempC":"31","tempF":"88","windspeedMiles":"11","windspeedKmph":"17","winddirDegree":"143","winddir16Point":"SE","weatherCode":"353","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"}],"weatherDesc":[{"value":"Light
         rain shower"}],"precipMM":"6.0","precipInches":"0.2","humidity":"76","visibility":"9","visibilityMiles":"5","pressure":"1009","pressureInches":"30","cloudcover":"31","HeatIndexC":"31","HeatIndexF":"87","DewPointC":"23","DewPointF":"73","WindChillC":"27","WindChillF":"81","WindGustMiles":"15","WindGustKmph":"25","FeelsLikeC":"31","FeelsLikeF":"87","uvIndex":"6"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:02:07 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:11 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-11-12&enddate=2014-12-16&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -3026,7 +3026,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:02:08 GMT
+      - Mon, 19 Apr 2021 15:02:12 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -3056,7 +3056,7 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 1b4230344474fd352a2858271c84af46
+      - 4bd37671bc7ed79cb5d4c11a92162191
       Cdn-Cache:
       - HIT
     body:
@@ -3158,7 +3158,7 @@ http_interactions:
         or heavy rain shower"}],"precipMM":"4.5","precipInches":"0.2","humidity":"68","visibility":"10","visibilityMiles":"5","pressure":"1010","pressureInches":"30","cloudcover":"40","HeatIndexC":"29","HeatIndexF":"85","DewPointC":"21","DewPointF":"69","WindChillC":"27","WindChillF":"81","WindGustMiles":"10","WindGustKmph":"17","FeelsLikeC":"29","FeelsLikeF":"85","uvIndex":"6"}]},{"date":"2014-12-16","astronomy":[{"sunrise":"05:47
         AM","sunset":"06:27 PM","moonrise":"12:51 AM","moonset":"01:18 PM","moon_phase":"Last
         Quarter","moon_illumination":"29"}],"maxtempC":"31","maxtempF":"88","mintempC":"25","mintempF":"77","avgtempC":"29","avgtempF":"84","totalSnow_cm":"0.0","sunHour":"12.8","uvIndex":"7","hourly":[{"time":"24","tempC":"31","tempF":"88","windspeedMiles":"5","windspeedKmph":"8","winddirDegree":"133","winddir16Point":"SE","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.0","precipInches":"0.0","humidity":"63","visibility":"10","visibilityMiles":"6","pressure":"1009","pressureInches":"30","cloudcover":"15","HeatIndexC":"30","HeatIndexF":"86","DewPointC":"20","DewPointF":"68","WindChillC":"28","WindChillF":"82","WindGustMiles":"7","WindGustKmph":"12","FeelsLikeC":"30","FeelsLikeF":"86","uvIndex":"7"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:02:07 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:12 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-12-17&enddate=2014-12-31&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -3178,7 +3178,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:02:08 GMT
+      - Mon, 19 Apr 2021 15:02:12 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -3208,7 +3208,7 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 4f09714fbdafee80f72e721fafd528cd
+      - 374713a5a720108f73b3d027c5f86e64
       Cdn-Cache:
       - HIT
     body:
@@ -3255,7 +3255,7 @@ http_interactions:
         AM","sunset":"06:34 PM","moonrise":"02:14 PM","moonset":"01:31 AM","moon_phase":"First
         Quarter","moon_illumination":"62"}],"maxtempC":"31","maxtempF":"88","mintempC":"24","mintempF":"76","avgtempC":"29","avgtempF":"84","totalSnow_cm":"0.0","sunHour":"12.8","uvIndex":"7","hourly":[{"time":"24","tempC":"31","tempF":"88","windspeedMiles":"5","windspeedKmph":"7","winddirDegree":"170","winddir16Point":"S","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.1","precipInches":"0.0","humidity":"72","visibility":"10","visibilityMiles":"6","pressure":"1007","pressureInches":"30","cloudcover":"16","HeatIndexC":"31","HeatIndexF":"87","DewPointC":"22","DewPointF":"72","WindChillC":"28","WindChillF":"82","WindGustMiles":"7","WindGustKmph":"11","FeelsLikeC":"31","FeelsLikeF":"87","uvIndex":"7"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:02:08 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:12 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-01-01&enddate=2014-02-04&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -3275,7 +3275,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:02:08 GMT
+      - Mon, 19 Apr 2021 15:02:12 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -3307,7 +3307,7 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - aa2bef125537f6456550952ef61097fe
+      - 536bfed029e25627b46aceacc27efdb6
       Cdn-Cache:
       - HIT
     body:
@@ -3411,7 +3411,7 @@ http_interactions:
         AM","sunset":"06:40 PM","moonrise":"09:58 AM","moonset":"10:12 PM","moon_phase":"Waxing
         Crescent","moon_illumination":"29"}],"maxtempC":"32","maxtempF":"90","mintempC":"26","mintempF":"79","avgtempC":"30","avgtempF":"86","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"7","hourly":[{"time":"24","tempC":"32","tempF":"90","windspeedMiles":"7","windspeedKmph":"12","winddirDegree":"192","winddir16Point":"SSW","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.0","precipInches":"0.0","humidity":"57","visibility":"10","visibilityMiles":"6","pressure":"1006","pressureInches":"30","cloudcover":"37","HeatIndexC":"30","HeatIndexF":"87","DewPointC":"19","DewPointF":"66","WindChillC":"29","WindChillF":"83","WindGustMiles":"11","WindGustKmph":"18","FeelsLikeC":"30","FeelsLikeF":"87","uvIndex":"7"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:02:08 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:12 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-02-05&enddate=2014-03-11&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -3431,7 +3431,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:02:08 GMT
+      - Mon, 19 Apr 2021 15:02:12 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -3461,7 +3461,7 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - d4e38fee6dde86f940245e38f110a4ce
+      - 0b74c91ce0ebd721ecca3a27b32ea897
       Cdn-Cache:
       - HIT
     body:
@@ -3568,7 +3568,7 @@ http_interactions:
         AM","sunset":"06:27 PM","moonrise":"02:29 PM","moonset":"01:40 AM","moon_phase":"Waxing
         Gibbous","moon_illumination":"67"}],"maxtempC":"31","maxtempF":"87","mintempC":"25","mintempF":"76","avgtempC":"29","avgtempF":"83","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"7","hourly":[{"time":"24","tempC":"31","tempF":"87","windspeedMiles":"6","windspeedKmph":"10","winddirDegree":"240","winddir16Point":"WSW","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.0","precipInches":"0.0","humidity":"69","visibility":"10","visibilityMiles":"6","pressure":"1010","pressureInches":"30","cloudcover":"18","HeatIndexC":"30","HeatIndexF":"86","DewPointC":"21","DewPointF":"70","WindChillC":"27","WindChillF":"81","WindGustMiles":"9","WindGustKmph":"15","FeelsLikeC":"30","FeelsLikeF":"86","uvIndex":"7"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:02:08 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:12 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-03-12&enddate=2014-04-15&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -3588,7 +3588,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:02:08 GMT
+      - Mon, 19 Apr 2021 15:02:12 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -3620,7 +3620,7 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - bb112048afebc980e97b7c1534718cc7
+      - a38130f85e0e7bfe2c4e12472f3a3e3b
       Cdn-Cache:
       - HIT
     body:
@@ -3720,7 +3720,7 @@ http_interactions:
         AM","sunset":"06:08 PM","moonrise":"06:05 PM","moonset":"05:53 AM","moon_phase":"Waxing
         Gibbous","moon_illumination":"89"}],"maxtempC":"30","maxtempF":"85","mintempC":"25","mintempF":"77","avgtempC":"28","avgtempF":"82","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"6","hourly":[{"time":"24","tempC":"30","tempF":"85","windspeedMiles":"4","windspeedKmph":"6","winddirDegree":"191","winddir16Point":"S","weatherCode":"356","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png"}],"weatherDesc":[{"value":"Moderate
         or heavy rain shower"}],"precipMM":"13.4","precipInches":"0.5","humidity":"79","visibility":"9","visibilityMiles":"5","pressure":"1010","pressureInches":"30","cloudcover":"52","HeatIndexC":"30","HeatIndexF":"86","DewPointC":"23","DewPointF":"73","WindChillC":"27","WindChillF":"81","WindGustMiles":"6","WindGustKmph":"9","FeelsLikeC":"30","FeelsLikeF":"86","uvIndex":"6"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:02:08 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:12 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-04-16&enddate=2014-05-20&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -3740,7 +3740,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:02:08 GMT
+      - Mon, 19 Apr 2021 15:02:12 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -3770,7 +3770,7 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - b55fb98925e5a76c482b25c2ab6533b3
+      - 71726f0db1d64ac2609c1db250aba75d
       Cdn-Cache:
       - HIT
     body:
@@ -3873,7 +3873,7 @@ http_interactions:
         AM","sunset":"05:58 PM","moonrise":"11:21 PM","moonset":"11:10 AM","moon_phase":"Last
         Quarter","moon_illumination":"53"}],"maxtempC":"30","maxtempF":"86","mintempC":"25","mintempF":"77","avgtempC":"28","avgtempF":"83","totalSnow_cm":"0.0","sunHour":"8.7","uvIndex":"7","hourly":[{"time":"24","tempC":"30","tempF":"86","windspeedMiles":"9","windspeedKmph":"14","winddirDegree":"134","winddir16Point":"SE","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.1","precipInches":"0.0","humidity":"74","visibility":"10","visibilityMiles":"6","pressure":"1010","pressureInches":"30","cloudcover":"20","HeatIndexC":"30","HeatIndexF":"86","DewPointC":"22","DewPointF":"72","WindChillC":"27","WindChillF":"81","WindGustMiles":"14","WindGustKmph":"22","FeelsLikeC":"30","FeelsLikeF":"86","uvIndex":"7"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:02:08 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:12 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-05-21&enddate=2014-06-24&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -3893,7 +3893,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:02:08 GMT
+      - Mon, 19 Apr 2021 15:02:12 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -3923,7 +3923,7 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 5f97bea6573f066c2dc7a5a54c7223fb
+      - 713561fb57604e0015ff9852be76ed0e
       Cdn-Cache:
       - HIT
     body:
@@ -4029,7 +4029,7 @@ http_interactions:
         AM","sunset":"06:01 PM","moonrise":"03:31 AM","moonset":"03:32 PM","moon_phase":"Waning
         Crescent","moon_illumination":"6"}],"maxtempC":"28","maxtempF":"82","mintempC":"23","mintempF":"73","avgtempC":"26","avgtempF":"79","totalSnow_cm":"0.0","sunHour":"10.2","uvIndex":"6","hourly":[{"time":"24","tempC":"28","tempF":"82","windspeedMiles":"10","windspeedKmph":"16","winddirDegree":"145","winddir16Point":"SE","weatherCode":"353","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"}],"weatherDesc":[{"value":"Light
         rain shower"}],"precipMM":"5.6","precipInches":"0.2","humidity":"82","visibility":"9","visibilityMiles":"5","pressure":"1013","pressureInches":"30","cloudcover":"40","HeatIndexC":"28","HeatIndexF":"82","DewPointC":"22","DewPointF":"71","WindChillC":"25","WindChillF":"77","WindGustMiles":"14","WindGustKmph":"23","FeelsLikeC":"28","FeelsLikeF":"82","uvIndex":"6"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:02:08 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:12 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-06-25&enddate=2014-07-29&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -4049,7 +4049,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:02:09 GMT
+      - Mon, 19 Apr 2021 15:02:13 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -4079,7 +4079,7 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 6f12cf2020b8c7ecf8ef6a97b2cbfeae
+      - 321faca03b867d4c7c84617d35936303
       Cdn-Cache:
       - HIT
     body:
@@ -4177,7 +4177,7 @@ http_interactions:
         AM","sunset":"06:09 PM","moonrise":"07:44 AM","moonset":"07:53 PM","moon_phase":"Waxing
         Crescent","moon_illumination":"12"}],"maxtempC":"29","maxtempF":"84","mintempC":"23","mintempF":"73","avgtempC":"26","avgtempF":"79","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"7","hourly":[{"time":"24","tempC":"29","tempF":"84","windspeedMiles":"13","windspeedKmph":"21","winddirDegree":"137","winddir16Point":"SE","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.0","precipInches":"0.0","humidity":"73","visibility":"10","visibilityMiles":"6","pressure":"1013","pressureInches":"30","cloudcover":"18","HeatIndexC":"27","HeatIndexF":"81","DewPointC":"20","DewPointF":"68","WindChillC":"25","WindChillF":"77","WindGustMiles":"20","WindGustKmph":"32","FeelsLikeC":"27","FeelsLikeF":"81","uvIndex":"7"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:02:08 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:12 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-07-30&enddate=2014-09-02&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -4197,7 +4197,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:02:09 GMT
+      - Mon, 19 Apr 2021 15:02:13 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -4227,7 +4227,7 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - bcaab07f3152e501b72db9865bb0abb4
+      - 99a352c55b3c0b38c4c0b6b999734bd7
       Cdn-Cache:
       - HIT
     body:
@@ -4330,7 +4330,7 @@ http_interactions:
         AM","sunset":"06:09 PM","moonrise":"11:29 AM","moonset":"No moonset","moon_phase":"First
         Quarter","moon_illumination":"53"}],"maxtempC":"29","maxtempF":"83","mintempC":"24","mintempF":"75","avgtempC":"26","avgtempF":"79","totalSnow_cm":"0.0","sunHour":"10.2","uvIndex":"6","hourly":[{"time":"24","tempC":"29","tempF":"83","windspeedMiles":"12","windspeedKmph":"19","winddirDegree":"145","winddir16Point":"SE","weatherCode":"356","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png"}],"weatherDesc":[{"value":"Moderate
         or heavy rain shower"}],"precipMM":"14.6","precipInches":"0.6","humidity":"82","visibility":"9","visibilityMiles":"5","pressure":"1012","pressureInches":"30","cloudcover":"44","HeatIndexC":"28","HeatIndexF":"82","DewPointC":"22","DewPointF":"72","WindChillC":"25","WindChillF":"78","WindGustMiles":"19","WindGustKmph":"30","FeelsLikeC":"28","FeelsLikeF":"82","uvIndex":"6"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:02:09 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:13 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-09-03&enddate=2014-10-07&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -4350,7 +4350,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:02:09 GMT
+      - Mon, 19 Apr 2021 15:02:13 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -4380,7 +4380,7 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 42800cb94dadad3ab82ac14d4c9783c8
+      - a7583f3bc75c1eb8b37b4704eb1a8aaf
       Cdn-Cache:
       - HIT
     body:
@@ -4487,7 +4487,7 @@ http_interactions:
         AM","sunset":"06:06 PM","moonrise":"04:59 PM","moonset":"04:31 AM","moon_phase":"Waxing
         Gibbous","moon_illumination":"91"}],"maxtempC":"28","maxtempF":"82","mintempC":"22","mintempF":"72","avgtempC":"25","avgtempF":"78","totalSnow_cm":"0.0","sunHour":"12.5","uvIndex":"7","hourly":[{"time":"24","tempC":"28","tempF":"82","windspeedMiles":"8","windspeedKmph":"13","winddirDegree":"158","winddir16Point":"SSE","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.0","precipInches":"0.0","humidity":"78","visibility":"10","visibilityMiles":"6","pressure":"1011","pressureInches":"30","cloudcover":"22","HeatIndexC":"26","HeatIndexF":"79","DewPointC":"20","DewPointF":"68","WindChillC":"24","WindChillF":"76","WindGustMiles":"12","WindGustKmph":"19","FeelsLikeC":"26","FeelsLikeF":"79","uvIndex":"7"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:02:09 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:13 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-10-08&enddate=2014-11-11&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -4507,7 +4507,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:02:09 GMT
+      - Mon, 19 Apr 2021 15:02:13 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -4537,7 +4537,7 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - bcfe5fffce69bab4da7fada09fe00c7e
+      - 1895a56f065417c608dcc093be2a5f25
       Cdn-Cache:
       - HIT
     body:
@@ -4634,7 +4634,7 @@ http_interactions:
         AM","sunset":"06:11 PM","moonrise":"10:02 PM","moonset":"09:11 AM","moon_phase":"Waning
         Gibbous","moon_illumination":"64"}],"maxtempC":"31","maxtempF":"88","mintempC":"25","mintempF":"77","avgtempC":"29","avgtempF":"84","totalSnow_cm":"0.0","sunHour":"12.7","uvIndex":"6","hourly":[{"time":"24","tempC":"31","tempF":"88","windspeedMiles":"11","windspeedKmph":"17","winddirDegree":"143","winddir16Point":"SE","weatherCode":"353","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"}],"weatherDesc":[{"value":"Light
         rain shower"}],"precipMM":"6.0","precipInches":"0.2","humidity":"76","visibility":"9","visibilityMiles":"5","pressure":"1009","pressureInches":"30","cloudcover":"31","HeatIndexC":"31","HeatIndexF":"87","DewPointC":"23","DewPointF":"73","WindChillC":"27","WindChillF":"81","WindGustMiles":"15","WindGustKmph":"25","FeelsLikeC":"31","FeelsLikeF":"87","uvIndex":"6"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:02:09 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:13 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-11-12&enddate=2014-12-16&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -4654,7 +4654,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:02:09 GMT
+      - Mon, 19 Apr 2021 15:02:13 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -4684,7 +4684,7 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 50d6dcd947261ff97d05b44013203c51
+      - 0e47815a68b0bd49a05cb0553b4cd4d1
       Cdn-Cache:
       - HIT
     body:
@@ -4786,7 +4786,7 @@ http_interactions:
         or heavy rain shower"}],"precipMM":"4.5","precipInches":"0.2","humidity":"68","visibility":"10","visibilityMiles":"5","pressure":"1010","pressureInches":"30","cloudcover":"40","HeatIndexC":"29","HeatIndexF":"85","DewPointC":"21","DewPointF":"69","WindChillC":"27","WindChillF":"81","WindGustMiles":"10","WindGustKmph":"17","FeelsLikeC":"29","FeelsLikeF":"85","uvIndex":"6"}]},{"date":"2014-12-16","astronomy":[{"sunrise":"05:47
         AM","sunset":"06:27 PM","moonrise":"12:51 AM","moonset":"01:18 PM","moon_phase":"Last
         Quarter","moon_illumination":"29"}],"maxtempC":"31","maxtempF":"88","mintempC":"25","mintempF":"77","avgtempC":"29","avgtempF":"84","totalSnow_cm":"0.0","sunHour":"12.8","uvIndex":"7","hourly":[{"time":"24","tempC":"31","tempF":"88","windspeedMiles":"5","windspeedKmph":"8","winddirDegree":"133","winddir16Point":"SE","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.0","precipInches":"0.0","humidity":"63","visibility":"10","visibilityMiles":"6","pressure":"1009","pressureInches":"30","cloudcover":"15","HeatIndexC":"30","HeatIndexF":"86","DewPointC":"20","DewPointF":"68","WindChillC":"28","WindChillF":"82","WindGustMiles":"7","WindGustKmph":"12","FeelsLikeC":"30","FeelsLikeF":"86","uvIndex":"7"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:02:09 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:13 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2014-12-17&enddate=2014-12-31&format=json&key=900f2167e4ae442797e144340211404&q=Napa%20Valley&tp=24%0A%20%20%20%20%20%20
@@ -4806,7 +4806,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Apr 2021 15:02:09 GMT
+      - Mon, 19 Apr 2021 15:02:13 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -4836,7 +4836,7 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 104c1126d0d7f57ba64db6ebdce4b2ef
+      - a585d8e33f3b08d69666d0f57e1d18f9
       Cdn-Cache:
       - HIT
     body:
@@ -4883,5 +4883,5 @@ http_interactions:
         AM","sunset":"06:34 PM","moonrise":"02:14 PM","moonset":"01:31 AM","moon_phase":"First
         Quarter","moon_illumination":"62"}],"maxtempC":"31","maxtempF":"88","mintempC":"24","mintempF":"76","avgtempC":"29","avgtempF":"84","totalSnow_cm":"0.0","sunHour":"12.8","uvIndex":"7","hourly":[{"time":"24","tempC":"31","tempF":"88","windspeedMiles":"5","windspeedKmph":"7","winddirDegree":"170","winddir16Point":"S","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.1","precipInches":"0.0","humidity":"72","visibility":"10","visibilityMiles":"6","pressure":"1007","pressureInches":"30","cloudcover":"16","HeatIndexC":"31","HeatIndexF":"87","DewPointC":"22","DewPointF":"72","WindChillC":"28","WindChillF":"82","WindGustMiles":"7","WindGustKmph":"11","FeelsLikeC":"31","FeelsLikeF":"87","uvIndex":"7"}]}]}}'
-  recorded_at: Mon, 19 Apr 2021 15:02:09 GMT
+  recorded_at: Mon, 19 Apr 2021 15:02:13 GMT
 recorded_with: VCR 6.0.0

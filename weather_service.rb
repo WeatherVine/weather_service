@@ -21,10 +21,12 @@ end
 
 def location
   "Napa Valley"
+  # params[:params][:region].gsub!("-", " ")
 end
 
 def vintage
   2015
+  # params[:params][:vintage].to_i
 end
 
 def grape_year
@@ -33,7 +35,6 @@ end
 
 def find_avg_temp
   avg_temp = []
-
   dates.each do |range|
     response = Faraday.get("http://api.worldweatheronline.com/premium/v1/past-weather.ashx?key=900f2167e4ae442797e144340211404&q=#{location}&format=json&date=#{range[0]}&enddate=#{range[1]}&tp=24
       ")
