@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 17:47:13 GMT
+      - Tue, 20 Apr 2021 20:35:59 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -40,23 +40,21 @@ http_interactions:
       - '617'
       Cache-Control:
       - public, max-age=180
-      Request-Context:
-      - appId=cid-v1:89996683-9a04-40b3-8e46-77754119dcf5
       X-Wwo-Qpd-Left:
-      - '375'
+      - '373'
       Cdn-Cachedat:
-      - '2021-04-20 12:47:13'
+      - '2021-04-20 15:35:59'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 0b13c448059b45c32319db1ce6a5845b
+      - f9c4a4827f93be4e78a3b6404391d938
       Cdn-Cache:
-      - MISS
+      - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{ "data": { "error": [ {"msg": "Unable to find any matching weather
         location to the query submitted!" } ] }}'
-  recorded_at: Tue, 20 Apr 2021 17:47:13 GMT
+  recorded_at: Tue, 20 Apr 2021 20:35:59 GMT
 recorded_with: VCR 6.0.0

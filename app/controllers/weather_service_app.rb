@@ -25,7 +25,7 @@ class WeatherServiceApp < Sinatra::Base
       json ({:error => 'Please provide only a region and vintage year'})
     else
       climate = Climate.new(temp, precip, vintage, region)
-
+      require "pry"; binding.pry
       body WeatherSerializer.new(climate).serialized_json
       status 200
     end

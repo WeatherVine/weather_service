@@ -45,9 +45,7 @@ def find_avg_temp
     ")
 
     body = JSON.parse(response.body, symbolize_names: true)
-    
-    # helper that runs just region search? then passes to here if first call is good
-    if body[:data][:error]
+
     avg_temps_array = body["data"]["weather"].map do |day|
       day["avgtempF"].to_i
     end
@@ -76,9 +74,9 @@ def find_total_precip
     total_precip << precip
   end
 
-    total_precip
-  end
+  total_precip
+end
 
-  def precip
-    find_total_precip.flatten.sum
-  end
+def precip
+  find_total_precip.flatten.sum
+end
