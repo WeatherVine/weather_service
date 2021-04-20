@@ -3,6 +3,7 @@ require 'faraday'
 require 'pry'
 require './models/climate'
 
+
 def dates
   [
     ["#{grape_year}-01-01", "#{grape_year}-02-04"],
@@ -19,14 +20,12 @@ def dates
   ]
 end
 
-def location
-  "Napa Valley"
-  # params[:params][:region].gsub!("-", " ")
+def region
+  params[:region]
 end
 
 def vintage
-  2017
-  # params[:params][:vintage].to_i
+  params[:vintage].to_i
 end
 
 def grape_year
@@ -42,7 +41,7 @@ end
 def find_avg_temp
   avg_temp = []
   dates.each do |range|
-    response = Faraday.get("http://api.worldweatheronline.com/premium/v1/past-weather.ashx?key=900f2167e4ae442797e144340211404&q=#{location}&format=json&date=#{range[0]}&enddate=#{range[1]}&tp=24
+    response = Faraday.get("http://api.worldweatheronline.com/premium/v1/past-weather.ashx?key=900f2167e4ae442797e144340211404&q=#{region}&format=json&date=#{range[0]}&enddate=#{range[1]}&tp=24
     ")
 
     body = JSON.parse(response.body)
@@ -65,7 +64,7 @@ def find_total_precip
   total_precip = []
 
   dates.each do |range|
-    response = Faraday.get("http://api.worldweatheronline.com/premium/v1/past-weather.ashx?key=900f2167e4ae442797e144340211404&q=#{location}&format=json&date=#{range[0]}&enddate=#{range[1]}&tp=24
+    response = Faraday.get("http://api.worldweatheronline.com/premium/v1/past-weather.ashx?key=900f2167e4ae442797e144340211404&q=#{region}&format=json&date=#{range[0]}&enddate=#{range[1]}&tp=24
       ")
     body = JSON.parse(response.body)
 

@@ -16,7 +16,7 @@ describe 'Climate Data API' do
 
   it 'has a successful response' do
     VCR.use_cassette('climate_data') do
-      get '/api/v1/climate_data?region=napa+valley&vintage=2017'
+      get '/api/v1/climate_data?region=napa&vintage=2017'
 
       expect(last_response).to be_ok
     end
@@ -24,7 +24,7 @@ describe 'Climate Data API' do
 
   it 'outputs the right data' do
     VCR.use_cassette('climate_data') do
-      get '/api/v1/climate_data', params: { vintage: 2017, region: 'napa-valley' }
+      get '/api/v1/climate_data', params: { vintage: 2017, region: 'napa' }
       parsed = JSON.parse(last_response.body, symbolize_names: true)
       data = parsed[:data]
 
