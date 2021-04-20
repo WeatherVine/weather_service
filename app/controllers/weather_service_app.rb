@@ -12,7 +12,6 @@ class WeatherServiceApp < Sinatra::Base
   set :root, File.expand_path("..", __dir__)
 
   get '/api/v1/climate_data' do
-
     if params.empty?
       json ({:error => 'Please provide a region and vintage year'})
     elsif params[:region].nil?
@@ -23,23 +22,21 @@ class WeatherServiceApp < Sinatra::Base
       json ({:error => 'Please provide a vintage year between 1970 and 2020'})
     elsif params.count < 2 || params.count > 2
       json ({:error => 'Please provide only a region and vintage year'})
+    # elsif bad_region?(params[:region])
+      # json ({:error => 'No Results Found'})
     else
       climate = Climate.new(temp, precip, vintage, region)
-      require "pry"; binding.pry
-      body WeatherSerializer.new(climate).serialized_json
-      status 200
+
+      json ({
+            data: {
+              type: "climate",
+              id: 1,
+              attributes: climate
+              }
+            })
+
+      # body WeatherSerializer.new(climate).serialized_json
+      # status 200
     end
-
-
-    # climate = Climate.new(temp, precip, vintage, region)
-
-    # json ({
-          # data: {
-            # type: "climate",
-            # id: 1,
-            # attributes: climate
-          # }
-        # })
   end
-
 end

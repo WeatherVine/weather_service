@@ -59,12 +59,19 @@ def temp
   (find_avg_temp.flatten.sum)/(find_avg_temp.flatten.size)
 end
 
+# def weather_connection #.self in service
+  # weather_connection ||= Faraday.new({
+    # url: 'http://api.worldweatheronline.com' # ENV['WEATHER_API_URL']
+  # })
+# end
+
 def find_total_precip
   total_precip = []
 
   dates.each do |range|
+    # response = weather_connection.get("/premium/v1/past-weather.ashx?key=900f2167e4ae442797e144340211404&q=#{region}&format=json&date=#{range[0]}&enddate=#{range[1]}&tp=24")
     response = Faraday.get("http://api.worldweatheronline.com/premium/v1/past-weather.ashx?key=900f2167e4ae442797e144340211404&q=#{region}&format=json&date=#{range[0]}&enddate=#{range[1]}&tp=24
-      ")
+    ")
     body = JSON.parse(response.body)
 
     precip = body["data"]["weather"].map do |day|
@@ -80,3 +87,9 @@ end
 def precip
   find_total_precip.flatten.sum
 end
+
+# def bad_region?(region_param)
+  # response = weather_connection.get("/premium/v1/past-weather.ashx?key=900f2167e4ae442797e144340211404&q=#{region_param}&format=json")
+  # body = JSON.parse(response.body)
+  # out = body[:data].keys.include?(:error)
+# end

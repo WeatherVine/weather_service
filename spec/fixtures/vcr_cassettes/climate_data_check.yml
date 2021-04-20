@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 23:10:09 GMT
+      - Tue, 20 Apr 2021 23:09:34 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -49,9 +49,9 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - c88b4ee68b6c3f5746763c817bc7ec22
+      - daa4eb1e29f92f6eead0547983dc5e98
       Cdn-Cache:
-      - HIT
+      - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa, United States of
@@ -151,5 +151,5 @@ http_interactions:
         AM","sunset":"06:35 PM","moonrise":"04:44 AM","moonset":"03:04 PM","moon_phase":"Waning
         Crescent","moon_illumination":"11"}],"maxtempC":"15","maxtempF":"58","mintempC":"5","mintempF":"41","avgtempC":"11","avgtempF":"51","totalSnow_cm":"0.0","sunHour":"10.2","uvIndex":"4","hourly":[{"time":"24","tempC":"15","tempF":"58","windspeedMiles":"4","windspeedKmph":"7","winddirDegree":"66","winddir16Point":"ENE","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.1","precipInches":"0.0","humidity":"78","visibility":"10","visibilityMiles":"6","pressure":"1030","pressureInches":"31","cloudcover":"28","HeatIndexC":"10","HeatIndexF":"49","DewPointC":"6","DewPointF":"42","WindChillC":"9","WindChillF":"48","WindGustMiles":"7","WindGustKmph":"11","FeelsLikeC":"9","FeelsLikeF":"48","uvIndex":"4"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 23:10:09 GMT
+  recorded_at: Tue, 20 Apr 2021 23:09:34 GMT
 recorded_with: VCR 6.0.0

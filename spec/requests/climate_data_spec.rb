@@ -1,4 +1,4 @@
-ENV['APP_ENV'] = 'test'
+# ENV['APP_ENV'] = 'test'
 
 require './weather_service'
 require 'rspec'
@@ -15,11 +15,11 @@ describe 'Climate Data API' do
   end
 
   it 'has a successful response' do
-    VCR.use_cassette('climate_data') do
+    # VCR.use_cassette('climate_data') do
       get '/api/v1/climate_data?region=napa&vintage=2017'
 
       expect(last_response).to be_ok
-    end
+    # end
   end
 
   it 'outputs the right data' do
@@ -119,7 +119,7 @@ describe 'Climate Data API' do
 
       expect(error).to be_a(Hash)
       expect(error[:error]).to be_a(String)
-      expect(error[:error]).to eq('Not Found')
+      expect(error[:error]).to eq('No Results Found')
     end
   end
 end
