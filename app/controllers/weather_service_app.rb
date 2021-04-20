@@ -13,34 +13,33 @@ class WeatherServiceApp < Sinatra::Base
 
   get '/api/v1/climate_data' do
 
-    # error response?
-    # if params.empty?
-      # json ({:error => 'Please provide a region and vintage year'})
-    # elsif params[:region].nil?
-      # json ({:error => 'Please provide a region'})
-    # elsif params[:vintage].nil?
-      # json ({:error => 'Please provide a vintage year'})
-    # elsif !params[:vintage].to_i.between?(1970,2021)
-      # json ({:error => 'Please provide a vintage year between 1970 and 2020'})
-    # elsif params.count < 2 || params.count > 2
-      # json ({:error => 'Please provide only a region and vintage year'})
-    # else
-      # wines = WineFacade.wine_objects(params[:region], params[:vintage])
+    if params.empty?
+      json ({:error => 'Please provide a region and vintage year'})
+    elsif params[:region].nil?
+      json ({:error => 'Please provide a region'})
+    elsif params[:vintage].nil?
+      json ({:error => 'Please provide a vintage year'})
+    elsif !params[:vintage].to_i.between?(1970,2020)
+      json ({:error => 'Please provide a vintage year between 1970 and 2020'})
+    elsif params.count < 2 || params.count > 2
+      json ({:error => 'Please provide only a region and vintage year'})
+    else
+      climate = Climate.new(temp, precip, vintage, region)
 
-      # body WinesSerializer.new(wines).serialized_json
-      # status 200
-    # end
+      body WeatherSerializer.new(climate).serialized_json
+      status 200
+    end
 
 
-    climate = Climate.new(temp, precip, vintage, region)
+    # climate = Climate.new(temp, precip, vintage, region)
 
-    json ({
-          data: {
-            type: "climate",
-            id: 1,
-            attributes: climate
-          }
-        })
+    # json ({
+          # data: {
+            # type: "climate",
+            # id: 1,
+            # attributes: climate
+          # }
+        # })
   end
 
 end

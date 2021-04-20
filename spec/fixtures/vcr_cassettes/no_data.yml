@@ -1,0 +1,62 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2010-01-01&enddate=2010-02-04&format=json&key=900f2167e4ae442797e144340211404&q=xxxx&tp=24%0A%20%20%20%20
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 20 Apr 2021 17:47:13 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-718
+      Cdn-Pullzone:
+      - '61832'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Cdn-Edgestorageid:
+      - '617'
+      Cache-Control:
+      - public, max-age=180
+      Request-Context:
+      - appId=cid-v1:89996683-9a04-40b3-8e46-77754119dcf5
+      X-Wwo-Qpd-Left:
+      - '375'
+      Cdn-Cachedat:
+      - '2021-04-20 12:47:13'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Requestid:
+      - 0b13c448059b45c32319db1ce6a5845b
+      Cdn-Cache:
+      - MISS
+    body:
+      encoding: ASCII-8BIT
+      string: '{ "data": { "error": [ {"msg": "Unable to find any matching weather
+        location to the query submitted!" } ] }}'
+  recorded_at: Tue, 20 Apr 2021 17:47:13 GMT
+recorded_with: VCR 6.0.0

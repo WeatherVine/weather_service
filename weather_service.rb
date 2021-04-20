@@ -44,9 +44,10 @@ def find_avg_temp
     response = Faraday.get("http://api.worldweatheronline.com/premium/v1/past-weather.ashx?key=900f2167e4ae442797e144340211404&q=#{region}&format=json&date=#{range[0]}&enddate=#{range[1]}&tp=24
     ")
 
-    body = JSON.parse(response.body)
-
-    # binding.pry
+    body = JSON.parse(response.body, symbolize_names: true)
+    
+    # helper that runs just region search? then passes to here if first call is good
+    if body[:data][:error]
     avg_temps_array = body["data"]["weather"].map do |day|
       day["avgtempF"].to_i
     end

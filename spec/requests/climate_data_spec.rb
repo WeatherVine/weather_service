@@ -24,7 +24,7 @@ describe 'Climate Data API' do
 
   it 'outputs the right data' do
     VCR.use_cassette('climate_data') do
-      get '/api/v1/climate_data', params: { vintage: 2017, region: 'napa' }
+      get '/api/v1/climate_data?region=napa&vintage=2017'
       parsed = JSON.parse(last_response.body, symbolize_names: true)
       data = parsed[:data]
 
@@ -37,21 +37,89 @@ describe 'Climate Data API' do
     end
   end
 
-  it 'can pass the correct parameters' do
-    VCR.use_cassette('climate_data_with_parameters') do
-      get '/api/v1/climate_data', params: { vintage: 2017, region: 'napa-valley' }
-      parsed = JSON.parse(last_response.body, symbolize_names: true)
-      data = parsed[:data]
-
-      expect(last_response).to be_ok
-      expect(data[:attributes][:location]).to eq("Napa Valley")
-      expect(data[:attributes][:vintage]).to eq(2017)
-    end
-  end
-
-  xit 'will send 404 response if no parameters are given' do
+  it 'returns errors for missing params' do
     get '/api/v1/climate_data'
 
-    expect(last_response).to_not be_ok
+    expect(last_response).to be_ok
+
+    error = JSON.parse(last_response.body, symbolize_names: true)
+
+    expect(error).to be_a(Hash)
+    expect(error[:error]).to be_a(String)
+    expect(error[:error]).to eq('Please provide a region and vintage year')
+  end
+
+  it 'returns errors for missing region' do
+    get '/api/v1/climate_data?vintage=2017'
+
+    expect(last_response).to be_ok
+
+    error = JSON.parse(last_response.body, symbolize_names: true)
+
+    expect(error).to be_a(Hash)
+    expect(error[:error]).to be_a(String)
+    expect(error[:error]).to eq('Please provide a region')
+  end
+
+  it 'returns errors for missing region' do
+    get '/api/v1/climate_data?region=napa'
+
+    expect(last_response).to be_ok
+
+    error = JSON.parse(last_response.body, symbolize_names: true)
+
+    expect(error).to be_a(Hash)
+    expect(error[:error]).to be_a(String)
+    expect(error[:error]).to eq('Please provide a vintage year')
+  end
+
+  it 'returns error when more than region and vintage params passed' do
+    get '/api/v1/climate_data?region=napa&vintage=2017&beep=borp'
+
+    expect(last_response).to be_ok
+
+    error = JSON.parse(last_response.body, symbolize_names: true)
+
+    expect(error).to be_a(Hash)
+    expect(error[:error]).to be_a(String)
+    expect(error[:error]).to eq('Please provide only a region and vintage year')
+  end
+
+  it 'returns error when vintage is before 1970' do
+    get '/api/v1/climate_data?region=napa&vintage=1969'
+
+    expect(last_response).to be_ok
+
+    error = JSON.parse(last_response.body, symbolize_names: true)
+
+    expect(error).to be_a(Hash)
+    expect(error[:error]).to be_a(String)
+    expect(error[:error]).to eq('Please provide a vintage year between 1970 and 2020')
+  end
+
+  it 'returns error when vintage is after 2020' do
+    get '/api/v1/climate_data?region=napa&vintage=2021'
+
+    expect(last_response).to be_ok
+
+    error = JSON.parse(last_response.body, symbolize_names: true)
+
+    expect(error).to be_a(Hash)
+    expect(error[:error]).to be_a(String)
+    expect(error[:error]).to eq('Please provide a vintage year between 1970 and 2020')
+  end
+
+  it "returns error when no results are found" do
+    VCR.use_cassette('no_data') do
+      get '/api/v1/climate_data?region=xxxx&vintage=2011'
+
+      expect(last_response).to be_ok
+
+      error = JSON.parse(last_response.body, symbolize_names: true)
+
+      expect(error).to be_a(Hash)
+      expect(error[:error]).to be_a(String)
+      expect(error[:error]).to eq('Not Found')
+    end
   end
 end

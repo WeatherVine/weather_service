@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:29 GMT
+      - Tue, 20 Apr 2021 16:27:26 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,7 +29,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -37,21 +37,21 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '617'
       Cache-Control:
       - public, max-age=180
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:29'
+      - '2021-04-20 11:27:26'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - af5546f7e030c789d7eee42908b09961
+      - 7bd49640792abade11051ec76d457256
       Cdn-Cache:
-      - MISS
+      - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa, United States of
@@ -151,7 +151,7 @@ http_interactions:
         AM","sunset":"06:35 PM","moonrise":"04:44 AM","moonset":"03:04 PM","moon_phase":"Waning
         Crescent","moon_illumination":"11"}],"maxtempC":"15","maxtempF":"58","mintempC":"5","mintempF":"41","avgtempC":"11","avgtempF":"51","totalSnow_cm":"0.0","sunHour":"10.2","uvIndex":"4","hourly":[{"time":"24","tempC":"15","tempF":"58","windspeedMiles":"4","windspeedKmph":"7","winddirDegree":"66","winddir16Point":"ENE","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.1","precipInches":"0.0","humidity":"78","visibility":"10","visibilityMiles":"6","pressure":"1030","pressureInches":"31","cloudcover":"28","HeatIndexC":"10","HeatIndexF":"49","DewPointC":"6","DewPointF":"42","WindChillC":"9","WindChillF":"48","WindGustMiles":"7","WindGustKmph":"11","FeelsLikeC":"9","FeelsLikeF":"48","uvIndex":"4"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:29 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:26 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-02-05&enddate=2016-03-11&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20
@@ -171,7 +171,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:29 GMT
+      - Tue, 20 Apr 2021 16:27:27 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -181,7 +181,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -189,21 +189,23 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '718'
       Cache-Control:
       - public, max-age=180
+      Request-Context:
+      - appId=cid-v1:89996683-9a04-40b3-8e46-77754119dcf5
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:29'
+      - '2021-04-20 11:27:27'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 69a926077e2a93fad8cb49bb1bc83e49
+      - 38daebe0f0278bcc5a1e390b4d150c1e
       Cdn-Cache:
-      - MISS
+      - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa, United States of
@@ -293,7 +295,7 @@ http_interactions:
         AM","sunset":"07:12 PM","moonrise":"08:33 AM","moonset":"09:29 PM","moon_phase":"Waxing
         Crescent","moon_illumination":"7"}],"maxtempC":"15","maxtempF":"59","mintempC":"13","mintempF":"55","avgtempC":"14","avgtempF":"58","totalSnow_cm":"0.0","sunHour":"5.9","uvIndex":"3","hourly":[{"time":"24","tempC":"15","tempF":"59","windspeedMiles":"7","windspeedKmph":"11","winddirDegree":"171","winddir16Point":"S","weatherCode":"308","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0018_cloudy_with_heavy_rain.png"}],"weatherDesc":[{"value":"Heavy
         rain"}],"precipMM":"35.8","precipInches":"1.4","humidity":"94","visibility":"7","visibilityMiles":"4","pressure":"1016","pressureInches":"30","cloudcover":"89","HeatIndexC":"14","HeatIndexF":"57","DewPointC":"13","DewPointF":"55","WindChillC":"13","WindChillF":"55","WindGustMiles":"12","WindGustKmph":"19","FeelsLikeC":"13","FeelsLikeF":"55","uvIndex":"3"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:29 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:27 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-03-12&enddate=2016-04-15&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20
@@ -313,7 +315,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:30 GMT
+      - Tue, 20 Apr 2021 16:27:27 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -323,7 +325,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -331,21 +333,21 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '718'
       Cache-Control:
       - public, max-age=180
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:30'
+      - '2021-04-20 11:27:27'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 3a1f90b1702a00048c612c03ac798838
+      - 3a63fe700a683a34a1fec1ff0e6d1153
       Cdn-Cache:
-      - MISS
+      - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa, United States of
@@ -437,7 +439,7 @@ http_interactions:
         AM","sunset":"07:46 PM","moonrise":"02:02 PM","moonset":"03:08 AM","moon_phase":"First
         Quarter","moon_illumination":"56"}],"maxtempC":"18","maxtempF":"64","mintempC":"6","mintempF":"43","avgtempC":"14","avgtempF":"57","totalSnow_cm":"0.0","sunHour":"10.3","uvIndex":"3","hourly":[{"time":"24","tempC":"18","tempF":"64","windspeedMiles":"7","windspeedKmph":"11","winddirDegree":"262","winddir16Point":"W","weatherCode":"176","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"}],"weatherDesc":[{"value":"Patchy
         rain possible"}],"precipMM":"0.1","precipInches":"0.0","humidity":"67","visibility":"9","visibilityMiles":"5","pressure":"1018","pressureInches":"31","cloudcover":"30","HeatIndexC":"12","HeatIndexF":"53","DewPointC":"5","DewPointF":"41","WindChillC":"11","WindChillF":"51","WindGustMiles":"11","WindGustKmph":"17","FeelsLikeC":"11","FeelsLikeF":"51","uvIndex":"3"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:30 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:27 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-04-16&enddate=2016-05-20&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20
@@ -457,7 +459,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:30 GMT
+      - Tue, 20 Apr 2021 16:27:28 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -467,7 +469,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -475,21 +477,23 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '617'
       Cache-Control:
       - public, max-age=180
+      Request-Context:
+      - appId=cid-v1:89996683-9a04-40b3-8e46-77754119dcf5
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:30'
+      - '2021-04-20 11:27:28'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 0eb874f347666dd3b5737b275e1b7563
+      - d776dd590f2af48fc1947b10ddb0313c
       Cdn-Cache:
-      - MISS
+      - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa, United States of
@@ -581,7 +585,7 @@ http_interactions:
         AM","sunset":"08:18 PM","moonrise":"07:20 PM","moonset":"05:29 AM","moon_phase":"Waxing
         Gibbous","moon_illumination":"94"}],"maxtempC":"23","maxtempF":"74","mintempC":"9","mintempF":"49","avgtempC":"19","avgtempF":"66","totalSnow_cm":"0.0","sunHour":"14.5","uvIndex":"5","hourly":[{"time":"24","tempC":"23","tempF":"74","windspeedMiles":"7","windspeedKmph":"11","winddirDegree":"240","winddir16Point":"WSW","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.0","precipInches":"0.0","humidity":"62","visibility":"10","visibilityMiles":"5","pressure":"1015","pressureInches":"30","cloudcover":"22","HeatIndexC":"16","HeatIndexF":"61","DewPointC":"8","DewPointF":"46","WindChillC":"15","WindChillF":"60","WindGustMiles":"11","WindGustKmph":"17","FeelsLikeC":"15","FeelsLikeF":"60","uvIndex":"5"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:30 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:28 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-05-21&enddate=2016-06-24&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20
@@ -601,7 +605,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:31 GMT
+      - Tue, 20 Apr 2021 16:27:28 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -611,7 +615,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -619,21 +623,21 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '617'
       Cache-Control:
       - public, max-age=180
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:31'
+      - '2021-04-20 11:27:28'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 533a6d133b3ed8612455c840c6464081
+      - e72441086fda82631ccf6105ae975892
       Cdn-Cache:
-      - MISS
+      - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa, United States of
@@ -719,7 +723,7 @@ http_interactions:
         Gibbous","moon_illumination":"69"}],"maxtempC":"29","maxtempF":"84","mintempC":"12","mintempF":"53","avgtempC":"24","avgtempF":"74","totalSnow_cm":"0.0","sunHour":"14.5","uvIndex":"6","hourly":[{"time":"24","tempC":"29","tempF":"84","windspeedMiles":"9","windspeedKmph":"14","winddirDegree":"250","winddir16Point":"WSW","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.0","precipInches":"0.0","humidity":"60","visibility":"10","visibilityMiles":"6","pressure":"1017","pressureInches":"31","cloudcover":"0","HeatIndexC":"19","HeatIndexF":"67","DewPointC":"10","DewPointF":"50","WindChillC":"19","WindChillF":"67","WindGustMiles":"13","WindGustKmph":"20","FeelsLikeC":"19","FeelsLikeF":"67","uvIndex":"6"}]},{"date":"2016-06-24","astronomy":[{"sunrise":"05:47
         AM","sunset":"08:36 PM","moonrise":"11:41 PM","moonset":"10:03 AM","moon_phase":"Waning
         Gibbous","moon_illumination":"61"}],"maxtempC":"28","maxtempF":"83","mintempC":"12","mintempF":"54","avgtempC":"24","avgtempF":"76","totalSnow_cm":"0.0","sunHour":"14.5","uvIndex":"6","hourly":[{"time":"24","tempC":"28","tempF":"83","windspeedMiles":"5","windspeedKmph":"7","winddirDegree":"235","winddir16Point":"SW","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.0","precipInches":"0.0","humidity":"58","visibility":"9","visibilityMiles":"5","pressure":"1017","pressureInches":"31","cloudcover":"2","HeatIndexC":"21","HeatIndexF":"69","DewPointC":"11","DewPointF":"51","WindChillC":"20","WindChillF":"69","WindGustMiles":"8","WindGustKmph":"12","FeelsLikeC":"21","FeelsLikeF":"69","uvIndex":"6"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:31 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:29 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-06-25&enddate=2016-07-29&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20
@@ -739,7 +743,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:32 GMT
+      - Tue, 20 Apr 2021 16:27:29 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -749,7 +753,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -757,21 +761,21 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '617'
       Cache-Control:
       - public, max-age=180
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:32'
+      - '2021-04-20 11:27:29'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 3d0b856891b7147ba5437bfcc0f3cc59
+      - dc982a27c1252356147b434d536a2613
       Cdn-Cache:
-      - MISS
+      - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa, United States of
@@ -860,7 +864,7 @@ http_interactions:
         Quarter","moon_illumination":"34"}],"maxtempC":"32","maxtempF":"90","mintempC":"16","mintempF":"61","avgtempC":"26","avgtempF":"79","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"7","hourly":[{"time":"24","tempC":"32","tempF":"90","windspeedMiles":"5","windspeedKmph":"8","winddirDegree":"243","winddir16Point":"WSW","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.0","precipInches":"0.0","humidity":"53","visibility":"10","visibilityMiles":"6","pressure":"1011","pressureInches":"30","cloudcover":"3","HeatIndexC":"23","HeatIndexF":"73","DewPointC":"12","DewPointF":"53","WindChillC":"23","WindChillF":"73","WindGustMiles":"8","WindGustKmph":"13","FeelsLikeC":"23","FeelsLikeF":"73","uvIndex":"7"}]},{"date":"2016-07-29","astronomy":[{"sunrise":"06:09
         AM","sunset":"08:21 PM","moonrise":"02:17 AM","moonset":"04:42 PM","moon_phase":"Waning
         Crescent","moon_illumination":"26"}],"maxtempC":"32","maxtempF":"90","mintempC":"16","mintempF":"60","avgtempC":"26","avgtempF":"79","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"7","hourly":[{"time":"24","tempC":"32","tempF":"90","windspeedMiles":"5","windspeedKmph":"8","winddirDegree":"243","winddir16Point":"WSW","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.0","precipInches":"0.0","humidity":"52","visibility":"10","visibilityMiles":"6","pressure":"1010","pressureInches":"30","cloudcover":"0","HeatIndexC":"23","HeatIndexF":"73","DewPointC":"12","DewPointF":"53","WindChillC":"23","WindChillF":"73","WindGustMiles":"8","WindGustKmph":"13","FeelsLikeC":"23","FeelsLikeF":"73","uvIndex":"7"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:32 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:29 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-07-30&enddate=2016-09-02&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20
@@ -880,7 +884,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:32 GMT
+      - Tue, 20 Apr 2021 16:27:30 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -890,7 +894,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -898,23 +902,23 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '617'
       Cache-Control:
       - public, max-age=180
       Request-Context:
       - appId=cid-v1:89996683-9a04-40b3-8e46-77754119dcf5
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:32'
+      - '2021-04-20 11:27:30'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 79e664b634ee501accfe64ad075073ec
+      - 276b3566115a7633140991159f8ba972
       Cdn-Cache:
-      - MISS
+      - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa, United States of
@@ -991,7 +995,7 @@ http_interactions:
         Moon","moon_illumination":"0"}],"maxtempC":"25","maxtempF":"76","mintempC":"14","mintempF":"58","avgtempC":"21","avgtempF":"69","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"6","hourly":[{"time":"24","tempC":"25","tempF":"76","windspeedMiles":"6","windspeedKmph":"9","winddirDegree":"223","winddir16Point":"SW","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.1","precipInches":"0.0","humidity":"73","visibility":"10","visibilityMiles":"6","pressure":"1014","pressureInches":"30","cloudcover":"8","HeatIndexC":"19","HeatIndexF":"66","DewPointC":"13","DewPointF":"55","WindChillC":"18","WindChillF":"65","WindGustMiles":"9","WindGustKmph":"15","FeelsLikeC":"18","FeelsLikeF":"65","uvIndex":"6"}]},{"date":"2016-09-02","astronomy":[{"sunrise":"06:40
         AM","sunset":"07:37 PM","moonrise":"07:54 AM","moonset":"08:28 PM","moon_phase":"New
         Moon","moon_illumination":"0"}],"maxtempC":"28","maxtempF":"82","mintempC":"14","mintempF":"57","avgtempC":"23","avgtempF":"73","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"6","hourly":[{"time":"24","tempC":"28","tempF":"82","windspeedMiles":"5","windspeedKmph":"8","winddirDegree":"223","winddir16Point":"SW","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.0","precipInches":"0.0","humidity":"64","visibility":"10","visibilityMiles":"6","pressure":"1012","pressureInches":"30","cloudcover":"5","HeatIndexC":"20","HeatIndexF":"68","DewPointC":"12","DewPointF":"53","WindChillC":"20","WindChillF":"68","WindGustMiles":"8","WindGustKmph":"13","FeelsLikeC":"20","FeelsLikeF":"68","uvIndex":"6"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:33 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:30 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-09-03&enddate=2016-10-07&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20
@@ -1011,7 +1015,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:33 GMT
+      - Tue, 20 Apr 2021 16:27:30 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1021,7 +1025,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -1029,23 +1033,21 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '617'
       Cache-Control:
       - public, max-age=180
-      Request-Context:
-      - appId=cid-v1:89996683-9a04-40b3-8e46-77754119dcf5
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:33'
+      - '2021-04-20 11:27:30'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - de3f644b0b474791c3029240764523d0
+      - 42ada5f4d4b24c4368099b7db4f278e8
       Cdn-Cache:
-      - MISS
+      - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa, United States of
@@ -1125,7 +1127,7 @@ http_interactions:
         Crescent","moon_illumination":"31"}],"maxtempC":"25","maxtempF":"76","mintempC":"13","mintempF":"55","avgtempC":"20","avgtempF":"68","totalSnow_cm":"0.0","sunHour":"11.3","uvIndex":"6","hourly":[{"time":"24","tempC":"25","tempF":"76","windspeedMiles":"3","windspeedKmph":"5","winddirDegree":"305","winddir16Point":"NW","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.0","precipInches":"0.0","humidity":"51","visibility":"10","visibilityMiles":"6","pressure":"1017","pressureInches":"31","cloudcover":"2","HeatIndexC":"18","HeatIndexF":"64","DewPointC":"7","DewPointF":"44","WindChillC":"18","WindChillF":"64","WindGustMiles":"6","WindGustKmph":"10","FeelsLikeC":"18","FeelsLikeF":"64","uvIndex":"6"}]},{"date":"2016-10-07","astronomy":[{"sunrise":"07:11
         AM","sunset":"06:42 PM","moonrise":"01:02 PM","moonset":"11:18 PM","moon_phase":"Waxing
         Crescent","moon_illumination":"38"}],"maxtempC":"28","maxtempF":"83","mintempC":"14","mintempF":"57","avgtempC":"23","avgtempF":"73","totalSnow_cm":"0.0","sunHour":"10.1","uvIndex":"5","hourly":[{"time":"24","tempC":"28","tempF":"83","windspeedMiles":"2","windspeedKmph":"4","winddirDegree":"172","winddir16Point":"S","weatherCode":"119","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png"}],"weatherDesc":[{"value":"Cloudy"}],"precipMM":"0.0","precipInches":"0.0","humidity":"42","visibility":"10","visibilityMiles":"6","pressure":"1015","pressureInches":"30","cloudcover":"29","HeatIndexC":"19","HeatIndexF":"67","DewPointC":"5","DewPointF":"41","WindChillC":"20","WindChillF":"68","WindGustMiles":"4","WindGustKmph":"6","FeelsLikeC":"19","FeelsLikeF":"67","uvIndex":"5"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:33 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:31 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-10-08&enddate=2016-11-11&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20
@@ -1145,7 +1147,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:34 GMT
+      - Tue, 20 Apr 2021 16:27:31 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1155,7 +1157,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -1163,21 +1165,21 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '617'
       Cache-Control:
       - public, max-age=180
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:34'
+      - '2021-04-20 11:27:31'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - bd6ead93ab35c8bb48e4892102d811e6
+      - f003bd830f884db327c9cb47aa6b79c7
       Cdn-Cache:
-      - MISS
+      - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa, United States of
@@ -1270,7 +1272,7 @@ http_interactions:
         AM","sunset":"05:59 PM","moonrise":"04:28 PM","moonset":"04:09 AM","moon_phase":"Waxing
         Gibbous","moon_illumination":"81"}],"maxtempC":"22","maxtempF":"72","mintempC":"14","mintempF":"56","avgtempC":"19","avgtempF":"66","totalSnow_cm":"0.0","sunHour":"8.7","uvIndex":"5","hourly":[{"time":"24","tempC":"22","tempF":"72","windspeedMiles":"3","windspeedKmph":"5","winddirDegree":"154","winddir16Point":"SSE","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.0","precipInches":"0.0","humidity":"73","visibility":"10","visibilityMiles":"6","pressure":"1018","pressureInches":"31","cloudcover":"36","HeatIndexC":"18","HeatIndexF":"64","DewPointC":"12","DewPointF":"54","WindChillC":"17","WindChillF":"63","WindGustMiles":"5","WindGustKmph":"8","FeelsLikeC":"17","FeelsLikeF":"63","uvIndex":"5"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:34 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:31 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-11-12&enddate=2016-12-16&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20
@@ -1290,7 +1292,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:34 GMT
+      - Tue, 20 Apr 2021 16:27:32 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1300,7 +1302,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -1308,21 +1310,23 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '617'
       Cache-Control:
       - public, max-age=180
+      Request-Context:
+      - appId=cid-v1:89996683-9a04-40b3-8e46-77754119dcf5
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:34'
+      - '2021-04-20 11:27:32'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 61deacd08f8b4822fb3e79d5a776e39f
+      - b8f44abad4e662c6fa6e3ded9016ebf8
       Cdn-Cache:
-      - MISS
+      - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa, United States of
@@ -1416,7 +1420,7 @@ http_interactions:
         rain"}],"precipMM":"65.9","precipInches":"2.6","humidity":"94","visibility":"7","visibilityMiles":"4","pressure":"1008","pressureInches":"30","cloudcover":"100","HeatIndexC":"14","HeatIndexF":"56","DewPointC":"13","DewPointF":"55","WindChillC":"12","WindChillF":"53","WindGustMiles":"18","WindGustKmph":"30","FeelsLikeC":"12","FeelsLikeF":"53","uvIndex":"3"}]},{"date":"2016-12-16","astronomy":[{"sunrise":"08:20
         AM","sunset":"05:51 PM","moonrise":"09:16 PM","moonset":"10:37 AM","moon_phase":"Waxing
         Gibbous","moon_illumination":"82"}],"maxtempC":"11","maxtempF":"52","mintempC":"6","mintempF":"42","avgtempC":"9","avgtempF":"48","totalSnow_cm":"0.0","sunHour":"8.7","uvIndex":"3","hourly":[{"time":"24","tempC":"11","tempF":"52","windspeedMiles":"12","windspeedKmph":"20","winddirDegree":"289","winddir16Point":"WNW","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.0","precipInches":"0.0","humidity":"72","visibility":"10","visibilityMiles":"6","pressure":"1013","pressureInches":"30","cloudcover":"5","HeatIndexC":"8","HeatIndexF":"47","DewPointC":"3","DewPointF":"38","WindChillC":"5","WindChillF":"41","WindGustMiles":"19","WindGustKmph":"30","FeelsLikeC":"5","FeelsLikeF":"41","uvIndex":"3"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:34 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:32 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-12-17&enddate=2016-12-31&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20
@@ -1436,7 +1440,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:35 GMT
+      - Tue, 20 Apr 2021 16:27:32 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1446,7 +1450,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -1454,21 +1458,21 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '617'
       Cache-Control:
       - public, max-age=180
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:35'
+      - '2021-04-20 11:27:32'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 4e169ec620d7f0c05e80ca3bd417d314
+      - be0dd605772621938a468e2d4382f3c1
       Cdn-Cache:
-      - MISS
+      - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa, United States of
@@ -1508,7 +1512,7 @@ http_interactions:
         AM","sunset":"05:59 PM","moonrise":"10:00 AM","moonset":"08:38 PM","moon_phase":"Waxing
         Crescent","moon_illumination":"9"}],"maxtempC":"12","maxtempF":"54","mintempC":"6","mintempF":"42","avgtempC":"9","avgtempF":"48","totalSnow_cm":"0.0","sunHour":"8.7","uvIndex":"3","hourly":[{"time":"24","tempC":"12","tempF":"54","windspeedMiles":"5","windspeedKmph":"8","winddirDegree":"180","winddir16Point":"S","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.2","precipInches":"0.0","humidity":"79","visibility":"10","visibilityMiles":"6","pressure":"1013","pressureInches":"30","cloudcover":"14","HeatIndexC":"8","HeatIndexF":"46","DewPointC":"4","DewPointF":"40","WindChillC":"6","WindChillF":"44","WindGustMiles":"8","WindGustKmph":"13","FeelsLikeC":"6","FeelsLikeF":"44","uvIndex":"3"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:35 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:32 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-01-01&enddate=2016-02-04&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20
@@ -1528,7 +1532,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:35 GMT
+      - Tue, 20 Apr 2021 16:27:32 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1538,7 +1542,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -1546,21 +1550,21 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '617'
       Cache-Control:
       - public, max-age=180
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:35'
+      - '2021-04-20 11:27:26'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 1a919e490f1da4e203d3ea3c733a6506
+      - d740dd907b36925f830a1f582ed61111
       Cdn-Cache:
-      - MISS
+      - HIT
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa, United States of
@@ -1660,7 +1664,7 @@ http_interactions:
         AM","sunset":"06:35 PM","moonrise":"04:44 AM","moonset":"03:04 PM","moon_phase":"Waning
         Crescent","moon_illumination":"11"}],"maxtempC":"15","maxtempF":"58","mintempC":"5","mintempF":"41","avgtempC":"11","avgtempF":"51","totalSnow_cm":"0.0","sunHour":"10.2","uvIndex":"4","hourly":[{"time":"24","tempC":"15","tempF":"58","windspeedMiles":"4","windspeedKmph":"7","winddirDegree":"66","winddir16Point":"ENE","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.1","precipInches":"0.0","humidity":"78","visibility":"10","visibilityMiles":"6","pressure":"1030","pressureInches":"31","cloudcover":"28","HeatIndexC":"10","HeatIndexF":"49","DewPointC":"6","DewPointF":"42","WindChillC":"9","WindChillF":"48","WindGustMiles":"7","WindGustKmph":"11","FeelsLikeC":"9","FeelsLikeF":"48","uvIndex":"4"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:35 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:32 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-02-05&enddate=2016-03-11&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20
@@ -1680,7 +1684,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:36 GMT
+      - Tue, 20 Apr 2021 16:27:33 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1690,7 +1694,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -1698,21 +1702,23 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '718'
       Cache-Control:
       - public, max-age=180
+      Request-Context:
+      - appId=cid-v1:89996683-9a04-40b3-8e46-77754119dcf5
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:36'
+      - '2021-04-20 11:27:27'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 36c42b44447fe4f9fd38f35d12c0bf9d
+      - 6e2ca43db7f2f68b7f84b224805568fc
       Cdn-Cache:
-      - MISS
+      - HIT
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa, United States of
@@ -1802,7 +1808,7 @@ http_interactions:
         AM","sunset":"07:12 PM","moonrise":"08:33 AM","moonset":"09:29 PM","moon_phase":"Waxing
         Crescent","moon_illumination":"7"}],"maxtempC":"15","maxtempF":"59","mintempC":"13","mintempF":"55","avgtempC":"14","avgtempF":"58","totalSnow_cm":"0.0","sunHour":"5.9","uvIndex":"3","hourly":[{"time":"24","tempC":"15","tempF":"59","windspeedMiles":"7","windspeedKmph":"11","winddirDegree":"171","winddir16Point":"S","weatherCode":"308","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0018_cloudy_with_heavy_rain.png"}],"weatherDesc":[{"value":"Heavy
         rain"}],"precipMM":"35.8","precipInches":"1.4","humidity":"94","visibility":"7","visibilityMiles":"4","pressure":"1016","pressureInches":"30","cloudcover":"89","HeatIndexC":"14","HeatIndexF":"57","DewPointC":"13","DewPointF":"55","WindChillC":"13","WindChillF":"55","WindGustMiles":"12","WindGustKmph":"19","FeelsLikeC":"13","FeelsLikeF":"55","uvIndex":"3"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:36 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:33 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-03-12&enddate=2016-04-15&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20
@@ -1822,7 +1828,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:36 GMT
+      - Tue, 20 Apr 2021 16:27:33 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1832,7 +1838,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -1840,21 +1846,21 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '718'
       Cache-Control:
       - public, max-age=180
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:36'
+      - '2021-04-20 11:27:27'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 0c21be3931557ffc57f2b49c98681fe9
+      - 7727896cc1b345965c62c8f1c66efd5b
       Cdn-Cache:
-      - MISS
+      - HIT
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa, United States of
@@ -1946,7 +1952,7 @@ http_interactions:
         AM","sunset":"07:46 PM","moonrise":"02:02 PM","moonset":"03:08 AM","moon_phase":"First
         Quarter","moon_illumination":"56"}],"maxtempC":"18","maxtempF":"64","mintempC":"6","mintempF":"43","avgtempC":"14","avgtempF":"57","totalSnow_cm":"0.0","sunHour":"10.3","uvIndex":"3","hourly":[{"time":"24","tempC":"18","tempF":"64","windspeedMiles":"7","windspeedKmph":"11","winddirDegree":"262","winddir16Point":"W","weatherCode":"176","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"}],"weatherDesc":[{"value":"Patchy
         rain possible"}],"precipMM":"0.1","precipInches":"0.0","humidity":"67","visibility":"9","visibilityMiles":"5","pressure":"1018","pressureInches":"31","cloudcover":"30","HeatIndexC":"12","HeatIndexF":"53","DewPointC":"5","DewPointF":"41","WindChillC":"11","WindChillF":"51","WindGustMiles":"11","WindGustKmph":"17","FeelsLikeC":"11","FeelsLikeF":"51","uvIndex":"3"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:37 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:33 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-04-16&enddate=2016-05-20&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20
@@ -1966,7 +1972,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:37 GMT
+      - Tue, 20 Apr 2021 16:27:33 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1976,7 +1982,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -1984,21 +1990,23 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '617'
       Cache-Control:
       - public, max-age=180
+      Request-Context:
+      - appId=cid-v1:89996683-9a04-40b3-8e46-77754119dcf5
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:37'
+      - '2021-04-20 11:27:28'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - eec48476769768055215458e08df8ef0
+      - a0472c38a6531d7686c2712bce7bd812
       Cdn-Cache:
-      - MISS
+      - HIT
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa, United States of
@@ -2090,7 +2098,7 @@ http_interactions:
         AM","sunset":"08:18 PM","moonrise":"07:20 PM","moonset":"05:29 AM","moon_phase":"Waxing
         Gibbous","moon_illumination":"94"}],"maxtempC":"23","maxtempF":"74","mintempC":"9","mintempF":"49","avgtempC":"19","avgtempF":"66","totalSnow_cm":"0.0","sunHour":"14.5","uvIndex":"5","hourly":[{"time":"24","tempC":"23","tempF":"74","windspeedMiles":"7","windspeedKmph":"11","winddirDegree":"240","winddir16Point":"WSW","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.0","precipInches":"0.0","humidity":"62","visibility":"10","visibilityMiles":"5","pressure":"1015","pressureInches":"30","cloudcover":"22","HeatIndexC":"16","HeatIndexF":"61","DewPointC":"8","DewPointF":"46","WindChillC":"15","WindChillF":"60","WindGustMiles":"11","WindGustKmph":"17","FeelsLikeC":"15","FeelsLikeF":"60","uvIndex":"5"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:37 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:33 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-05-21&enddate=2016-06-24&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20
@@ -2110,7 +2118,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:38 GMT
+      - Tue, 20 Apr 2021 16:27:33 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -2120,7 +2128,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -2128,23 +2136,21 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '617'
       Cache-Control:
       - public, max-age=180
-      Request-Context:
-      - appId=cid-v1:89996683-9a04-40b3-8e46-77754119dcf5
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:38'
+      - '2021-04-20 11:27:28'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - e61a21e93a8a6430728c9c889e8c30f2
+      - b273ac082c1b4983d082d1d0385b2ddf
       Cdn-Cache:
-      - MISS
+      - HIT
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa, United States of
@@ -2230,7 +2236,7 @@ http_interactions:
         Gibbous","moon_illumination":"69"}],"maxtempC":"29","maxtempF":"84","mintempC":"12","mintempF":"53","avgtempC":"24","avgtempF":"74","totalSnow_cm":"0.0","sunHour":"14.5","uvIndex":"6","hourly":[{"time":"24","tempC":"29","tempF":"84","windspeedMiles":"9","windspeedKmph":"14","winddirDegree":"250","winddir16Point":"WSW","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.0","precipInches":"0.0","humidity":"60","visibility":"10","visibilityMiles":"6","pressure":"1017","pressureInches":"31","cloudcover":"0","HeatIndexC":"19","HeatIndexF":"67","DewPointC":"10","DewPointF":"50","WindChillC":"19","WindChillF":"67","WindGustMiles":"13","WindGustKmph":"20","FeelsLikeC":"19","FeelsLikeF":"67","uvIndex":"6"}]},{"date":"2016-06-24","astronomy":[{"sunrise":"05:47
         AM","sunset":"08:36 PM","moonrise":"11:41 PM","moonset":"10:03 AM","moon_phase":"Waning
         Gibbous","moon_illumination":"61"}],"maxtempC":"28","maxtempF":"83","mintempC":"12","mintempF":"54","avgtempC":"24","avgtempF":"76","totalSnow_cm":"0.0","sunHour":"14.5","uvIndex":"6","hourly":[{"time":"24","tempC":"28","tempF":"83","windspeedMiles":"5","windspeedKmph":"7","winddirDegree":"235","winddir16Point":"SW","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.0","precipInches":"0.0","humidity":"58","visibility":"9","visibilityMiles":"5","pressure":"1017","pressureInches":"31","cloudcover":"2","HeatIndexC":"21","HeatIndexF":"69","DewPointC":"11","DewPointF":"51","WindChillC":"20","WindChillF":"69","WindGustMiles":"8","WindGustKmph":"12","FeelsLikeC":"21","FeelsLikeF":"69","uvIndex":"6"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:38 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:33 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-06-25&enddate=2016-07-29&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20
@@ -2250,7 +2256,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:38 GMT
+      - Tue, 20 Apr 2021 16:27:33 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -2260,7 +2266,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -2268,21 +2274,21 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '617'
       Cache-Control:
       - public, max-age=180
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:38'
+      - '2021-04-20 11:27:29'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - ac2b2d5693aa0e97f62cb8e18f5675ca
+      - bccb272266467e8acd58716c37f393ea
       Cdn-Cache:
-      - MISS
+      - HIT
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa, United States of
@@ -2371,7 +2377,7 @@ http_interactions:
         Quarter","moon_illumination":"34"}],"maxtempC":"32","maxtempF":"90","mintempC":"16","mintempF":"61","avgtempC":"26","avgtempF":"79","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"7","hourly":[{"time":"24","tempC":"32","tempF":"90","windspeedMiles":"5","windspeedKmph":"8","winddirDegree":"243","winddir16Point":"WSW","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.0","precipInches":"0.0","humidity":"53","visibility":"10","visibilityMiles":"6","pressure":"1011","pressureInches":"30","cloudcover":"3","HeatIndexC":"23","HeatIndexF":"73","DewPointC":"12","DewPointF":"53","WindChillC":"23","WindChillF":"73","WindGustMiles":"8","WindGustKmph":"13","FeelsLikeC":"23","FeelsLikeF":"73","uvIndex":"7"}]},{"date":"2016-07-29","astronomy":[{"sunrise":"06:09
         AM","sunset":"08:21 PM","moonrise":"02:17 AM","moonset":"04:42 PM","moon_phase":"Waning
         Crescent","moon_illumination":"26"}],"maxtempC":"32","maxtempF":"90","mintempC":"16","mintempF":"60","avgtempC":"26","avgtempF":"79","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"7","hourly":[{"time":"24","tempC":"32","tempF":"90","windspeedMiles":"5","windspeedKmph":"8","winddirDegree":"243","winddir16Point":"WSW","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.0","precipInches":"0.0","humidity":"52","visibility":"10","visibilityMiles":"6","pressure":"1010","pressureInches":"30","cloudcover":"0","HeatIndexC":"23","HeatIndexF":"73","DewPointC":"12","DewPointF":"53","WindChillC":"23","WindChillF":"73","WindGustMiles":"8","WindGustKmph":"13","FeelsLikeC":"23","FeelsLikeF":"73","uvIndex":"7"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:38 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:33 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-07-30&enddate=2016-09-02&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20
@@ -2391,7 +2397,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:39 GMT
+      - Tue, 20 Apr 2021 16:27:33 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -2401,7 +2407,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -2409,21 +2415,23 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '617'
       Cache-Control:
       - public, max-age=180
+      Request-Context:
+      - appId=cid-v1:89996683-9a04-40b3-8e46-77754119dcf5
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:39'
+      - '2021-04-20 11:27:30'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 93d337975efc2fadc788010ce190adac
+      - 05c7e6f3209330df9797814db5fecb79
       Cdn-Cache:
-      - MISS
+      - HIT
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa, United States of
@@ -2500,7 +2508,7 @@ http_interactions:
         Moon","moon_illumination":"0"}],"maxtempC":"25","maxtempF":"76","mintempC":"14","mintempF":"58","avgtempC":"21","avgtempF":"69","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"6","hourly":[{"time":"24","tempC":"25","tempF":"76","windspeedMiles":"6","windspeedKmph":"9","winddirDegree":"223","winddir16Point":"SW","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.1","precipInches":"0.0","humidity":"73","visibility":"10","visibilityMiles":"6","pressure":"1014","pressureInches":"30","cloudcover":"8","HeatIndexC":"19","HeatIndexF":"66","DewPointC":"13","DewPointF":"55","WindChillC":"18","WindChillF":"65","WindGustMiles":"9","WindGustKmph":"15","FeelsLikeC":"18","FeelsLikeF":"65","uvIndex":"6"}]},{"date":"2016-09-02","astronomy":[{"sunrise":"06:40
         AM","sunset":"07:37 PM","moonrise":"07:54 AM","moonset":"08:28 PM","moon_phase":"New
         Moon","moon_illumination":"0"}],"maxtempC":"28","maxtempF":"82","mintempC":"14","mintempF":"57","avgtempC":"23","avgtempF":"73","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"6","hourly":[{"time":"24","tempC":"28","tempF":"82","windspeedMiles":"5","windspeedKmph":"8","winddirDegree":"223","winddir16Point":"SW","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.0","precipInches":"0.0","humidity":"64","visibility":"10","visibilityMiles":"6","pressure":"1012","pressureInches":"30","cloudcover":"5","HeatIndexC":"20","HeatIndexF":"68","DewPointC":"12","DewPointF":"53","WindChillC":"20","WindChillF":"68","WindGustMiles":"8","WindGustKmph":"13","FeelsLikeC":"20","FeelsLikeF":"68","uvIndex":"6"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:39 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:33 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-09-03&enddate=2016-10-07&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20
@@ -2520,7 +2528,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:39 GMT
+      - Tue, 20 Apr 2021 16:27:33 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -2530,7 +2538,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -2538,21 +2546,21 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '617'
       Cache-Control:
       - public, max-age=180
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:39'
+      - '2021-04-20 11:27:30'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 3c056cf7f4860209058afd5a5fe77c67
+      - 536ba8851dd7539c0688c7d5a008f5e2
       Cdn-Cache:
-      - MISS
+      - HIT
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa, United States of
@@ -2632,7 +2640,7 @@ http_interactions:
         Crescent","moon_illumination":"31"}],"maxtempC":"25","maxtempF":"76","mintempC":"13","mintempF":"55","avgtempC":"20","avgtempF":"68","totalSnow_cm":"0.0","sunHour":"11.3","uvIndex":"6","hourly":[{"time":"24","tempC":"25","tempF":"76","windspeedMiles":"3","windspeedKmph":"5","winddirDegree":"305","winddir16Point":"NW","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.0","precipInches":"0.0","humidity":"51","visibility":"10","visibilityMiles":"6","pressure":"1017","pressureInches":"31","cloudcover":"2","HeatIndexC":"18","HeatIndexF":"64","DewPointC":"7","DewPointF":"44","WindChillC":"18","WindChillF":"64","WindGustMiles":"6","WindGustKmph":"10","FeelsLikeC":"18","FeelsLikeF":"64","uvIndex":"6"}]},{"date":"2016-10-07","astronomy":[{"sunrise":"07:11
         AM","sunset":"06:42 PM","moonrise":"01:02 PM","moonset":"11:18 PM","moon_phase":"Waxing
         Crescent","moon_illumination":"38"}],"maxtempC":"28","maxtempF":"83","mintempC":"14","mintempF":"57","avgtempC":"23","avgtempF":"73","totalSnow_cm":"0.0","sunHour":"10.1","uvIndex":"5","hourly":[{"time":"24","tempC":"28","tempF":"83","windspeedMiles":"2","windspeedKmph":"4","winddirDegree":"172","winddir16Point":"S","weatherCode":"119","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png"}],"weatherDesc":[{"value":"Cloudy"}],"precipMM":"0.0","precipInches":"0.0","humidity":"42","visibility":"10","visibilityMiles":"6","pressure":"1015","pressureInches":"30","cloudcover":"29","HeatIndexC":"19","HeatIndexF":"67","DewPointC":"5","DewPointF":"41","WindChillC":"20","WindChillF":"68","WindGustMiles":"4","WindGustKmph":"6","FeelsLikeC":"19","FeelsLikeF":"67","uvIndex":"5"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:39 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:33 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-10-08&enddate=2016-11-11&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20
@@ -2652,7 +2660,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:40 GMT
+      - Tue, 20 Apr 2021 16:27:33 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -2662,7 +2670,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -2670,21 +2678,21 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '617'
       Cache-Control:
       - public, max-age=180
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:40'
+      - '2021-04-20 11:27:31'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - c3f6fc12a2dd69dc3f8c6a6cde9efc81
+      - 87a6139dfcb47a9afde8ce81a3791c1e
       Cdn-Cache:
-      - MISS
+      - HIT
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa, United States of
@@ -2777,7 +2785,7 @@ http_interactions:
         AM","sunset":"05:59 PM","moonrise":"04:28 PM","moonset":"04:09 AM","moon_phase":"Waxing
         Gibbous","moon_illumination":"81"}],"maxtempC":"22","maxtempF":"72","mintempC":"14","mintempF":"56","avgtempC":"19","avgtempF":"66","totalSnow_cm":"0.0","sunHour":"8.7","uvIndex":"5","hourly":[{"time":"24","tempC":"22","tempF":"72","windspeedMiles":"3","windspeedKmph":"5","winddirDegree":"154","winddir16Point":"SSE","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.0","precipInches":"0.0","humidity":"73","visibility":"10","visibilityMiles":"6","pressure":"1018","pressureInches":"31","cloudcover":"36","HeatIndexC":"18","HeatIndexF":"64","DewPointC":"12","DewPointF":"54","WindChillC":"17","WindChillF":"63","WindGustMiles":"5","WindGustKmph":"8","FeelsLikeC":"17","FeelsLikeF":"63","uvIndex":"5"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:40 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:33 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-11-12&enddate=2016-12-16&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20
@@ -2797,7 +2805,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:40 GMT
+      - Tue, 20 Apr 2021 16:27:33 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -2807,7 +2815,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -2815,21 +2823,23 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '617'
       Cache-Control:
       - public, max-age=180
+      Request-Context:
+      - appId=cid-v1:89996683-9a04-40b3-8e46-77754119dcf5
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:40'
+      - '2021-04-20 11:27:32'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - b451dfbb18ea52aa5c428349ba63f6dd
+      - daf084f73e8aa32c190d0d2fcf510292
       Cdn-Cache:
-      - MISS
+      - HIT
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa, United States of
@@ -2923,7 +2933,7 @@ http_interactions:
         rain"}],"precipMM":"65.9","precipInches":"2.6","humidity":"94","visibility":"7","visibilityMiles":"4","pressure":"1008","pressureInches":"30","cloudcover":"100","HeatIndexC":"14","HeatIndexF":"56","DewPointC":"13","DewPointF":"55","WindChillC":"12","WindChillF":"53","WindGustMiles":"18","WindGustKmph":"30","FeelsLikeC":"12","FeelsLikeF":"53","uvIndex":"3"}]},{"date":"2016-12-16","astronomy":[{"sunrise":"08:20
         AM","sunset":"05:51 PM","moonrise":"09:16 PM","moonset":"10:37 AM","moon_phase":"Waxing
         Gibbous","moon_illumination":"82"}],"maxtempC":"11","maxtempF":"52","mintempC":"6","mintempF":"42","avgtempC":"9","avgtempF":"48","totalSnow_cm":"0.0","sunHour":"8.7","uvIndex":"3","hourly":[{"time":"24","tempC":"11","tempF":"52","windspeedMiles":"12","windspeedKmph":"20","winddirDegree":"289","winddir16Point":"WNW","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.0","precipInches":"0.0","humidity":"72","visibility":"10","visibilityMiles":"6","pressure":"1013","pressureInches":"30","cloudcover":"5","HeatIndexC":"8","HeatIndexF":"47","DewPointC":"3","DewPointF":"38","WindChillC":"5","WindChillF":"41","WindGustMiles":"19","WindGustKmph":"30","FeelsLikeC":"5","FeelsLikeF":"41","uvIndex":"3"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:40 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:33 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-12-17&enddate=2016-12-31&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20
@@ -2943,7 +2953,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:41 GMT
+      - Tue, 20 Apr 2021 16:27:33 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -2953,7 +2963,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -2961,21 +2971,21 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '617'
       Cache-Control:
       - public, max-age=180
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:41'
+      - '2021-04-20 11:27:32'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - ce92aaf7531570517186b70369946088
+      - 0c142c499b5e59c7de8a76561a161553
       Cdn-Cache:
-      - MISS
+      - HIT
     body:
       encoding: ASCII-8BIT
       string: '{"data":{"request":[{"type":"City","query":"Napa, United States of
@@ -3015,7 +3025,7 @@ http_interactions:
         AM","sunset":"05:59 PM","moonrise":"10:00 AM","moonset":"08:38 PM","moon_phase":"Waxing
         Crescent","moon_illumination":"9"}],"maxtempC":"12","maxtempF":"54","mintempC":"6","mintempF":"42","avgtempC":"9","avgtempF":"48","totalSnow_cm":"0.0","sunHour":"8.7","uvIndex":"3","hourly":[{"time":"24","tempC":"12","tempF":"54","windspeedMiles":"5","windspeedKmph":"8","winddirDegree":"180","winddir16Point":"S","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.2","precipInches":"0.0","humidity":"79","visibility":"10","visibilityMiles":"6","pressure":"1013","pressureInches":"30","cloudcover":"14","HeatIndexC":"8","HeatIndexF":"46","DewPointC":"4","DewPointF":"40","WindChillC":"6","WindChillF":"44","WindGustMiles":"8","WindGustKmph":"13","FeelsLikeC":"6","FeelsLikeF":"44","uvIndex":"3"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:41 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:33 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-01-01&enddate=2016-02-04&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20%20%20
@@ -3035,7 +3045,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:41 GMT
+      - Tue, 20 Apr 2021 16:27:34 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -3045,7 +3055,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -3053,19 +3063,19 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '718'
       Cache-Control:
       - public, max-age=180
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:41'
+      - '2021-04-20 11:27:34'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 3a11d127f169f825275c21570ba2c448
+      - ea63b470c8479d4ae70ae23b28d5b55b
       Cdn-Cache:
       - MISS
     body:
@@ -3167,7 +3177,7 @@ http_interactions:
         AM","sunset":"06:35 PM","moonrise":"04:44 AM","moonset":"03:04 PM","moon_phase":"Waning
         Crescent","moon_illumination":"11"}],"maxtempC":"15","maxtempF":"58","mintempC":"5","mintempF":"41","avgtempC":"11","avgtempF":"51","totalSnow_cm":"0.0","sunHour":"10.2","uvIndex":"4","hourly":[{"time":"24","tempC":"15","tempF":"58","windspeedMiles":"4","windspeedKmph":"7","winddirDegree":"66","winddir16Point":"ENE","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.1","precipInches":"0.0","humidity":"78","visibility":"10","visibilityMiles":"6","pressure":"1030","pressureInches":"31","cloudcover":"28","HeatIndexC":"10","HeatIndexF":"49","DewPointC":"6","DewPointF":"42","WindChillC":"9","WindChillF":"48","WindGustMiles":"7","WindGustKmph":"11","FeelsLikeC":"9","FeelsLikeF":"48","uvIndex":"4"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:41 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:34 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-02-05&enddate=2016-03-11&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20%20%20
@@ -3187,7 +3197,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:42 GMT
+      - Tue, 20 Apr 2021 16:27:35 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -3197,7 +3207,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -3205,19 +3215,19 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '718'
       Cache-Control:
       - public, max-age=180
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:42'
+      - '2021-04-20 11:27:35'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 5382e521bc50f30d2656b7e296f3f6d5
+      - 43033e6579286772879f37840020f366
       Cdn-Cache:
       - MISS
     body:
@@ -3309,7 +3319,7 @@ http_interactions:
         AM","sunset":"07:12 PM","moonrise":"08:33 AM","moonset":"09:29 PM","moon_phase":"Waxing
         Crescent","moon_illumination":"7"}],"maxtempC":"15","maxtempF":"59","mintempC":"13","mintempF":"55","avgtempC":"14","avgtempF":"58","totalSnow_cm":"0.0","sunHour":"5.9","uvIndex":"3","hourly":[{"time":"24","tempC":"15","tempF":"59","windspeedMiles":"7","windspeedKmph":"11","winddirDegree":"171","winddir16Point":"S","weatherCode":"308","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0018_cloudy_with_heavy_rain.png"}],"weatherDesc":[{"value":"Heavy
         rain"}],"precipMM":"35.8","precipInches":"1.4","humidity":"94","visibility":"7","visibilityMiles":"4","pressure":"1016","pressureInches":"30","cloudcover":"89","HeatIndexC":"14","HeatIndexF":"57","DewPointC":"13","DewPointF":"55","WindChillC":"13","WindChillF":"55","WindGustMiles":"12","WindGustKmph":"19","FeelsLikeC":"13","FeelsLikeF":"55","uvIndex":"3"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:42 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:35 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-03-12&enddate=2016-04-15&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20%20%20
@@ -3329,7 +3339,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:43 GMT
+      - Tue, 20 Apr 2021 16:27:36 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -3339,7 +3349,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -3347,21 +3357,19 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '617'
       Cache-Control:
       - public, max-age=180
-      Request-Context:
-      - appId=cid-v1:89996683-9a04-40b3-8e46-77754119dcf5
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:43'
+      - '2021-04-20 11:27:36'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - ec8f73665f788899363e30b3bd6dedda
+      - '09e396c649860e5583651da987b1aba3'
       Cdn-Cache:
       - MISS
     body:
@@ -3455,7 +3463,7 @@ http_interactions:
         AM","sunset":"07:46 PM","moonrise":"02:02 PM","moonset":"03:08 AM","moon_phase":"First
         Quarter","moon_illumination":"56"}],"maxtempC":"18","maxtempF":"64","mintempC":"6","mintempF":"43","avgtempC":"14","avgtempF":"57","totalSnow_cm":"0.0","sunHour":"10.3","uvIndex":"3","hourly":[{"time":"24","tempC":"18","tempF":"64","windspeedMiles":"7","windspeedKmph":"11","winddirDegree":"262","winddir16Point":"W","weatherCode":"176","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"}],"weatherDesc":[{"value":"Patchy
         rain possible"}],"precipMM":"0.1","precipInches":"0.0","humidity":"67","visibility":"9","visibilityMiles":"5","pressure":"1018","pressureInches":"31","cloudcover":"30","HeatIndexC":"12","HeatIndexF":"53","DewPointC":"5","DewPointF":"41","WindChillC":"11","WindChillF":"51","WindGustMiles":"11","WindGustKmph":"17","FeelsLikeC":"11","FeelsLikeF":"51","uvIndex":"3"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:43 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:36 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-04-16&enddate=2016-05-20&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20%20%20
@@ -3475,7 +3483,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:44 GMT
+      - Tue, 20 Apr 2021 16:27:36 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -3485,7 +3493,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -3493,19 +3501,19 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '617'
       Cache-Control:
       - public, max-age=180
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:44'
+      - '2021-04-20 11:27:36'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 49972ff9a2d8a5f1596ecf2ffb20ae8a
+      - 4cd8f1f07c54569229147108591ee615
       Cdn-Cache:
       - MISS
     body:
@@ -3599,7 +3607,7 @@ http_interactions:
         AM","sunset":"08:18 PM","moonrise":"07:20 PM","moonset":"05:29 AM","moon_phase":"Waxing
         Gibbous","moon_illumination":"94"}],"maxtempC":"23","maxtempF":"74","mintempC":"9","mintempF":"49","avgtempC":"19","avgtempF":"66","totalSnow_cm":"0.0","sunHour":"14.5","uvIndex":"5","hourly":[{"time":"24","tempC":"23","tempF":"74","windspeedMiles":"7","windspeedKmph":"11","winddirDegree":"240","winddir16Point":"WSW","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.0","precipInches":"0.0","humidity":"62","visibility":"10","visibilityMiles":"5","pressure":"1015","pressureInches":"30","cloudcover":"22","HeatIndexC":"16","HeatIndexF":"61","DewPointC":"8","DewPointF":"46","WindChillC":"15","WindChillF":"60","WindGustMiles":"11","WindGustKmph":"17","FeelsLikeC":"15","FeelsLikeF":"60","uvIndex":"5"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:44 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:36 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-05-21&enddate=2016-06-24&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20%20%20
@@ -3619,7 +3627,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:44 GMT
+      - Tue, 20 Apr 2021 16:27:37 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -3629,7 +3637,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -3637,21 +3645,19 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '617'
       Cache-Control:
       - public, max-age=180
-      Request-Context:
-      - appId=cid-v1:89996683-9a04-40b3-8e46-77754119dcf5
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:44'
+      - '2021-04-20 11:27:37'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 8f6d603c7aa2c7004f3dfdcc248ea827
+      - 64ccd6f1c1b5261c341d754f3e2617ed
       Cdn-Cache:
       - MISS
     body:
@@ -3739,7 +3745,7 @@ http_interactions:
         Gibbous","moon_illumination":"69"}],"maxtempC":"29","maxtempF":"84","mintempC":"12","mintempF":"53","avgtempC":"24","avgtempF":"74","totalSnow_cm":"0.0","sunHour":"14.5","uvIndex":"6","hourly":[{"time":"24","tempC":"29","tempF":"84","windspeedMiles":"9","windspeedKmph":"14","winddirDegree":"250","winddir16Point":"WSW","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.0","precipInches":"0.0","humidity":"60","visibility":"10","visibilityMiles":"6","pressure":"1017","pressureInches":"31","cloudcover":"0","HeatIndexC":"19","HeatIndexF":"67","DewPointC":"10","DewPointF":"50","WindChillC":"19","WindChillF":"67","WindGustMiles":"13","WindGustKmph":"20","FeelsLikeC":"19","FeelsLikeF":"67","uvIndex":"6"}]},{"date":"2016-06-24","astronomy":[{"sunrise":"05:47
         AM","sunset":"08:36 PM","moonrise":"11:41 PM","moonset":"10:03 AM","moon_phase":"Waning
         Gibbous","moon_illumination":"61"}],"maxtempC":"28","maxtempF":"83","mintempC":"12","mintempF":"54","avgtempC":"24","avgtempF":"76","totalSnow_cm":"0.0","sunHour":"14.5","uvIndex":"6","hourly":[{"time":"24","tempC":"28","tempF":"83","windspeedMiles":"5","windspeedKmph":"7","winddirDegree":"235","winddir16Point":"SW","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.0","precipInches":"0.0","humidity":"58","visibility":"9","visibilityMiles":"5","pressure":"1017","pressureInches":"31","cloudcover":"2","HeatIndexC":"21","HeatIndexF":"69","DewPointC":"11","DewPointF":"51","WindChillC":"20","WindChillF":"69","WindGustMiles":"8","WindGustKmph":"12","FeelsLikeC":"21","FeelsLikeF":"69","uvIndex":"6"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:44 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:37 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-06-25&enddate=2016-07-29&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20%20%20
@@ -3759,7 +3765,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:45 GMT
+      - Tue, 20 Apr 2021 16:27:38 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -3769,7 +3775,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -3777,19 +3783,19 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '718'
       Cache-Control:
       - public, max-age=180
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:45'
+      - '2021-04-20 11:27:38'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 35acae7358e3632cce828909492401e4
+      - b7fee34c58d4184daf18cec0084bab22
       Cdn-Cache:
       - MISS
     body:
@@ -3880,7 +3886,7 @@ http_interactions:
         Quarter","moon_illumination":"34"}],"maxtempC":"32","maxtempF":"90","mintempC":"16","mintempF":"61","avgtempC":"26","avgtempF":"79","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"7","hourly":[{"time":"24","tempC":"32","tempF":"90","windspeedMiles":"5","windspeedKmph":"8","winddirDegree":"243","winddir16Point":"WSW","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.0","precipInches":"0.0","humidity":"53","visibility":"10","visibilityMiles":"6","pressure":"1011","pressureInches":"30","cloudcover":"3","HeatIndexC":"23","HeatIndexF":"73","DewPointC":"12","DewPointF":"53","WindChillC":"23","WindChillF":"73","WindGustMiles":"8","WindGustKmph":"13","FeelsLikeC":"23","FeelsLikeF":"73","uvIndex":"7"}]},{"date":"2016-07-29","astronomy":[{"sunrise":"06:09
         AM","sunset":"08:21 PM","moonrise":"02:17 AM","moonset":"04:42 PM","moon_phase":"Waning
         Crescent","moon_illumination":"26"}],"maxtempC":"32","maxtempF":"90","mintempC":"16","mintempF":"60","avgtempC":"26","avgtempF":"79","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"7","hourly":[{"time":"24","tempC":"32","tempF":"90","windspeedMiles":"5","windspeedKmph":"8","winddirDegree":"243","winddir16Point":"WSW","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.0","precipInches":"0.0","humidity":"52","visibility":"10","visibilityMiles":"6","pressure":"1010","pressureInches":"30","cloudcover":"0","HeatIndexC":"23","HeatIndexF":"73","DewPointC":"12","DewPointF":"53","WindChillC":"23","WindChillF":"73","WindGustMiles":"8","WindGustKmph":"13","FeelsLikeC":"23","FeelsLikeF":"73","uvIndex":"7"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:45 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:38 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-07-30&enddate=2016-09-02&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20%20%20
@@ -3900,7 +3906,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:45 GMT
+      - Tue, 20 Apr 2021 16:27:38 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -3910,7 +3916,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -3918,19 +3924,19 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '617'
       Cache-Control:
       - public, max-age=180
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:45'
+      - '2021-04-20 11:27:38'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 1a591cb2463bc945e81bacf3e6b1ed2b
+      - '08b2ee30fa14132a1c436ac801743d92'
       Cdn-Cache:
       - MISS
     body:
@@ -4009,7 +4015,7 @@ http_interactions:
         Moon","moon_illumination":"0"}],"maxtempC":"25","maxtempF":"76","mintempC":"14","mintempF":"58","avgtempC":"21","avgtempF":"69","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"6","hourly":[{"time":"24","tempC":"25","tempF":"76","windspeedMiles":"6","windspeedKmph":"9","winddirDegree":"223","winddir16Point":"SW","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.1","precipInches":"0.0","humidity":"73","visibility":"10","visibilityMiles":"6","pressure":"1014","pressureInches":"30","cloudcover":"8","HeatIndexC":"19","HeatIndexF":"66","DewPointC":"13","DewPointF":"55","WindChillC":"18","WindChillF":"65","WindGustMiles":"9","WindGustKmph":"15","FeelsLikeC":"18","FeelsLikeF":"65","uvIndex":"6"}]},{"date":"2016-09-02","astronomy":[{"sunrise":"06:40
         AM","sunset":"07:37 PM","moonrise":"07:54 AM","moonset":"08:28 PM","moon_phase":"New
         Moon","moon_illumination":"0"}],"maxtempC":"28","maxtempF":"82","mintempC":"14","mintempF":"57","avgtempC":"23","avgtempF":"73","totalSnow_cm":"0.0","sunHour":"11.6","uvIndex":"6","hourly":[{"time":"24","tempC":"28","tempF":"82","windspeedMiles":"5","windspeedKmph":"8","winddirDegree":"223","winddir16Point":"SW","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.0","precipInches":"0.0","humidity":"64","visibility":"10","visibilityMiles":"6","pressure":"1012","pressureInches":"30","cloudcover":"5","HeatIndexC":"20","HeatIndexF":"68","DewPointC":"12","DewPointF":"53","WindChillC":"20","WindChillF":"68","WindGustMiles":"8","WindGustKmph":"13","FeelsLikeC":"20","FeelsLikeF":"68","uvIndex":"6"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:46 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:38 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-09-03&enddate=2016-10-07&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20%20%20
@@ -4029,7 +4035,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:46 GMT
+      - Tue, 20 Apr 2021 16:27:39 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -4039,7 +4045,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -4047,19 +4053,19 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '617'
       Cache-Control:
       - public, max-age=180
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:46'
+      - '2021-04-20 11:27:39'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - dde3fdeee530eed279695fc2e750a954
+      - abd9dd052f97ebfe61c51877dbfbc677
       Cdn-Cache:
       - MISS
     body:
@@ -4141,7 +4147,7 @@ http_interactions:
         Crescent","moon_illumination":"31"}],"maxtempC":"25","maxtempF":"76","mintempC":"13","mintempF":"55","avgtempC":"20","avgtempF":"68","totalSnow_cm":"0.0","sunHour":"11.3","uvIndex":"6","hourly":[{"time":"24","tempC":"25","tempF":"76","windspeedMiles":"3","windspeedKmph":"5","winddirDegree":"305","winddir16Point":"NW","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.0","precipInches":"0.0","humidity":"51","visibility":"10","visibilityMiles":"6","pressure":"1017","pressureInches":"31","cloudcover":"2","HeatIndexC":"18","HeatIndexF":"64","DewPointC":"7","DewPointF":"44","WindChillC":"18","WindChillF":"64","WindGustMiles":"6","WindGustKmph":"10","FeelsLikeC":"18","FeelsLikeF":"64","uvIndex":"6"}]},{"date":"2016-10-07","astronomy":[{"sunrise":"07:11
         AM","sunset":"06:42 PM","moonrise":"01:02 PM","moonset":"11:18 PM","moon_phase":"Waxing
         Crescent","moon_illumination":"38"}],"maxtempC":"28","maxtempF":"83","mintempC":"14","mintempF":"57","avgtempC":"23","avgtempF":"73","totalSnow_cm":"0.0","sunHour":"10.1","uvIndex":"5","hourly":[{"time":"24","tempC":"28","tempF":"83","windspeedMiles":"2","windspeedKmph":"4","winddirDegree":"172","winddir16Point":"S","weatherCode":"119","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png"}],"weatherDesc":[{"value":"Cloudy"}],"precipMM":"0.0","precipInches":"0.0","humidity":"42","visibility":"10","visibilityMiles":"6","pressure":"1015","pressureInches":"30","cloudcover":"29","HeatIndexC":"19","HeatIndexF":"67","DewPointC":"5","DewPointF":"41","WindChillC":"20","WindChillF":"68","WindGustMiles":"4","WindGustKmph":"6","FeelsLikeC":"19","FeelsLikeF":"67","uvIndex":"5"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:46 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:39 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-10-08&enddate=2016-11-11&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20%20%20
@@ -4161,7 +4167,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:47 GMT
+      - Tue, 20 Apr 2021 16:27:39 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -4171,7 +4177,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -4179,21 +4185,21 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '617'
       Cache-Control:
       - public, max-age=180
       Request-Context:
       - appId=cid-v1:89996683-9a04-40b3-8e46-77754119dcf5
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:47'
+      - '2021-04-20 11:27:39'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 7674767fec6fcee6777878e0e9ed14c2
+      - 9a405d6723a1c11372039ea4d997f753
       Cdn-Cache:
       - MISS
     body:
@@ -4288,7 +4294,7 @@ http_interactions:
         AM","sunset":"05:59 PM","moonrise":"04:28 PM","moonset":"04:09 AM","moon_phase":"Waxing
         Gibbous","moon_illumination":"81"}],"maxtempC":"22","maxtempF":"72","mintempC":"14","mintempF":"56","avgtempC":"19","avgtempF":"66","totalSnow_cm":"0.0","sunHour":"8.7","uvIndex":"5","hourly":[{"time":"24","tempC":"22","tempF":"72","windspeedMiles":"3","windspeedKmph":"5","winddirDegree":"154","winddir16Point":"SSE","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.0","precipInches":"0.0","humidity":"73","visibility":"10","visibilityMiles":"6","pressure":"1018","pressureInches":"31","cloudcover":"36","HeatIndexC":"18","HeatIndexF":"64","DewPointC":"12","DewPointF":"54","WindChillC":"17","WindChillF":"63","WindGustMiles":"5","WindGustKmph":"8","FeelsLikeC":"17","FeelsLikeF":"63","uvIndex":"5"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:47 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:39 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-11-12&enddate=2016-12-16&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20%20%20
@@ -4308,7 +4314,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:47 GMT
+      - Tue, 20 Apr 2021 16:27:40 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -4318,7 +4324,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -4326,19 +4332,21 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '617'
       Cache-Control:
       - public, max-age=180
+      Request-Context:
+      - appId=cid-v1:89996683-9a04-40b3-8e46-77754119dcf5
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:47'
+      - '2021-04-20 11:27:40'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 1cdd6253b4e991c54c48bb8a54af837a
+      - 345eca8f07b8be0f7f964b63ef457fc5
       Cdn-Cache:
       - MISS
     body:
@@ -4434,7 +4442,7 @@ http_interactions:
         rain"}],"precipMM":"65.9","precipInches":"2.6","humidity":"94","visibility":"7","visibilityMiles":"4","pressure":"1008","pressureInches":"30","cloudcover":"100","HeatIndexC":"14","HeatIndexF":"56","DewPointC":"13","DewPointF":"55","WindChillC":"12","WindChillF":"53","WindGustMiles":"18","WindGustKmph":"30","FeelsLikeC":"12","FeelsLikeF":"53","uvIndex":"3"}]},{"date":"2016-12-16","astronomy":[{"sunrise":"08:20
         AM","sunset":"05:51 PM","moonrise":"09:16 PM","moonset":"10:37 AM","moon_phase":"Waxing
         Gibbous","moon_illumination":"82"}],"maxtempC":"11","maxtempF":"52","mintempC":"6","mintempF":"42","avgtempC":"9","avgtempF":"48","totalSnow_cm":"0.0","sunHour":"8.7","uvIndex":"3","hourly":[{"time":"24","tempC":"11","tempF":"52","windspeedMiles":"12","windspeedKmph":"20","winddirDegree":"289","winddir16Point":"WNW","weatherCode":"113","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"weatherDesc":[{"value":"Sunny"}],"precipMM":"0.0","precipInches":"0.0","humidity":"72","visibility":"10","visibilityMiles":"6","pressure":"1013","pressureInches":"30","cloudcover":"5","HeatIndexC":"8","HeatIndexF":"47","DewPointC":"3","DewPointF":"38","WindChillC":"5","WindChillF":"41","WindGustMiles":"19","WindGustKmph":"30","FeelsLikeC":"5","FeelsLikeF":"41","uvIndex":"3"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:47 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:40 GMT
 - request:
     method: get
     uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2016-12-17&enddate=2016-12-31&format=json&key=900f2167e4ae442797e144340211404&q=napa&tp=24%0A%20%20%20%20%20%20
@@ -4454,7 +4462,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 00:20:48 GMT
+      - Tue, 20 Apr 2021 16:27:40 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -4464,7 +4472,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-TX1-711
+      - BunnyCDN-IL1-617
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -4472,19 +4480,19 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '711'
+      - '617'
       Cache-Control:
       - public, max-age=180
       X-Wwo-Qpd-Left:
-      - '494'
+      - '431'
       Cdn-Cachedat:
-      - '2021-04-20 00:20:48'
+      - '2021-04-20 11:27:40'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - c656e9ce2d90a15e362c9d4798a388b1
+      - 22fa3ab87f5ee95e7e67e4f985f92d9b
       Cdn-Cache:
       - MISS
     body:
@@ -4526,5 +4534,5 @@ http_interactions:
         AM","sunset":"05:59 PM","moonrise":"10:00 AM","moonset":"08:38 PM","moon_phase":"Waxing
         Crescent","moon_illumination":"9"}],"maxtempC":"12","maxtempF":"54","mintempC":"6","mintempF":"42","avgtempC":"9","avgtempF":"48","totalSnow_cm":"0.0","sunHour":"8.7","uvIndex":"3","hourly":[{"time":"24","tempC":"12","tempF":"54","windspeedMiles":"5","windspeedKmph":"8","winddirDegree":"180","winddir16Point":"S","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
         cloudy"}],"precipMM":"0.2","precipInches":"0.0","humidity":"79","visibility":"10","visibilityMiles":"6","pressure":"1013","pressureInches":"30","cloudcover":"14","HeatIndexC":"8","HeatIndexF":"46","DewPointC":"4","DewPointF":"40","WindChillC":"6","WindChillF":"44","WindGustMiles":"8","WindGustKmph":"13","FeelsLikeC":"6","FeelsLikeF":"44","uvIndex":"3"}]}]}}'
-  recorded_at: Tue, 20 Apr 2021 00:20:48 GMT
+  recorded_at: Tue, 20 Apr 2021 16:27:40 GMT
 recorded_with: VCR 6.0.0
