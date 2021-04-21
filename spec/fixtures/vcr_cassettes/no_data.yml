@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Apr 2021 20:57:16 GMT
+      - Wed, 21 Apr 2021 01:10:31 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,7 +29,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-617
+      - BunnyCDN-TX1-711
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -37,26 +37,24 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '617'
+      - '711'
       Cache-Control:
       - public, max-age=180
-      Request-Context:
-      - appId=cid-v1:89996683-9a04-40b3-8e46-77754119dcf5
       X-Wwo-Qpd-Left:
-      - '371'
+      - '500'
       Cdn-Cachedat:
-      - '2021-04-20 15:57:16'
+      - '2021-04-21 01:10:31'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 79038b950f7fe18c4ff0e9018dfe6c77
+      - e9d9ce83324dd1f1ddde4b3b52293f83
       Cdn-Cache:
-      - EXPIRED
+      - MISS
     body:
       encoding: ASCII-8BIT
       string: '{ "data": { "error": [ {"msg": "Unable to find any matching weather
         location to the query submitted!" } ] }}'
-  recorded_at: Tue, 20 Apr 2021 20:57:16 GMT
+  recorded_at: Wed, 21 Apr 2021 01:10:31 GMT
 recorded_with: VCR 6.0.0

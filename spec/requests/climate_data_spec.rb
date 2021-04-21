@@ -15,19 +15,14 @@ describe 'Climate Data API' do
   end
 
   it 'has a successful response' do
-    # VCR.use_cassette('climate_data') do
+    VCR.use_cassette('climate_data') do
       get '/api/v1/climate_data?region=napa&vintage=2017'
 
       expect(last_response).to be_ok
-    # end
-  end
 
-  it 'outputs the right data' do
-    VCR.use_cassette('climate_data') do
-      get '/api/v1/climate_data?region=napa&vintage=2017'
       parsed = JSON.parse(last_response.body, symbolize_names: true)
       data = parsed[:data]
-
+      # Hash, type = string = climate, data keys
       expect(data[:type]).to eq("climate")
       expect(data[:id]).to eq(1)
       expect(data[:attributes]).to have_key(:temp)

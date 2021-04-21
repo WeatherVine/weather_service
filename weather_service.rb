@@ -45,8 +45,8 @@ def find_avg_temp
     ")
 
     body = JSON.parse(response.body, symbolize_names: true)
-
-    avg_temps_array = body["data"]["weather"].map do |day|
+    # require "pry"; binding.pry
+    avg_temps_array = body[:data][:weather].map do |day|
       day["avgtempF"].to_i
     end
     avg_temp << avg_temps_array
@@ -72,9 +72,9 @@ def find_total_precip
     # response = weather_connection.get("/premium/v1/past-weather.ashx?key=900f2167e4ae442797e144340211404&q=#{region}&format=json&date=#{range[0]}&enddate=#{range[1]}&tp=24")
     response = Faraday.get("http://api.worldweatheronline.com/premium/v1/past-weather.ashx?key=900f2167e4ae442797e144340211404&q=#{region}&format=json&date=#{range[0]}&enddate=#{range[1]}&tp=24
     ")
-    body = JSON.parse(response.body)
+    body = JSON.parse(response.body, symbolize_names: true)
 
-    precip = body["data"]["weather"].map do |day|
+    precip = body[:data][:weather].map do |day|
       day["hourly"].first["precipInches"].to_f
     end
 
