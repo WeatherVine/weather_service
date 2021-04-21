@@ -2,7 +2,7 @@ require 'json'
 require 'faraday'
 require 'pry'
 require './models/climate'
-
+require 'figaro/sinatra'
 
 def dates
   [
@@ -32,17 +32,18 @@ def grape_year
   vintage - 1
 end
 
-# def start_date
-# end
+def start_date
+  dates[0][0]
+end
 
-# def end_date
-# end
+def end_date
+  dates[10][1]
+end
 
 def find_avg_temp
   avg_temp = []
   dates.each do |range|
-    response = Faraday.get("http://api.worldweatheronline.com/premium/v1/past-weather.ashx?key=900f2167e4ae442797e144340211404&q=#{region}&format=json&date=#{range[0]}&enddate=#{range[1]}&tp=24
-    ")
+    response = weather_connection.get("/premium/v1/past-weather.ashx?key=#{ENV['WEATHER_API_KEY']}&q=#{region}&format=json&date=#{range[0]}&enddate=#{range[1]}&tp=24")
 
     body = JSON.parse(response.body, symbolize_names: true)
 
@@ -59,19 +60,18 @@ def temp
   (find_avg_temp.flatten.sum)/(find_avg_temp.flatten.size)
 end
 
-# def weather_connection #.self in service
-  # weather_connection ||= Faraday.new({
-    # url: 'http://api.worldweatheronline.com' # ENV['WEATHER_API_URL']
-  # })
-# end
+def weather_connection
+  weather_connection ||= Faraday.new({
+    url: "#{ENV['WEATHER_API_URL']}"
+  })
+end
 
 def find_total_precip
   total_precip = []
 
   dates.each do |range|
-    # response = weather_connection.get("/premium/v1/past-weather.ashx?key=900f2167e4ae442797e144340211404&q=#{region}&format=json&date=#{range[0]}&enddate=#{range[1]}&tp=24")
-    response = Faraday.get("http://api.worldweatheronline.com/premium/v1/past-weather.ashx?key=900f2167e4ae442797e144340211404&q=#{region}&format=json&date=#{range[0]}&enddate=#{range[1]}&tp=24
-    ")
+    response = weather_connection.get("/premium/v1/past-weather.ashx?key=#{ENV['WEATHER_API_KEY']}&q=#{region}&format=json&date=#{range[0]}&enddate=#{range[1]}&tp=24")
+
     body = JSON.parse(response.body, symbolize_names: true)
 
     precip = body[:data][:weather].map do |day|
@@ -88,9 +88,8 @@ def precip
   find_total_precip.flatten.sum
 end
 
-def bad_region?(region_param)
-  response = Faraday.get("http://api.worldweatheronline.com/premium/v1/past-weather.ashx?key=900f2167e4ae442797e144340211404&q=#{region_param}&format=json")
-  body = JSON.parse(response.body)
-  out = body[:data].keys.include?(:error)
-  require "pry"; binding.pry
-end
+# def bad_region?(region_param)
+  # response = Faraday.get("http://api.worldweatheronline.com/premium/v1/past-weather.ashx?key=900f2167e4ae442797e144340211404&q=#{region_param}&format=json")
+  # body = JSON.parse(response.body)
+  # out = body[:data].keys.include?(:error)
+# end

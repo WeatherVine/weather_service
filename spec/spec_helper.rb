@@ -15,8 +15,8 @@
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 require 'simplecov'
 SimpleCov.start
-require 'webmock/rspec'
-require 'vcr_setup'
+# require 'webmock/rspec'
+# require 'vcr_setup'
 require './app/controllers/weather_service_app.rb'
 require 'bundler'
 Bundler.require

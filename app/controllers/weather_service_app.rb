@@ -1,4 +1,3 @@
-# require './models/climate'
 require 'json'
 require 'faraday'
 require 'pry'
@@ -7,6 +6,8 @@ require 'sinatra'
 require './weather_service'
 require './models/climate'
 require 'sinatra/json'
+require './app/serializers/climate_serializer'
+
 
 class WeatherServiceApp < Sinatra::Base
   set :root, File.expand_path("..", __dir__)
@@ -27,18 +28,17 @@ class WeatherServiceApp < Sinatra::Base
       # json ({:error => 'Not Found'})
     else
 
-      climate = Climate.new(temp, precip, vintage, region)
+      climate = Climate.new(temp, precip, vintage, region, start_date, end_date)
 
-      json ({
-            data: {
-              type: "climate",
-              id: 1,
-              attributes: climate
-              }
-            })
-
-      # body WeatherSerializer.new(climate).serialized_json
-      # status 200
+      # json ({
+            # data: {
+              # type: "climate",
+              # id: 1,
+              # attributes: climate
+              # }
+            # })
+      body ClimateSerializer.new(climate).serialized_json
+      status 200
     end
   end
 end

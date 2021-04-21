@@ -15,23 +15,22 @@ describe 'Climate Data API' do
   end
 
   it 'has a successful response' do
-    VCR.use_cassette('climate_data') do
+    # VCR.use_cassette('climate_data') do
       get '/api/v1/climate_data?region=napa&vintage=2017'
 
       expect(last_response).to be_ok
 
       parsed = JSON.parse(last_response.body, symbolize_names: true)
       data = parsed[:data]
-      # Hash, type = string = climate, data keys
+
       expect(data).to be_a(Hash)
       expect(data[:type]).to eq("climate")
       expect(data[:type]).to be_a(String)
-      expect(data[:id]).to eq(1)
-      expect(data[:attributes]).to have_key(:temp)
-      expect(data[:attributes]).to have_key(:precip)
-      expect(data[:attributes]).to have_key(:vintage)
-      expect(data[:attributes]).to have_key(:location)
-    end
+      expect(data[:id]).to eq(nil)
+      expect(data.keys).to eq([:id, :type, :attributes])
+      expect(data[:attributes]).to be_a(Hash)
+      expect(data[:attributes].keys).to eq([:temp, :precip, :vintage, :location, :start_date, :end_date])
+    # end
   end
 
   it 'returns errors for missing params' do
@@ -107,7 +106,7 @@ describe 'Climate Data API' do
   end
 
   xit "returns error when no results are found" do
-    VCR.use_cassette('no_data') do
+    # VCR.use_cassette('no_data') do
       get '/api/v1/climate_data?region=xxxx&vintage=2011'
       # require "pry"; binding.pry
       expect(last_response).to be_ok
@@ -117,6 +116,6 @@ describe 'Climate Data API' do
       expect(error).to be_a(Hash)
       expect(error[:error]).to be_a(String)
       expect(error[:error]).to eq('No Results Found')
-    end
+    # end
   end
 end
