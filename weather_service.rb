@@ -45,9 +45,9 @@ def find_avg_temp
     ")
 
     body = JSON.parse(response.body, symbolize_names: true)
-    # require "pry"; binding.pry
+
     avg_temps_array = body[:data][:weather].map do |day|
-      day["avgtempF"].to_i
+      day[:avgtempF].to_i
     end
     avg_temp << avg_temps_array
   end
@@ -75,7 +75,7 @@ def find_total_precip
     body = JSON.parse(response.body, symbolize_names: true)
 
     precip = body[:data][:weather].map do |day|
-      day["hourly"].first["precipInches"].to_f
+      day[:hourly].first[:precipInches].to_f
     end
 
     total_precip << precip
@@ -88,8 +88,9 @@ def precip
   find_total_precip.flatten.sum
 end
 
-# def bad_region?(region_param)
-  # response = weather_connection.get("/premium/v1/past-weather.ashx?key=900f2167e4ae442797e144340211404&q=#{region_param}&format=json")
-  # body = JSON.parse(response.body)
-  # out = body[:data].keys.include?(:error)
-# end
+def bad_region?(region_param)
+  response = Faraday.get("http://api.worldweatheronline.com/premium/v1/past-weather.ashx?key=900f2167e4ae442797e144340211404&q=#{region_param}&format=json")
+  body = JSON.parse(response.body)
+  out = body[:data].keys.include?(:error)
+  require "pry"; binding.pry
+end
