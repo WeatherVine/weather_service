@@ -47,6 +47,11 @@ def find_avg_temp
 
     body = JSON.parse(response.body, symbolize_names: true)
 
+    # if body[:data][:error]
+
+    # end
+
+
     avg_temps_array = body[:data][:weather].map do |day|
       day[:avgtempF].to_i
     end

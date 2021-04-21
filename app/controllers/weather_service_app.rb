@@ -24,19 +24,12 @@ class WeatherServiceApp < Sinatra::Base
       json ({:error => 'Please provide a vintage year between 1970 and 2020'})
     elsif params.count < 2 || params.count > 2
       json ({:error => 'Please provide only a region and vintage year'})
-    # elsif bad_region?(params[:region])
-      # json ({:error => 'Not Found'})
     else
 
       climate = Climate.new(temp, precip, vintage, region, start_date, end_date)
 
-      # json ({
-            # data: {
-              # type: "climate",
-              # id: 1,
-              # attributes: climate
-              # }
-            # })
+      # json ({:error => 'Not Found'})
+
       body ClimateSerializer.new(climate).serialized_json
       status 200
     end
