@@ -23,7 +23,9 @@ describe 'Climate Data API' do
       parsed = JSON.parse(last_response.body, symbolize_names: true)
       data = parsed[:data]
       # Hash, type = string = climate, data keys
+      expect(data).to be_a(Hash)
       expect(data[:type]).to eq("climate")
+      expect(data[:type]).to be_a(String)
       expect(data[:id]).to eq(1)
       expect(data[:attributes]).to have_key(:temp)
       expect(data[:attributes]).to have_key(:precip)
