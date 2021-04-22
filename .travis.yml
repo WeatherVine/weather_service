@@ -24,4 +24,4 @@ deploy:
   on:
     repo: WeatherVine/weather_service
     branch: main
-  skip_cleanup: "‘true’"
+  skip_cleanup: "true"
