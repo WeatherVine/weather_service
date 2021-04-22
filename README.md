@@ -1,4 +1,4 @@
-# Weather Vine Weather Microservice
+# WeatherVine Weather Microservice
 
 ## About this Project
 Weather Vine is an educational app for consumers to connect more deeply with the wine they enjoy. Explore wines from a region and see how the climate has influenced the very wine one drinks!   
@@ -61,17 +61,23 @@ RSpec testing suite is utilized for testing this application.
 
 ```json
 {data: {
-    "id": #{id},
+    "id": nil,
     "type": "climate",
     "attributes": {
       "temp": #{temp(integer)},
-      "precip": #{precip(integer)},
+      "precip": #{precip(float)},
       "vintage": #{vintage(integer)},
-      "region": #{region(string)}
+      "region": #{region(string)},
+      "start_date": #{date(string)},
+      "end_date": #{date(string)}
     }
   }
 }
 ```
+
+###### Formats
+  - `date` strings are formatted as `YYYY-MM-DD`
+
 ## Built With
 - [Sinatra](https://github.com/sinatra/sinatra)
 - [Ruby](https://www.ruby-lang.org/en/)
