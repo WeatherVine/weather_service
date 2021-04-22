@@ -13,6 +13,7 @@ gem 'fast_jsonapi'
 gem 'sinatra-contrib'
 
 group :development, :test do
+  gem 'figaro', git: 'https://github.com/bpaquet/figaro.git', branch: 'sinatra'
   gem 'rspec'
   gem 'rspec-core'
   gem 'tux'
