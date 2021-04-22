@@ -3,10 +3,11 @@ require 'faraday'
 require 'pry'
 require 'fast_jsonapi'
 require 'sinatra'
-require './weather_service'
+require './app/services/weather_service'
 require './models/climate'
 require 'sinatra/json'
 require './app/serializers/climate_serializer'
+require './app/facades/weather_facade'
 
 
 class WeatherServiceApp < Sinatra::Base
@@ -26,12 +27,14 @@ class WeatherServiceApp < Sinatra::Base
       json ({:error => 'Please provide only a region and vintage year'})
     else
 
-      climate = Climate.new(temp, precip, vintage, region, start_date, end_date)
+      data = WeatherFacade.climate_data(params[:region], params[:vintage])
 
-      # json ({:error => 'Not Found'})
-
-      body ClimateSerializer.new(climate).serialized_json
-      status 200
+      if data.class != Climate
+        data.to_json
+      else
+        body ClimateSerializer.new(data).serialized_json
+        status 200
+      end
     end
   end
 end

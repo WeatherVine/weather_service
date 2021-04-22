@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2010-01-01&enddate=2010-02-04&format=json&key=900f2167e4ae442797e144340211404&q=xxxx&tp=24%0A%20%20%20%20
+    uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2010-01-01&enddate=2010-02-04&format=json&key=900f2167e4ae442797e144340211404&q=xxxx&tp=24
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 21 Apr 2021 17:15:35 GMT
+      - Thu, 22 Apr 2021 00:58:39 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,7 +29,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-617
+      - BunnyCDN-TX1-711
       Cdn-Pullzone:
       - '61832'
       Cdn-Uid:
@@ -37,24 +37,602 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Cdn-Edgestorageid:
-      - '617'
+      - '711'
       Cache-Control:
       - public, max-age=180
+      Request-Context:
+      - appId=cid-v1:89996683-9a04-40b3-8e46-77754119dcf5
       X-Wwo-Qpd-Left:
-      - '466'
+      - '360'
       Cdn-Cachedat:
-      - '2021-04-21 12:15:35'
+      - '2021-04-22 00:58:39'
       Cdn-Requestpullsuccess:
       - 'True'
       Cdn-Requestpullcode:
       - '200'
       Cdn-Requestid:
-      - 3fb069dd1e152d96921ca4d6b8d5cdb3
+      - 7eea2c8ebabc3b143abf5d660ff6df3a
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{ "data": { "error": [ {"msg": "Unable to find any matching weather
         location to the query submitted!" } ] }}'
-  recorded_at: Wed, 21 Apr 2021 17:15:35 GMT
+  recorded_at: Thu, 22 Apr 2021 00:58:39 GMT
+- request:
+    method: get
+    uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2010-02-05&enddate=2010-03-11&format=json&key=900f2167e4ae442797e144340211404&q=xxxx&tp=24
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 22 Apr 2021 00:58:40 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-TX1-711
+      Cdn-Pullzone:
+      - '61832'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Cdn-Edgestorageid:
+      - '711'
+      Cache-Control:
+      - public, max-age=180
+      X-Wwo-Qpd-Left:
+      - '360'
+      Cdn-Cachedat:
+      - '2021-04-22 00:58:40'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Requestid:
+      - ebcc2a7cfbd04198612f3131c59e5972
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{ "data": { "error": [ {"msg": "Unable to find any matching weather
+        location to the query submitted!" } ] }}'
+  recorded_at: Thu, 22 Apr 2021 00:58:40 GMT
+- request:
+    method: get
+    uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2010-03-12&enddate=2010-04-15&format=json&key=900f2167e4ae442797e144340211404&q=xxxx&tp=24
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 22 Apr 2021 00:58:40 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-TX1-711
+      Cdn-Pullzone:
+      - '61832'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Cdn-Edgestorageid:
+      - '711'
+      Cache-Control:
+      - public, max-age=180
+      Request-Context:
+      - appId=cid-v1:89996683-9a04-40b3-8e46-77754119dcf5
+      X-Wwo-Qpd-Left:
+      - '360'
+      Cdn-Cachedat:
+      - '2021-04-22 00:58:40'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Requestid:
+      - 6dcb65515230ed5206b3829e70aaa806
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{ "data": { "error": [ {"msg": "Unable to find any matching weather
+        location to the query submitted!" } ] }}'
+  recorded_at: Thu, 22 Apr 2021 00:58:40 GMT
+- request:
+    method: get
+    uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2010-04-16&enddate=2010-05-20&format=json&key=900f2167e4ae442797e144340211404&q=xxxx&tp=24
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 22 Apr 2021 00:58:40 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-TX1-711
+      Cdn-Pullzone:
+      - '61832'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Cdn-Edgestorageid:
+      - '711'
+      Cache-Control:
+      - public, max-age=180
+      X-Wwo-Qpd-Left:
+      - '360'
+      Cdn-Cachedat:
+      - '2021-04-22 00:58:40'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Requestid:
+      - 473a442cc660338341216d60131a1294
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{ "data": { "error": [ {"msg": "Unable to find any matching weather
+        location to the query submitted!" } ] }}'
+  recorded_at: Thu, 22 Apr 2021 00:58:40 GMT
+- request:
+    method: get
+    uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2010-05-21&enddate=2010-06-24&format=json&key=900f2167e4ae442797e144340211404&q=xxxx&tp=24
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 22 Apr 2021 00:58:41 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-TX1-711
+      Cdn-Pullzone:
+      - '61832'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Cdn-Edgestorageid:
+      - '711'
+      Cache-Control:
+      - public, max-age=180
+      X-Wwo-Qpd-Left:
+      - '360'
+      Cdn-Cachedat:
+      - '2021-04-22 00:58:41'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Requestid:
+      - 110c97f8e2e1a8ca5d0677f8de29f24c
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{ "data": { "error": [ {"msg": "Unable to find any matching weather
+        location to the query submitted!" } ] }}'
+  recorded_at: Thu, 22 Apr 2021 00:58:41 GMT
+- request:
+    method: get
+    uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2010-06-25&enddate=2010-07-29&format=json&key=900f2167e4ae442797e144340211404&q=xxxx&tp=24
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 22 Apr 2021 00:58:41 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-TX1-711
+      Cdn-Pullzone:
+      - '61832'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Cdn-Edgestorageid:
+      - '711'
+      Cache-Control:
+      - public, max-age=180
+      X-Wwo-Qpd-Left:
+      - '360'
+      Cdn-Cachedat:
+      - '2021-04-22 00:58:41'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Requestid:
+      - 636c502f963cc0baa72a94e2db94f062
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{ "data": { "error": [ {"msg": "Unable to find any matching weather
+        location to the query submitted!" } ] }}'
+  recorded_at: Thu, 22 Apr 2021 00:58:41 GMT
+- request:
+    method: get
+    uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2010-07-30&enddate=2010-09-02&format=json&key=900f2167e4ae442797e144340211404&q=xxxx&tp=24
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 22 Apr 2021 00:58:41 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-TX1-711
+      Cdn-Pullzone:
+      - '61832'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Cdn-Edgestorageid:
+      - '711'
+      Cache-Control:
+      - public, max-age=180
+      X-Wwo-Qpd-Left:
+      - '360'
+      Cdn-Cachedat:
+      - '2021-04-22 00:58:41'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Requestid:
+      - 9a60f382542c62f6a4742e42fb564d75
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{ "data": { "error": [ {"msg": "Unable to find any matching weather
+        location to the query submitted!" } ] }}'
+  recorded_at: Thu, 22 Apr 2021 00:58:41 GMT
+- request:
+    method: get
+    uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2010-09-03&enddate=2010-10-07&format=json&key=900f2167e4ae442797e144340211404&q=xxxx&tp=24
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 22 Apr 2021 00:58:42 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-TX1-711
+      Cdn-Pullzone:
+      - '61832'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Cdn-Edgestorageid:
+      - '711'
+      Cache-Control:
+      - public, max-age=180
+      X-Wwo-Qpd-Left:
+      - '360'
+      Cdn-Cachedat:
+      - '2021-04-22 00:58:42'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Requestid:
+      - 594ea8a9cfd195bbe676f133a26f0eb3
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{ "data": { "error": [ {"msg": "Unable to find any matching weather
+        location to the query submitted!" } ] }}'
+  recorded_at: Thu, 22 Apr 2021 00:58:42 GMT
+- request:
+    method: get
+    uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2010-10-08&enddate=2010-11-11&format=json&key=900f2167e4ae442797e144340211404&q=xxxx&tp=24
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 22 Apr 2021 00:58:42 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-TX1-711
+      Cdn-Pullzone:
+      - '61832'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Cdn-Edgestorageid:
+      - '711'
+      Cache-Control:
+      - public, max-age=180
+      X-Wwo-Qpd-Left:
+      - '360'
+      Cdn-Cachedat:
+      - '2021-04-22 00:58:42'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Requestid:
+      - bc2908914bcf062104a812ded99663f4
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{ "data": { "error": [ {"msg": "Unable to find any matching weather
+        location to the query submitted!" } ] }}'
+  recorded_at: Thu, 22 Apr 2021 00:58:42 GMT
+- request:
+    method: get
+    uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2010-11-12&enddate=2010-12-16&format=json&key=900f2167e4ae442797e144340211404&q=xxxx&tp=24
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 22 Apr 2021 00:58:42 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-TX1-711
+      Cdn-Pullzone:
+      - '61832'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Cdn-Edgestorageid:
+      - '711'
+      Cache-Control:
+      - public, max-age=180
+      Request-Context:
+      - appId=cid-v1:89996683-9a04-40b3-8e46-77754119dcf5
+      X-Wwo-Qpd-Left:
+      - '360'
+      Cdn-Cachedat:
+      - '2021-04-22 00:58:42'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Requestid:
+      - 1b3496e546139c19afd59dacec31192e
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{ "data": { "error": [ {"msg": "Unable to find any matching weather
+        location to the query submitted!" } ] }}'
+  recorded_at: Thu, 22 Apr 2021 00:58:42 GMT
+- request:
+    method: get
+    uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2010-12-17&enddate=2010-12-31&format=json&key=900f2167e4ae442797e144340211404&q=xxxx&tp=24
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 22 Apr 2021 00:58:43 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-TX1-711
+      Cdn-Pullzone:
+      - '61832'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Cdn-Edgestorageid:
+      - '711'
+      Cache-Control:
+      - public, max-age=180
+      Request-Context:
+      - appId=cid-v1:89996683-9a04-40b3-8e46-77754119dcf5
+      X-Wwo-Qpd-Left:
+      - '360'
+      Cdn-Cachedat:
+      - '2021-04-22 00:58:43'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Requestid:
+      - 6b1f7e0746ec636f859a280878eff0c6
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{ "data": { "error": [ {"msg": "Unable to find any matching weather
+        location to the query submitted!" } ] }}'
+  recorded_at: Thu, 22 Apr 2021 00:58:43 GMT
 recorded_with: VCR 6.0.0
