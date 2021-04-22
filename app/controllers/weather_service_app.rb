@@ -10,6 +10,10 @@ require './app/facades/weather_facade'
 
 
 class WeatherServiceApp < Sinatra::Base
+  before do
+    content_type :json
+  end
+
   set :root, File.expand_path("..", __dir__)
 
   get '/api/v1/climate_data' do
