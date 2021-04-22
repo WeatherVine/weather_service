@@ -6,13 +6,12 @@ gem 'activerecord'
 gem 'sinatra-activerecord'
 gem 'json'
 gem 'shotgun'
-gem 'pry'
 gem 'faraday'
 gem 'fast_jsonapi'
 gem 'sinatra-contrib'
+gem 'figaro', git: 'https://github.com/bpaquet/figaro.git', branch: 'sinatra'
 
 group :development, :test do
-  gem 'figaro', git: 'https://github.com/bpaquet/figaro.git', branch: 'sinatra'
   gem 'rspec'
   gem 'rspec-core'
   gem 'tux'
@@ -20,6 +19,7 @@ group :development, :test do
   gem 'launchy'
   gem 'rack-test'
   gem 'rake'
+  gem 'pry'
 end
 
 group :test do
