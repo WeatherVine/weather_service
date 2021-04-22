@@ -5,7 +5,7 @@ require 'pry'
 require 'spec_helper'
 
 RSpec.describe 'the weather service' do
-  # include Rack::Test::Methods
+  include Rack::Test::Methods
 
   # def app
     # @app = WeatherServiceApp
