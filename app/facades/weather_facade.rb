@@ -1,7 +1,6 @@
 require 'json'
 require 'sinatra'
 require 'sinatra/json'
-require 'pry'
 require './app/services/weather_service'
 require './models/climate'
 

@@ -1,9 +1,6 @@
-# ENV['APP_ENV'] = 'test'
-
 require './app/services/weather_service'
 require 'rspec'
 require 'rack/test'
-require 'pry'
 require 'spec_helper'
 require './app/controllers/weather_service_app'
 
