@@ -1,6 +1,5 @@
 require 'json'
 require 'faraday'
-require 'pry'
 require './models/climate'
 require 'figaro/sinatra'
 
