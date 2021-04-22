@@ -1,6 +1,5 @@
 require 'json'
 require 'faraday'
-require 'pry'
 require 'fast_jsonapi'
 require 'sinatra'
 require './app/services/weather_service'
